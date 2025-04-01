@@ -1,0 +1,12 @@
+@despawn Dust
+@camera set:*.false
+
+; @back lab-wide id:MovieBg
+; @camera set:Blur.true,CameraFilterPack_TV_WideScreenCircle.true,CameraFilterPack_3D_Computer.true 
+; @bgm BGM_Oddware-song volume:.75 loop:true
+; @char Vera.ThinkIdle-Up-Curious pos:75,-40,10 scale:1.35 rotation:0,0 time:0
+; @char 001.Listening-Pleased pos:90,-50,0 scale:1.5 rotation:0,180 time:0
+; @char Nova.ThinkIdle-Bend-Question pos:25,40,0 scale:.2 rotation:0,180 time:0
+; @char Dirt.Texting-Incredulous pos:10,-200,0 scale:3 rotation:0,-35 time:0
+
+@stop

@@ -1,0 +1,109 @@
+; English <en> to English <en> localization document for `Scene_5` naninovel script
+
+# ~9d691578
+; Hydroponics
+
+
+# ~6e206ecb
+; After entering hydroponics, you witness Dirt singing a lullaby to a row of plants.
+
+
+# ~8761fa08
+; You need to get <color=#A4E09B>Dirt's</color> attention to delivery the samples. What do you do?
+
+
+# ~f3636a4f
+; Politely get Dirt's attention.
+
+
+# ~fe93ea7d
+; Scare Dirt!
+
+
+# ~6f3096d9
+; Hello, Dirt. Sorry for the interruption. That was a beautiful lullaby!
+
+
+# ~258c2bc7
+; As requested, here are your soil samples from the warehouse.
+
+
+# ~2f980c10
+; <size=50><color=red><shake a=.3>ALERT! SONIC ATTACK DETECTED!</shake></color></size>
+
+
+# ~25f8d7a4
+; <size=50><shake a=.5>!!!</shake></size>
+
+
+# ~de21a363
+; Oh, Generic, it’s you.
+
+
+# ~99cd47cb
+; Do you have a problem with lovely Beatrix? They haven’t been doing so well, so I needed to cheer them up.
+
+
+# ~7cc20855
+; Do you lack compassion, android?
+
+
+# ~3262483
+; I lack many things, I am open to learning more if you would be so inclined to teach. 001 wants to teach me about growing past my programming.
+
+
+# ~d4822a59
+; You want to learn from me?
+
+
+# ~ce140725
+; Growing is a lot harder than it looks, 
+
+
+# ~53b1a3bc
+; . I care for 35 different species of plants and each one requires different levels of care.
+
+
+# ~683f4983
+; Take Beatrix here. I have given them 100% of my care and attention.
+
+
+# ~b806a083
+; I have monitored their pH balance and color basis, yet they are still degrading beyond my control. I don’t know what kind of teacher I can be to you.
+
+
+# ~d3fd47e6
+; But I am not a plant, I am an android. I am sure there is something you can teach me.
+
+
+# ~a9fca092
+; I know you are not a plant, Generic. You lack any sort of warmth.
+
+
+# ~6940edea
+; I have a thermal regulated system. I am neither too warm nor too cold.
+
+
+# ~acb87a91
+; <size=100><shake a=.5>!?</shake></size>
+
+
+# ~de34a643
+; Attention, all androids report to the command center. I repeat all androids report to the command center. Emergency Protocol has been activated.
+
+
+# ~4daf8b50
+; We are being summoned to command.
+
+
+# ~9b27e742
+; I'm not leaving the Lab, especially not with Beatrix in her condition.
+
+
+# ~7db6f932
+; ...
+
+
+# ~a4f3ec34
+; You leave Dirt to care for their plants and head to the command center as ordered.
+

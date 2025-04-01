@@ -1,0 +1,145 @@
+@camera set:*.false
+@back Darkness
+
+@set hint_title="CONTROLS"
+@printer HintWidePrinter
+<b>Spacebar</b> or <b>A Button</b> to advance dialogue.<br><br><b>Menu</b> can be accessed by the <b>Start</b> button.<br><br><b>Log</b> can be accessed via the menu or <b>L</b> Key.<br><br><b>Save/Load</b> features can be accessed via the menu.<br><br><b>Arrow keys</b> to navigate menus and printers. <b>A</b> to select.
+@hidePrinter
+
+; @goto .QuestionsDone
+; @goto .welcome
+; @goto .Questions
+
+@spawn FX_PowerDraw_01
+@sfx SFX-FF-Jingle
+@wait 1
+@showUI IntroductionUILogo time:0
+@wait 5
+@hideUI IntroductionUILogo time:0
+@sfx SFX_Beeps_03 volume:.1
+@showUI IntroductionUI
+@wait 5
+@hideUI IntroductionUI time:0
+@sfx SFX_Glitch_02
+@camera set:CameraFilterPack_FX_Glitch1.true
+@showUI IntroductionUIBroke time:0
+@wait 2
+@hideUI IntroductionUIBroke time:0
+@showUI IntroductionUI time:0
+@wait 1
+@hideUI IntroductionUI time:0
+@showUI IntroductionUIBroke2
+@sfx SFX_Beeps_03 volume:.15
+@camera set:CameraFilterPack_NewGlitch4.true
+@wait 2
+@hideUI IntroductionUIBroke2 time:0
+@showUI IntroductionUI time:0
+@sfx SFX_Glitch_04 volume:.25
+@wait 1
+@despawn FX_PowerDraw_01
+@hideUI IntroductionUI time:0
+@bgm BGM-Loadup_Music volume:.5
+@wait 2
+@showUI Scene1-LoadingEndogenous
+@stopSfx
+@wait 4
+@hideUI Scene1-LoadingEndogenous
+@spawn FX_Magic_Lights_01
+@wait 3
+@input charname summary:"What is your name?" wait:true
+@stop
+
+# welcome
+@printer DreamPrinter
+<b>{charname}</b>, welcome. 
+@hidePrinter DreamPrinter
+@printer DreamPrinter
+To finish proper initialization, you must answer a list of questions.<br>Do you wish to answer the questions?
+@hidePrinter DreamPrinter
+@choice "Yes" handler:DreamHandler goto:.Questions
+@choice "No" handler:DreamHandler  goto:.QuestionsDone
+@stop
+
+# Questions
+@printer DreamPrinter
+; @sfx laser-charge volume:.75
+
+You are approached by a dangerous looking human, who yells, "Hey, Clank! I am going to use my BS350 laser rifle to blast you into liquid <b>sludge!</b>" <br>What's your response?
+@hidePrinter DreamPrinter
+
+@choice "I would try to calm the human down through speech." handler:DreamHandler 
+; Vera
+@choice "I would use my own weapon and strike first." handler:DreamHandler 
+; 001 
+@choice "I would run away before they attack." handler:DreamHandler 
+; Dirt 
+@choice "I would hack and disable the human's weapon/augmentations." handler:DreamHandler 
+; Nova
+@stop
+@sfx SFX-Data-01 volume:.75
+
+@printer DreamPrinter
+A hysterical human comes to you with an injury. It looks like they are suffering from multiple wounds and ailments. <br>What do you do?
+@hidePrinter DreamPrinter
+@choice "Use my medical knowledge to patch them up the best that I can." handler:DreamHandler 
+@choice "Calm the human down, and discover how they received the injury." handler:DreamHandler 
+@choice "Kill the human to put them out of their misery." handler:DreamHandler 
+@choice "Look for a qualified individual to check on the human." handler:DreamHandler 
+@stop
+@sfx SFX-Data-02 volume:.75
+
+@printer DreamPrinter
+Your creator has given you free will. <br>The first thing they do is ask you to kill a fellow ANDROID. <br>What do you do?
+@hidePrinter DreamPrinter
+@choice "I would kill the android. It isn't a living creature." handler:DreamHandler 
+@choice "I would talk to my creator and ask them why this android needs to be killed." handler:DreamHandler 
+@choice "I would help the android escape." handler:DreamHandler 
+@choice "I would kill my creator." handler:DreamHandler 
+@stop
+@sfx SFX-Data-03 volume:.75
+
+@printer DreamPrinter
+You have been acknowledged by your fellow workers for your exemplary service. <br>How do you celebrate?
+@hidePrinter DreamPrinter
+@choice "Humbly accept the acknowledgement and continue working." handler:DreamHandler 
+@choice "Talk to my coworkers about improvements and future promotions." handler:DreamHandler 
+@choice "Party all night long!" handler:DreamHandler 
+@choice "I work alone. These coworkers are nothing but drones." handler:DreamHandler 
+@stop
+@sfx SFX-Data-04 volume:.75
+
+@printer DreamPrinter
+A friend has discovered the secret to eternal life. <br>What do you do?
+@hidePrinter DreamPrinter
+@choice "Ask your friend to share the secret." handler:DreamHandler 
+@choice "Bribe your friend though monetary means." handler:DreamHandler 
+@choice "Kill your friend to keep the secret safe forever." handler:DreamHandler 
+@choice "Tell the world about your friend's discovery." handler:DreamHandler 
+@stop
+@sfx SFX-Data-06 volume:.75
+
+@printer DreamPrinter
+Last Question. Please take a look at this image. <br>Tell me what you see?
+@hidePrinter DreamPrinter
+@showUI Scene1-ImageTest
+@choice "A bat." handler:DreamHandler 
+@choice "Chains." handler:DreamHandler 
+@choice "Dread." handler:DreamHandler 
+@choice "Two bears high fiving." handler:DreamHandler 
+@stop
+@sfx SFX-Data-05 volume:.75
+@hideUI Scene1-ImageTest
+
+# QuestionsDone
+@printer DreamPrinter
+Congratulations, <b>{charname}</b>. Initialization complete. <br>Activation Commencing.
+@hidePrinter DreamPrinter
+@sfx SFX_Computer_Loop_01 loop:true volume:.4
+@despawn FX_Magic_Lights_01
+@printer DreamPrinter
+Hello World.
+@hidePrinter DreamPrinter
+
+@hideAll
+@goto Scene_1
+@back Darkness

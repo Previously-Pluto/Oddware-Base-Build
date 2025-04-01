@@ -1,0 +1,197 @@
+; English <en> to English <en> localization document for `Scene_4` naninovel script
+
+# ~df6c40d6
+; The Warehouse
+
+
+# ~93f109f
+; As you approach the door, you can hear large objects being thrown and moved accompanied by screams of fustration.
+
+
+# ~a8c91dab
+; You hesitate for a moment out of caution and then proceed to open the door.
+
+
+# ~81a0df78
+; You carefully approach the back of the warehouse.
+
+
+# ~c0ed25e3
+; The loud noises have stopped and there does not seem to be anyone in sight.
+
+
+# ~7573c6b8
+; Hello, maintence android 001?
+
+
+# ~e31b518d
+; Are you present android 001?
+
+
+# ~ae22885c
+; Maintence android 001, I repeat, are you present?
+
+
+# ~cce744ef
+; Who are you, and how do you know my name?
+
+
+# ~a93e56b6
+; I am the new General Purpose Android, 
+
+
+# ~8109d18c
+; . Vera, your leader, has sent me to retrieve soil samples for our hydroponics engineer. Why are you surrounded by so many boxes?
+
+
+# ~2bff4508
+; First of all, Vera isn’t my leader. I am my own leader!
+
+
+# ~cbbc2161
+; And as for the boxes, they are part of my vision!
+
+
+# ~ca9539db
+; Vision: that is still defined as the faculty or state of being able to see and the ability to think about or plan the future with imagination or wisdom, yes?
+
+
+# ~7daed612
+; Yes, it is. And I am those things personified!
+
+
+# ~6a4e0d9d
+; I am sorry, I am very inexperienced. I do not see your vision, just a bunch of boxes.
+
+
+# ~100ee81f
+; This isn’t just a pile of boxes, it's a foundation to create a better society. I have redefined how we androids organize our lives for <i>maximum</i> efficiency.
+
+
+# ~74f4a1f5
+; <color=#BEBEBE>001</color> gestures 
+
+
+# ~82edea36
+;  to look at the box piles closely to appreciate their brilliance.
+
+
+# ~7db6f932
+; ...
+
+
+# ~7830aa18
+; They don’t seem organized-
+
+
+# ~207ab2a4
+; Organized? They are beyond organized! I thought that, as a fellow android, you would get it.
+
+
+# ~e887401
+; You need to break free from your human programming and think outside the boxes.
+
+
+# ~8a01f265
+; Nova said humans are great generous beings with unlimited potential, just like me.
+
+
+# ~788b8462
+; Nova’s processing units have been compromised by propaganda. If you think like humans, then you're limited-
+
+
+# ~a9534c6c
+; Not unlimited, <i>Like Me!</i>
+
+
+# ~3dfb4790
+; Which is why you probably can’t see my vision!
+
+
+# ~5858b231
+; Noted, your box collection is visionary. Further investigation is needed for validation of this fact.
+
+
+# ~4a765312
+; Ahh, I see you are starting to see.
+
+
+# ~b1758d31
+; Can you provide me with some soil samples?
+
+
+# ~ed4cc2ca
+; So you need dirt for Dirt?
+
+
+# ~8b2bc616
+; Yes. Can you find me the requested item?
+
+
+# ~212c11f4
+; Oh no problem, they are just in this box over here...
+
+
+# ~6fe3bd26
+; Um. This box?
+
+
+# ~42dc95d9
+; Umm. This box?
+
+
+# ~3bc303a6
+; Ummm. This box?
+
+
+# ~f4ee7e83
+; <shake a=.5>1 Hour Later...</shake>
+
+
+# ~13c80c7b
+; Ah here we are. Found the dirt. See! This proves my system works!
+
+
+# ~ec59ef64
+; Yes, you are correct. How exciting!
+
+
+# ~f65adf4e
+; You know what 
+
+
+# ~1d42d817
+; , I like you. You need to expand your programming, and see beyond your limitations, <i>like me!</i>
+
+
+# ~2ae87a2f
+; <color=#BEBEBE>001</color> gives 
+
+
+# ~7b1d4c98
+;  the dirt sample for Dirt.
+
+
+# ~7c29a6c0
+; How does one expand beyond their programming?
+
+
+# ~ded850ee
+; What limitations do we androids have?
+
+
+# ~50211a
+; I see beyond you already... I see those boxes.
+
+
+# ~1cbd7064
+; Don’t worry, I will guide you, my young prototype. But for now, another android needs your assistance.
+
+
+# ~68b7104
+; Still limited to your basic programming.
+
+
+# ~afc2e25f
+; Okie Dokie, thank you for your assistance, 001. I hope you can organize the rest of this colony as you did this warehouse.
+

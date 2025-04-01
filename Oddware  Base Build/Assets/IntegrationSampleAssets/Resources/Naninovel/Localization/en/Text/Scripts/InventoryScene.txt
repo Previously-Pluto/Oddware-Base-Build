@@ -1,0 +1,37 @@
+; English <en> to English <en> localization document for `InventoryScene` naninovel script
+
+# ~f884bc4
+; You are in a beautiful landscape. You notice a interesting pile of dirt. Do you want to pick up the dirt?
+
+
+# ~5a01cb41
+; Yes
+
+
+# ~869987fd
+; No
+
+
+# ~be725d08
+; You arrive in engineering
+
+
+# ~8d86365e
+; Ah, you are finally here. Have something for me?
+
+
+# ~148c398f
+; You found it!
+
+
+# ~5019bb5d
+; You disappoint me. Go back to the landscape.
+
+
+# ~f7d48dc8
+; Thanks, you made me happy.
+
+
+# ~6bcc5d34
+; You are happy, you made 001 happy
+

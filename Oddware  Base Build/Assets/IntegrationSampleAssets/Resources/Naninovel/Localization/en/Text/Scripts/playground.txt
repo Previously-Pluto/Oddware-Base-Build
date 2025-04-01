@@ -1,0 +1,397 @@
+; English <en> to English <en> localization document for `playground` naninovel script
+
+# ~cb9788df
+; You now have free access to explore the 3rd floor of the Gliese 832 c Colony.
+
+
+# ~f8c0d7e4
+; Visit the other Androids to discover a way to save the colony and discover more about your origins.
+
+
+# ~5d6bbf66
+; During free roam, a <b>menu bar</b> will be available on the top of the screen for control and easy access.
+
+
+# ~41389dff
+; The <b>Menu button</b> allows you to access the pause menu.<br><br>The <b>Map button</b> allows you to access the map where you can explore each room. <color=#777><i>(Disabled during Events/Conversation)</i></color><br><br>The <b>Inventory button</b> allows you to access your inventory for item details/actions.<br><br>The <b>Codex button</b> allows you to access notes/data about the universe.<br><br>The <b>Log button</b> allows you to review conversations/text.
+
+
+# ~3ae51a3b
+; Based on influence points, some events/conversations can be unlocked as you explore room to room.
+
+
+# ~343449d
+; A popup will appear on the screen when these events/conversations are available.
+
+
+# ~80002f8b
+; You can choose to either answer or ignore them. Both will have an effect on your influence with the Androids.
+
+
+# ~469992b6
+; Gliese 832 c Colony 3rd Floor
+
+
+# ~544c32
+; Colony Registration Complete.
+
+
+# ~d4750df9
+; Hello! I am Bunmi, 
+
+
+# ~2fda7873
+; the Flash Forward and Minimart Unlimited sponsored AI here to serve your various needs!
+
+
+# ~9c96bfca
+; Welcome aboard, 
+
+
+# ~dbfd61e
+; , as our newest member of the Dawnstar Colony! 
+
+
+# ~4e798b18
+;  Your ID and status has been activated by security android, Vera!
+
+
+# ~c5c416c8
+; You are free to explore the Dawnstar Colony to your heart's content.
+
+
+# ~741af79b
+;  Please stop by the breakroom for some complimentary samples of our latest goods!
+
+
+# ~d7e52b4e
+; Bunmi, hopping out!
+
+
+# ~42e3b38f
+; She has everything under control.
+
+
+# ~5b0d6375
+; It has been a long time since she has visited her secret spot.
+
+
+# ~2d18618d
+; <br>She knew it was special since the day she laid eyes on it.
+
+
+# ~4493cc33
+; A crimson tree stands out in defiance to its green brethren.
+
+
+# ~1390e369
+; (offset)Righteous, (/offset)
+
+
+# ~a125fe07
+; (offset)Resilient(/offset)
+
+
+# ~86bf2637
+;  (offset)and Rebellious.(/offset)
+
+
+# ~1120d077
+; Her name is <b>Sarah Scriver</b>.
+
+
+# ~79f20828
+; "This will be the one." she says with a (offset)face of determination.(/offset);; @back Tree-Loop-1 id:MovieBg time:5 tint:#333
+
+
+# ~acbf2e85
+; "I created the predictive models, and I am never wrong."
+
+
+# ~a0305854
+; "What if you are wrong this time?" Anya asks.
+
+
+# ~a84e1ab3
+; "Have I ever let you or the Coalition down?"
+
+
+# ~7da62e4a
+; (horiexp)There is a slight break in Sarah's confident mask.(/horiexp)
+
+
+# ~a5e95b99
+; “Once this is all over, I will open up the 
+
+
+# ~8261daad
+; (offset)galaxy to you-(offset) 
+
+
+# ~bc4da35
+; (offset)to everyone.(/offset) 
+
+
+# ~42f3ed05
+; We can finally become a major force in the Coalition. I already have their attention.”
+
+
+# ~9a6a7493
+; Sarah is a savant.
+
+
+# ~8f47c59c
+; The science of creating a savant is widely practiced in the field of genetic engineering. However, even with 300 years of genetic experimentations rarely does a savant actually appear. A savant has unlimited potential, which means they can learn and be proficient at anything. It is known that the most powerful board members of the Sol Prime Galactic Coalition were born savants.
+
+
+# ~6889079f
+; (offset)The myth of the savant(/offset) continues on with the latest discovery of the first intergalactic highway by a savant and promises of riches with that title can obtain.
+
+
+# ~f7720400
+; “My predictions are always accurate, I have heard that people even call me an Oracle- a mystic of science. I actually laughed at the contradiction.”
+
+
+# ~7f49cc7a
+; “Listen, people put so much hope in my work that they use it as irrefutable evidence in court. Once a woman used my predictive model to reverse a court decision on ownership of a new synthesis material making her one of the richest women in existence. Another time a man used my models to discover anomalies all around the galaxy leading to the <b>The Goldilocks Rush.</b>”
+
+
+# ~5f5d0b9b
+; Sarah tells her story with a hollow jubilance. She tightens her mask.
+
+
+# ~248ae928
+; This, she exclaims, is why her label of <b>savant</b> isn’t just for show. 
+
+
+# ~d738abdb
+; (offset)This is why she is trusted.(/offset)
+
+
+# ~a900b15a
+; (offset)She doesn’t fail.(/offset)
+
+
+# ~3d3ddd3f
+; “When I first heard about this mission, 
+
+
+# ~3de11447
+; (horiexp)I knew it was different.(/horiexp)”
+
+
+# ~778cb049
+; (horiexp)She takes Anya’s hands into hers and they stand looking at the defiant tree on the hill.(/horiexp)
+
+
+# ~4c2a8994
+; “They asked me to go. For a trip this difficult, you need someone to actually be there to adjust the navigational models for a realistic prediction even with my data models. I have a chance to change history- to live up to my label.”
+
+
+# ~7a47e45e
+; Anya nods and tightens her grip on Sarah’s hand.
+
+
+# ~b09c0d75
+; Anya has known Sarah for years as a shy introvert saddled by the attention of being named a savant. It was only recently that Sarah broke out of their shell and started bringing people into their sheltered life. Anya was glad she was one of those special people.
+
+
+# ~69ae9096
+; “The other scientists don’t like me very much.”
+
+
+# ~6850e531
+; “Why so?” Anya asks
+
+
+# ~3139f858
+; “I make their lives harder. Half of them think the public are too dependent on my predictive models from software to hardware. That I am a walking monopoly- the antithesis of their free market. The other thinks I haven’t earned any of my accomplishments because of how I was born.”
+
+
+# ~f792d419
+; Sarah speaks with a certain hardness to her voice.
+
+
+# ~37a139b8
+; Sarah and Anya stand there in front of the hill. 
+
+
+# ~e9783cd4
+; Neither saying anything.
+
+
+# ~75b79ec0
+; The soft wind blows and the birds could be heard in the distance.
+
+
+# ~3734e912
+; They are capturing the moment.
+
+
+# ~4a5ad96c
+; Preserving the memory.
+
+
+# ~218a11c7
+; “I am going to do it you know. Change history.”
+
+
+# ~1aa10a78
+; “I know. You always are.” Anya laughs.
+
+
+# ~e06246fc
+; “Ok, I am ready to face them. Shall we go back to the party?”
+
+
+# ~53ed6095
+; Sarah offers her right arm out to Anya and they slowly walk away from the hillside together.
+
+
+# ~1010786b
+; “Just take a deep breath and 
+
+
+# ~dff11cf0
+; (offset)3.(/offset) 
+
+
+# ~a8efcee3
+; (offset)2.(/offset)”
+
+
+# ~80caeec7
+; “(offset)1.(/offset)
+
+
+# ~45c2da56
+;  The jump has been initialized. Navigation on course. Ship is now in transient mode.”
+
+
+# ~9173da9d
+; The ship, The Dawnstar, shakes and creaks. Warning sounds blare and the ship's lights turn red.
+
+
+# ~22ca553a
+; Sarah starts to sweat. The ship shakes so much it starts to blur her vision.
+
+
+# ~bbc0f8e8
+; “We need to hold for 30 minutes Earth relative time. Put shields to match the incoming pressure wave.” She shouts to the pilot.
+
+
+# ~c6c316e7
+; (horiexp)She knows they will make it.(/horiexp)
+
+
+# ~7555cf
+; (horiexp)She is never wrong.(/horiexp)
+
+
+# ~c9d3d8a1
+; “- the ship’s goal was successful. We are officially in the Gliese 832  star system. However, it's with a heavy heart that we were not able to create an IBA link back. We are following through with our contingency plan and will be settling on the planet designated by our exo-planet researchers. We are organizing the-”
+
+
+# ~d085371e
+; (vertexp)Sarah stopped listening.(/vertexp)
+
+
+# ~b4da61c
+; She was right that they could target the IBA jump points to locations. This is a breakthrough that should be celebrated. However, she realized a celebration would be pointless if they couldn’t communicate back to the SPGC.
+
+
+# ~8652a00
+; (offset)How could the IBA Link fail?(/offset) 
+
+
+# ~434ca26e
+; Questions raced through Sarah’s head.
+
+
+# ~c2ab47e2
+; She had done all the calculations and created the perfect model with the available data. Perhaps there wasn’t enough data for a complete model? Perhaps it was a failure in the manufacturing of the experimental drive parts? Perhaps there was sabotage?
+
+
+# ~ffebcaaa
+; “I will find a solution.” she said with conviction
+
+
+# ~39328ed
+; Years have passed since that initial jump. The Dawnstar’s crew has become the Dawnstar colonists.
+
+
+# ~3d23df6a
+; Sarah, though a senior officer, spends most of her days isolated from the crew in research.
+
+
+# ~9e0da3df
+; Sarah repeats to herself that she was right, but something or someone else was wrong.
+
+
+# ~51bf4b11
+; Sarah finds herself again at the lone tree on the hillside.;; @back Tree-Below-Loop id:MovieBg time:5 tint:#333
+
+
+# ~707a132f
+; “So, we meet again.”
+
+
+# ~fde7a894
+; Resolved
+
+
+# ~8dcfe487
+; Congratulations, <b>
+
+
+# ~44940c1f
+; </b>.
+
+
+# ~174fc2e
+; You have completed the demo. Please return to the Title Screen.<br>(Press Start to open the Menu)<br> Alpha Version 1.3
+
+
+# ~25f8d7a4
+; <size=50><shake a=.5>!!!</shake></size>;; @focusOn CustomUIName:{current_ui}
+
+
+# ~7cc20855
+; Do you lack compassion, android?
+
+
+# ~7db6f932
+; ...
+
+
+# ~4217e316
+; Guess you can't speak yet
+
+
+# ~c7af52d6
+; Why are you in this room?
+
+
+# ~ad1620d1
+; Are you planning to steal or break something? If you want to break something, go to the break room hence its name.
+
+
+# ~5695843f
+; Or perhaps you are curious about the room I found you in. There is nothing special to you, inside this room.
+
+
+# ~614e111c
+; However, it DOES contain tools and replacement parts for Hydroponics. So please be careful there.
+
+
+# ~b7f66966
+; I will be monitoring you.
+
+
+# ~ac30ca22
+; Well, it’s certainly something…
+
+
+# ~c7b78dc0
+; Ew! Humans shed what?
+

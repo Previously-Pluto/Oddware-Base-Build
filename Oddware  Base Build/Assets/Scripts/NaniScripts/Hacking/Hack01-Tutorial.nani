@@ -1,0 +1,367 @@
+# hacking-minigame-1
+@camera set:CameraFilterPack_TV_ARCADE.true
+@back HackingLoop_lev1 id:MovieBg
+@bgm BGM-Hacking_lev1 volume:.25
+
+@toast "Hacking Subroutine Added" time:3
+@wait 1
+@sfx SFX-Alert volume:0.5
+@set avatar_image="Still"
+@printer WideAnim
+@toast "PDA added to Inventory" appearance:Item time:3
+@wait 1
+@char Nova avatar:Nova-Happy visible:false
+Nova: Okie Dokie, I have upgraded your systems with my custom <b>"investigation"</b> software.
+
+@char Nova avatar:Nova-Triumph visible:false
+Nova: You can try to hack into this personal digital assistant device. Good Luck!
+@hidePrinter
+
+@printer TitleWidePrinter
+Learning to Hack 101
+@set hint_title="Tutorial"
+@printer HintWidePrinter
+Hacking is exactly like human flirting.
+You observe, analyze, make a decision, and hope for the best!
+There are three ways to talk to a hacked target: <b>Emotional, Rational, and Chaotic.</b>
+Observe the target's emotional, rational or chaotic state and respond in turn.
+If you are clever enough, you can bypass any system with this seduction method.
+When you get the system to love you to 100%, you win!
+@set hack_level=1
+
+@showUI HackingUI
+@spawn LOOP_WarningLights
+@char Datapad.Blank
+
+@printer CustomBubblePrinter
+@spawn ShakeCharacter params:Datapad 
+@sfx sci-fi_driod_robot_emote_01 volume:.25
+PDA: Hello, Registration {charname}.
+
+@printer Dialogue
+@hidePrinter
+@choice "Hello, can I access your systems?" handler:HackingHandler pos:-600,-300   goto:.fail_l1_1
+@choice "Hi PDA, lets talk about life and systems." handler:HackingHandler pos:0,-300  goto:.success_l1_1
+@choice "Hey, want to pull a heist?" handler:HackingHandler pos:600,-300  goto:.fail_l1_2
+@stop
+
+; hack_progress 0-100%
+; hack_level 1,2,3
+; hack_event_1
+
+# fail_l1_1
+@if hack_progress<=0
+  @set hack_progress=0
+@endif
+@set hack_level="1"
+@set hack_progress=0
+
+@sfx SFX_Spark_Short_01 volume:.35
+@sfx SFX_Chip_Negative volume:.25
+@spawn FX_Impact_Large
+@spawn ShakeCharacter params:Datapad
+@char Datapad.Confused
+@stopBGM
+@bgm BGM-Hacking_lev1 volume:.25
+@despawn FX_Impact_Large
+
+@printer CustomBubblePrinter
+PDA: Sorry, you do not have authorization to access my systems.
+@printer Dialogue
+@char Datapad.Blank
+
+@choice "Hello, can I access your systems?" handler:HackingHandler pos:-600,-300   goto:.fail_l1_1
+@choice "Hi PDA, lets talk about life and systems." handler:HackingHandler pos:0,-300  goto:.success_l1_1
+@choice "Hey, want to pull a heist?" handler:HackingHandler pos:600,-300  goto:.fail_l1_2
+
+@stop
+
+# fail_l1_2
+@if hack_progress<=0
+  @set hack_progress=0
+@endif
+@set hack_level="1"
+@set hack_progress=0
+
+@sfx SFX_Spark_Short_01 volume:.35
+@sfx SFX_Chip_Negative volume:.25
+@spawn FX_Impact_Large
+@spawn ShakeCharacter params:Datapad
+@char Datapad.Confused
+@stopBGM
+@bgm BGM-Hacking_lev1 volume:.25
+@despawn FX_Impact_Large
+
+@printer CustomBubblePrinter
+PDA: I am sorry, my protocols do not allow me to take part in criminal activity.
+PDA: Please hold still while the authorities arrive to take you into custody. 
+@printer Dialogue
+{charname}: Oh no, I am going to prison!
+@printer WideAnim
+@char Nova avatar:Nova-Sideeye visible:false
+Nova: You aren't going to prison. This is part of their security protocols. 
+@char Nova avatar:Nova-Curious visible:false
+Nova: I am fairly certain this device can not send out messages to your network.
+@char Nova avatar:Nova-Happy visible:false
+Nova: Please, continue on.
+@hide WideAnim
+@char Datapad.Blank
+
+@choice "Hello, can I access your systems?" handler:HackingHandler pos:-600,-300   goto:.fail_l1_1
+@choice "Hi PDA, lets talk about life and systems." handler:HackingHandler pos:0,-300  goto:.success_l1_1
+@choice "Hey, want to pull a heist?" handler:HackingHandler pos:600,-300  goto:.fail_l1_2
+@stop
+
+# success_l1_1
+@if hack_progress<=0
+  @set hack_progress=0
+@endif
+
+@set hack_progress=30
+@set hack_level=2
+
+@stopBGM
+@hidePrinter
+@sfx sci-fi_driod_robot_emote_07 volume:.25
+@spawn PS_Hearts_00
+@char Datapad.Happy 
+@bgm BGM-Hacking_lev2 volume:.25
+@back HackingLoop_lev2 id:MovieBg
+@spawn ShakeCharacter params:Datapad
+@wait 2
+@despawn PS_Hearts_00
+@printer CustomBubblePrinter
+@char Datapad.Sad
+PDA: Life is a struggle. I need maintence on my systems.
+PDA: I am so damaged, I do not know how long I have been in maintence mode.
+
+@printer Dialogue
+{charname}: Oh I am sorry to hear that. Maybe I can help!
+@hide Dialogue
+@char Datapad.Sad
+
+@choice "Give me full access to your systems." handler:HackingHandler pos:-600,-300   goto:.fail_l2_1
+@choice "Aw, How about I look at your systems?" handler:HackingHandler pos:0,-300  goto:.success_l2_1
+@choice "You have the Y2K bug! Password Quick!" handler:HackingHandler pos:600,-300  goto:.fail_l2_2
+@stop
+
+# fail_l2_1
+@if hack_progress<=0
+  @set hack_progress=0
+@endif
+@set hack_progress=30
+
+@set hack_level=2
+@sfx SFX_Spark_Short_01 volume:.35
+@sfx SFX_Chip_Negative volume:.25
+@spawn FX_Impact_Large
+@spawn ShakeCharacter params:Datapad
+@char Datapad.Confused
+@stopBGM
+@bgm BGM-Hacking_lev2 volume:.25
+@despawn FX_Impact_Large
+
+@printer CustomBubblePrinter
+PDA: Sorry, you do not have authorization to access my systems.
+
+@choice "Give me full access to your systems." handler:HackingHandler pos:-600,-300   goto:.fail_l2_1
+@choice "Aw, How about I look at your systems?" handler:HackingHandler pos:0,-300  goto:.success_l2_1
+@choice "You have the Y2K bug! Password Quick!" handler:HackingHandler pos:600,-300  goto:.fail_l2_2
+
+@stop
+
+# fail_l2_2
+@if hack_progress<=0
+  @set hack_progress=0
+@endif
+@set hack_progress=30
+
+@set hack_level=2
+@sfx SFX_Spark_Short_01 volume:.35
+@sfx SFX_Chip_Negative volume:.25
+@spawn FX_Impact_Large
+@spawn ShakeCharacter params:Datapad
+@char Datapad.Confused
+@stopBGM
+@bgm BGM-Hacking_lev2 volume:.25
+@despawn FX_Impact_Large
+
+@printer CustomBubblePrinter
+PDA: No virus of that name is on record. Access denied.
+
+@choice "Give me full access to your systems." handler:HackingHandler pos:-600,-300   goto:.fail_l2_1
+@choice "Aw, How about I look at your systems?" handler:HackingHandler pos:0,-300  goto:.success_l2_1
+@choice "You have the Y2K bug! Password Quick!" handler:HackingHandler pos:600,-300  goto:.fail_l2_2
+@stop
+
+# success_l2_1
+@set hack_level=3
+@set hack_progress=60
+
+@stopBGM
+@bgm BGM-Hacking_lev3 volume:.25
+@hidePrinter
+@sfx sci-fi_driod_robot_emote_07 volume:.25
+@spawn PS_Hearts_00
+@char Datapad.Happy 
+@bgm BGM-Hacking_lev3 volume:.25
+@back HackingLoop_lev3 id:MovieBg
+@spawn ShakeCharacter params:Datapad
+@wait 2
+@despawn PS_Hearts_00
+@printer CustomBubblePrinter
+@char Datapad.Pouty
+PDA: Aw, I am a bit shy. I haven't had anyone use me for so long.
+@char Datapad.Flirt
+PDA: This PDA is missing PDA, a public show of affection...
+
+@choice "PDA, you are an effective worker." handler:HackingHandler pos:-600,-300   goto:.fail_l2_1
+@choice "<i>Give PDA a small kiss and hug.</i>" handler:HackingHandler pos:0,-300  goto:.resultFinal
+@choice "<i>Wear PDA like a Hat.</i>" handler:HackingHandler pos:600,-300  goto:.fail_l2_2
+@stop
+
+# fail_l3_1
+@if hack_progress<=0
+  @set hack_progress=0
+@endif
+@set hack_progress=60
+
+@set hack_level=3
+@sfx SFX_Spark_Short_01 volume:.35
+@sfx SFX_Chip_Negative volume:.25
+@spawn FX_Impact_Large
+@spawn ShakeCharacter params:Datapad
+@char Datapad.Confused
+@stopBGM
+@bgm BGM-Hacking_lev3 volume:.25
+@back HackingLoop_lev2 id:MovieBg
+@despawn FX_Impact_Large
+
+@printer CustomBubblePrinter
+@char Datapad.Skeptical
+PDA: How am I effective? I have not been in use for years.
+@char Datapad.Serious
+PDA: I think you are trying to take advantage of me.
+
+@choice "PDA, you are an effective worker." handler:HackingHandler pos:-600,-300   goto:.fail_l3_1
+@choice "<i>Give PDA a small kiss and hug.</i>" handler:HackingHandler pos:0,-300  goto:.resultFinal
+@choice "<i>Wear PDA like a Hat.</i>" handler:HackingHandler pos:600,-300  goto:.fail_l3_2
+
+@stop 
+
+# fail_l3_2
+
+@if hack_progress<=0
+  @set hack_progress=0
+@endif
+@set hack_progress=60
+
+@set hack_level=3
+@sfx SFX_Spark_Short_01 volume:.35
+@sfx SFX_Chip_Negative volume:.25
+@spawn FX_Impact_Large
+@spawn ShakeCharacter params:Datapad
+@char Datapad.Confused
+@stopBGM
+@bgm BGM-Hacking_lev3 volume:.25
+@back HackingLoop_lev2 id:MovieBg
+@despawn FX_Impact_Large
+
+@printer CustomBubblePrinter
+@char Datapad.Disgusted
+PDA: HEY STOP THAT!
+@char Datapad.Serious
+PDA: I am not a hat.
+
+@choice "PDA, you are an effective worker." handler:HackingHandler pos:-600,-300   goto:.fail_l1_1
+@choice "<i>Give PDA a small kiss and hug.</i>" handler:HackingHandler pos:0,-300  goto:.resultFinal
+@choice "<i>Wear PDA like a Hat.</i>" handler:HackingHandler pos:600,-300  goto:.fail_l1_2
+
+# resultFinal
+
+@set hack_level=3
+@set hack_progress=100
+
+@printer Dialogue
+{charname}: You are precious. I can fix you in no time, but I need access to your systems.
+
+
+@hidePrinter
+@sfx sci-fi_driod_robot_emote_07 volume:.25
+@char Datapad.Happy 
+@spawn ShakeCharacter params:Datapad
+@wait 2
+@despawn PS_Hearts_00
+
+@printer CustomBubblePrinter
+@char Datapad.Excited
+PDA: Thank you for your kindness!
+@char Datapad.Love
+PDA: Sorry, I have been alone for so long. You have access!
+@stopBGM
+@sfx SFX-Victory volume:.15
+@spawn Confetti_Falling
+@printer Wide
+Device has been unlocked!
+@despawn Confetti_Falling
+@stop
+@camera set:*.false
+
+
+; OLD CODE
+
+# fail_l1_111
+
+@if hack_progress<=0
+  @set hack_progress=0
+@else
+  @set hack_progress=hack_progress-10
+@endif
+
+@back HackingLoop_lev2 id:MovieBg
+@sfx SFX_Spark_Short_01 volume:.35
+@sfx SFX_Chip_Negative volume:.25
+@spawn FX_Impact_Large
+@spawn ShakeCharacter params:Datapad
+@char Datapad.Confused
+@stopbgm
+@despawn FX_Impact_Large
+
+@printer CustomBubblePrinter
+Datapad: Oh I didn't liked that.
+Datapad: Any more of that?
+@printer Dialogue
+
+@hidePrinter
+@choice "Hey there! You are looking like a strong indepedent system." handler:HackingHandler pos:-600,-300   goto:.fail_l1_1
+@choice "If you help me, I can help you. Beautiful." handler:HackingHandler pos:0,-300  goto:.fail_l1_2
+@choice "I am a hydroponics bot." handler:HackingHandler pos:600,-300  goto:.success_l1_1
+@stop
+
+# fail_l1_221
+
+@if hack_progress>=100
+  @set hack_progress=100
+@else
+  @set hack_progress=hack_progress+10
+@endif
+
+@sfx SFX_Chip_Positive volume:.25
+@spawn FX_Confetti
+@spawn ShakeCharacter params:Datapad,0,,,0.05 wait:false
+@back HackingLoop_lev3 id:MovieBg
+@char Datapad.Happy
+@sfx SFX-Positive-1 volume:.25
+@stopbgm
+@despawn FX_Confetti
+@bgm BGM-Hacking_lev3 volume:.25
+@printer CustomBubblePrinter
+Datapad: Oh I liked that. Almost done!
+Datapad: Any more of that?
+@printer Dialogue
+@hidePrinter
+@choice "Hey there! You are looking like a strong indepedent system." handler:HackingHandler pos:-600,-300   goto:.fail_l1_1
+@choice "If you help me, I can help you. Beautiful." handler:HackingHandler pos:0,-300  goto:.fail_l1_2
+@choice "I am a hydroponics bot." handler:HackingHandler pos:600,-300  goto:.success_l1_1
+@stop
+

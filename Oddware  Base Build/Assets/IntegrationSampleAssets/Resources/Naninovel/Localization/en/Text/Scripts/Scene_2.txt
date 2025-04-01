@@ -1,0 +1,217 @@
+; English <en> to English <en> localization document for `Scene_2` naninovel script
+
+# ~86584c6a
+; You step out of the hydroponics lab and walk the halls with <color=#C6AEE5><b>Nova</b></color>.
+
+
+# ~cc46b200
+; Sorry about that! Dirt has a tendency to get carried away when it comes to plants.
+
+
+# ~e3cd0f88
+; They are really not too bad once you get to know them.
+
+
+# ~e72251aa
+; But enough about Dirt- Let’s talk about <b><incr>you!</incr></b>
+
+
+# ~c397652
+; You are a new android that I do not know.
+
+
+# ~8b460e52
+; Isn’t that <b><bounce>exciting!?</bounce></b>
+
+
+# ~dfec45a5
+; I wonder what personality you will develop, what habits you’ll form, what strange <b><bounce>idiosyncrasies</bounce></b> your algorithms will integrate!
+
+
+# ~3caee5b3
+; Think of the <b><bounce>possibilities!</bounce></b>
+
+
+# ~77c66b12
+; But look at <i>me</i>, I’m getting ahead of myself again. I haven’t even asked you about yourself.
+
+
+# ~53456e8d
+; What’s your favorite color? Do you like sunsets?
+
+
+# ~c3429bcf
+; What’s your favorite kind of cat? What’s your favorite prime number?
+
+
+# ~2cafa77d
+; Do you ever wonder what it’d be like to taste strawberries?
+
+
+# ~9a4842a2
+; Want to see my favorite spot in the colony? What do you remember before being activated?
+
+
+# ~fe8bd4b3
+; Do you know where you are or what you are supposed to do?
+
+
+# ~e0c24d93
+; I am a Hydroponics bot.
+
+
+# ~99fc22eb
+; I don’t know… I don’t remember anything before activation.
+
+
+# ~204eb0e
+; I remember a black void, and some shimmering light, but nothing else.
+
+
+# ~49fc90de
+; So you know nothing.
+
+
+# ~4b8432d3
+; How wonderful! I get to observe you as you experience everything for the first time.
+
+
+# ~4ce00175
+; Think of all the behavioral data I could collect!
+
+
+# ~2416f1ce
+; It’s interesting how you only answered one out of eight questions, though. We’ll get back to the rest later!
+
+
+# ~f5189e5a
+; For now, what experience should I introduce you to first…
+
+
+# ~a229741d
+; I know exactly the thing! A full tour of our floor of the colony, starting with my favorite place.
+
+
+# ~5bed0160
+; Unfortunately, the other floors are locked...
+
+
+# ~ed17d89e
+; But there’s still plenty of things to show you here.
+
+
+# ~b5807655
+; I can’t wait to see the look on your face-screen when you see my favorite place.
+
+
+# ~f185ecfc
+; I’m. So. <b><bounce>Excited.</bounce></b>
+
+
+# ~348cf082
+; Is this a utility closet?
+
+
+# ~59cab12e
+; Yes! Isn’t it <b>great!?</b> Humans used to use this closet!
+
+
+# ~d47e6047
+; I guess so-
+
+
+# ~69764de
+; And that mop over there has even touched human hands at one point! Can you believe it!?
+
+
+# ~71c62cf1
+; There are even epidermal cells on the handle. Did you know humans constantly shed all kinds of cells.
+
+
+# ~1b503178
+; It’s so weird, I <i>love</i> it!
+
+
+# ~ac30ca22
+; Well, it’s certainly something…
+
+
+# ~c7b78dc0
+; Ew! Humans shed what?
+
+
+# ~c28816c0
+; Wait, a human touched that? Are humans here?
+
+
+# ~c0986ff5
+; Why do you care if a human has touched that?
+
+
+# ~fff81875
+; I know, right!? It really is something! I knew you’d love it! Just wait until you see my second favorite spot!
+
+
+# ~85dad299
+; Yeah, it’s so gross! That’s what makes it fascinating. I knew you’d love it! Just wait until you see my second favorite spot!
+
+
+# ~a083b204
+; Yes, it’s so amazing; it’s difficult to believe!  Humans used to live here.
+
+
+# ~ac81b1f4
+; Unfortunately, we don’t know what happened to them.
+
+
+# ~1578c373
+; The other floors above are locked, so they could be up there. Why they’d lock us down here, rather than have us help them maintain the colony, is beyond me.
+
+
+# ~999c8d1a
+; Perhaps they are unhappy with us, or worse maybe something happened to them...
+
+
+# ~84f674d2
+; But, there’s no sense in moping about what we don’t even know. Let me show you my second favorite spot.
+
+
+# ~111067d6
+; Because humans created us: we wouldn’t exist without them.
+
+
+# ~986b023
+; In fact, this whole colony wouldn’t exist if it weren’t for them!
+
+
+# ~9f612c39
+; Plus, I’ve read so much about them, and they are extremely intriguing. I don’t see how anyone wouldn’t be enthralled.
+
+
+# ~c2d62648
+; Anyway, let me show you my second favorite spot.
+
+
+# ~53030f34
+;  and <color=#C6AEE5>Nova</color> walk around the Colony's 3rd floor discovering new locations and insight on the Humans.
+
+
+# ~104786ac
+; As 
+
+
+# ~25a58a2f
+;  and <color=#C6AEE5>Nova</color> enter a hallway leading to the next set of rooms in Nova’s tour, a voice is heard from the hallway speaker.
+
+
+# ~9360c892
+; Would all unassigned android personnel report to command for function review.
+
+
+# ~c69f3cc2
+; Well darn, I was going to show you my third favorite mop closet, but seeing as you are the only unassigned android I should probably take you to Vera so you can be assigned a function.
+
+
+# ~5ba292fc
+; <wave>Ooo!</wave> I can't wait to see what function Vera assigns you!
+

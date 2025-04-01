@@ -1,0 +1,209 @@
+; English <en> to English <en> localization document for `Scene_6` naninovel script
+
+# ~97ef8136
+; Your choices have <b>influence</b> on each of the androids.
+
+
+# ~58692b98
+; An android's individual trust can either increase or decrease based on your choices.
+
+
+# ~d20b13a0
+; Special dialogue and events will be triggered based on the influence/trust with each android.
+
+
+# ~7a6db675
+; Your choices matter, so choose wisely!
+
+
+# ~a7a28e3a
+; The Command Center
+
+
+# ~2137e8e9
+; As you approach the command center, the warning lights and alarm sounds suddenly stop.
+
+
+# ~97c442d6
+; You feel a rumble under your feet and hear a large device begin to power up.
+
+
+# ~adec1710
+; With the power restored and the warnings disabled, you then hear the sounds of arguing androids coming from the command center doors.
+
+
+# ~486cdf57
+; The solution is <i>obvious</i>, we just need to <b><shake a=.5>blow</shake></b> up the door. I don’t even know why we are discussing this.
+
+
+# ~10fa2570
+; Blowing up a door to a power generator is a terrible idea.
+
+
+# ~f447254c
+; I know it won’t work because the doors are shielded against extreme heat.
+
+
+# ~d1a402c1
+; If you were to detonate anything above that threshold, it would destroy everything around it and the very generator we are trying to access.
+
+
+# ~1930701b
+; Here is the <i>right</i> solution. The humans have left behind many of their resources, including their credentials.
+
+
+# ~f75c9e46
+; We have never searched for them, as we never needed to before. Now is the time to take inventory.
+
+
+# ~feb28842
+; I could try hacking it, but due to proprietary <color=yellow>Flash Forward</color> quantum encryption it would take approximately 892 standard years, 4 months, and 10 days, with a margin of error of 3 days.
+
+
+# ~16fa6173
+; But unfortunately, according to current projections based off of the recent power fluctuations, we have a <color=red><b><incr a=.5>week</incr></b></color> to fix this, at best.
+
+
+# ~e3fcc4ba
+; The group of androids fall silent as their arguments reach a recursion point.
+
+
+# ~f8ecf21f
+; Stop arguing and find a real solution.
+
+
+# ~3147c9ae
+; If you don’t find one, you all will be responsible for genocide. Hush now, it's OK Beatrix...
+
+
+# ~f8223c11
+; As the silence grows, you use the opportunity to make your presence known to the others in the room.
+
+
+# ~447191f
+;  General Purpose Android reporting in. What is the emergency?
+
+
+# ~6fa1ed13
+; After the recent power fluctuation, we have done a floor-wide diagnostics check, and determined that the power generator is undergoing a <color=red>catastrophic</color> failure.
+
+
+# ~8c79536f
+; We went to the Generator Room to assess and stabilize the fluctuations but we were unable to enter the room despite our qualification.
+
+
+# ~bb396d2c
+; So by your own admission, you are not qualified. That raises some interesting conversations about leadership now doesn't it?
+
+
+# ~86eaa7b7
+; Jumping to conclusions about perceived leadership is a very human trait. Don't you <i>think</i> so 001.
+
+
+# ~c6a0c6ef
+; What do you think, Friend?
+
+
+# ~1fa33574
+; I support trying to use controlled explosives to enter the room.
+
+
+# ~792d3798
+; I support working together to find the room credentials, as it is safer than explosives.
+
+
+# ~38a72660
+; I support hacking the room systems. Maybe there is a way to speed it up.
+
+
+# ~5f308d45
+; I am a hydroponics bot.
+
+
+# ~be879518
+; I support trying to use controlled explosives to enter the room. Time is of the essence. If we do not find a solution soon, the colony will die.
+
+
+# ~bba78239
+; Ha! Another visionary in the works. I knew you had true potential.
+
+
+# ~a379e5ed
+; Alright, but don’t make me say, “I told you so,” when I have to put you all back together after you’ve blow yourselves up.
+
+
+# ~6fbb90fb
+; Exactly! If we work together, we can cover more ground and speed up the recovery process.
+
+
+# ~9c166318
+; I may also have some leads on where to look first!
+
+
+# ~774568cf
+; I support hacking the room systems. Maybe there is a way to speed it up. Nova, perhaps there is a back door around the encryption.
+
+
+# ~85b2419b
+; I know, right!? It really is something! I knew you’d love it! Going through mass amounts of encryption can be exhilarating!
+
+
+# ~f3c4620a
+; I am a hydroponics bot. I am unqualified to answer.
+
+
+# ~6916e406
+; That is very nice to hear. However, you really should find a solution to the problem or our friends will die. Friends being plants that is.
+
+
+# ~38081e3b
+; Those are all wonderful ideas! However, I know that my method is the best choice for the colony with <incr a=-.5>minimal</incr> damage and <incr a=.75>maximum</incr> benefit.
+
+
+# ~a591099a
+; Everybody please return to your designated rooms and begin the search for the human's credentials.
+
+
+# ~fdff7550
+; I know that as a unit, we can solve this quickly and efficiently.
+
+
+# ~635ed09d
+; Just like a human tyrant trying to force us into your mold! I'm leaving because I want to, not because of anyone's order.
+
+
+# ~3bcade58
+; Okie dokie, I will do my best, I love a human scavenger hunt. I have heard alot about them.
+
+
+# ~fd70faaf
+; You start for the door but hesitate looking back to Vera.
+
+
+# ~5f95a069
+; Vera, I do not have a designated room to return to. Where shall I go?
+
+
+# ~ca950c3e
+; Sorry for not giving you a designated room.
+
+
+# ~7c50ac69
+; We have limited space on the 3rd floor, which is the only space we have access to. I would suggest talking with the others to stay with them.
+
+
+# ~1e9da24d
+; Okie dokie, I will talk with the others and see who has room for me. Thank you.
+
+
+# ~88f8b1b3
+; No. Thank you. Please take this map of the 3rd floor so you do not get lost.
+
+
+# ~a37df29e
+; You gain access to the 3rd floor map.
+
+
+# ~eb917a22
+; You gain <color=yellow>Flash Forward</color> Communications Module F588. The Module will allow you to receive remote messages from other inhabitants of the station.
+

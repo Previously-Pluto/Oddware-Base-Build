@@ -1,0 +1,37 @@
+; English <en> to English <en> localization document for `Scene_7_001` naninovel script
+
+# ~7748cadf
+; Oh I see you there.
+
+
+# ~65601034
+; Oh I see the issue.
+
+
+# ~68b7104
+; Still limited to your basic programming.
+
+
+# ~6b6b12d7
+; Continue from the next line
+
+
+# ~9889c33f
+; Continue from the specified label
+
+
+# ~c441a474
+; Load another from start
+
+
+# ~73c66cd5
+; Home, sweet home!
+
+
+# ~a5ec1bf8
+; Home, sweet home-
+
+
+# ~4451e3f1
+; Choice Made
+

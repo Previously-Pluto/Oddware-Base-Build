@@ -1,0 +1,58 @@
+@camera set:*.false
+
+Dirt: Lets look at this item
+@showItem ItemName:CardboardBox_Interact
+
+@stop
+# StorageRoom
+
+
+@char Dirt.Investigate-Curious rotation:0,160 scale:0.4 pos:70,48 time:0
+; @char Dirt.Investigate-Curious time:1
+; @toggleSave Value:false
+
+; @addItem Screw
+@back StorageRoom scale:1.1 time:0
+@hideUI Map3rdUI
+@showUI MenuUI
+@showUI StorageRoomUI
+
+@stop
+
+# dirtOne
+@printer Chat_Dirt
+@set current_ui="LinkPrinter"
+; @focusOn CustomUIName:{current_ui}
+Dirt: <size=50><shake a=.5>!!!</shake></size>
+@char Dirt.G-Agreeing-Annoyed
+Dirt: Do you lack compassion, android?
+Dirt: ...
+@char Dirt.Idle-Skeptical
+Dirt: Guess you can't speak yet
+@hidePrinter
+@stop
+
+# StorageRoomDirt
+@printer Chat
+@char Dirt avatar:Dirt-Avatar visible:false
+Dirt: Why are you in this room?
+@char Dirt avatar:Dirt-Avatar visible:false
+Dirt: Are you planning to steal or break something? If you want to break something, go to the break room hence its name. 
+@char Dirt avatar:Dirt-Avatar visible:false
+Dirt: Or perhaps you are curious about the room I found you in. There is nothing special to you, inside this room.
+@char Dirt avatar:Dirt-Avatar visible:false
+Dirt: However, it DOES contain tools and replacement parts for Hydroponics. So please be careful there. 
+@char Dirt avatar:Dirt-Avatar visible:false
+Dirt: I will be monitoring you.
+@hidePrinter
+@set mail="false"
+@resetText
+@goto .StorageRoom
+
+
+// @hideUI
+// @back visible:false
+// @showItem ItemName:CardboardBox_Interact
+
+
+@stop

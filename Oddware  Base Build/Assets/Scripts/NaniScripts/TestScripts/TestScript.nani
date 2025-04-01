@@ -1,0 +1,8 @@
+@camera set:*.false
+@bgm AMB_Spaceship volume:.25
+@bgm BGM-OpenArea volume:.25
+
+@showUI Map3rdUI
+@showUI MenuUI
+@addItem Armor
+@stop

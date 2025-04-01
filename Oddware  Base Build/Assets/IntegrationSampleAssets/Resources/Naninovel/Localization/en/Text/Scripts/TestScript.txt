@@ -1,0 +1,1 @@
+; English <en> to English <en> localization document for `TestScript` naninovel script

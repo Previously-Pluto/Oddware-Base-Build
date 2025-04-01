@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 351a725202944ac40b99d3b285a1131c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _SpecularText: {fileID: 2800000, guid: 7ae17514abd8e7141827efd07865b7b8, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

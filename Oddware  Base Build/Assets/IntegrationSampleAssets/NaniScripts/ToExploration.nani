@@ -1,0 +1,34 @@
+; Enter dialogue mode.
+@dialogue
+@back id:BoxBG_Parallax
+
+@spawn SunShafts
+
+@printer Novel
+You walk into the Command Center.
+
+@printer Adventure
+k: This Projector over here looks like it needs help.
+@char y visible:true
+y: Holy damn! [char y.Sad wait:false] It's crying!
+y.Default: Let's take a second to have a closer look.
+k.Default: For sure!
+
+@hideChars
+@printer Novel wait:false
+@resetText
+The Projector is really leaking a lot of oil from its <tip="Tip4ID">flux capacitor units</tip>.
+@resetText
+Those two random girls who you don't know are looking at you as if it's implied that you need to help... Guess you'd better help.
+
+@lock Tips/Tip1ID
+@lock Tips/Tip4ID
+@hidePrinter
+@wait 1
+
+@triggerQuest questID:HelpTheProjector
+@showUI QuestHUD
+@showUI CodecHUD
+@activateJournalEntry key:s2
+; Return to explore mode.
+@explore

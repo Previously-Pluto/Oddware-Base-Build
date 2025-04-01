@@ -1,0 +1,79 @@
+; @camera toggle:CameraFilterPack_TV_ARCADE,CameraFilterPack_TV_LED
+@camera set:CameraFilterPack_TV_ARCADE.true,CameraFilterPack_TV_LED.true
+@movie IntroMovie
+@camera set:CameraFilterPack_TV_ARCADE.false,CameraFilterPack_TV_LED.false
+@back Nowhere id:MovieBg
+@bgm BGM-Loadup_Music volume:.5
+@showUI MenuUI
+@addItem Dirt-Sample
+This is Scene One
+TestCharacter: test dialogue test
+
+@set mail="true"
+mail set
+
+@printer Fullscreen
+Lorem ipsum dolor sit amet. Proin ultricies in leo id scelerisque.
+Praesent vel orci luctus, tincidunt nisi et, fringilla arcu. In a metus orci.
+Maecenas congue nunc quis lectus porttitor, eget commodo massa congue.
+
+@printer Wide
+@char Vera avatar:Speaker-Avatar visible:false
+Vera: Announcement! Testing! Testing!
+@char Vera avatar:Vera-Default visible:false
+Vera: Testing Wide
+@char 001 avatar:001-Surprised visible:false
+001: They said What?
+@char Nova avatar:Nova-Happy visible:false
+Nova: Don't worry about it!
+@char Nova avatar:Nova-Curious visible:false
+Nova: Lorem ipsum dolor sit amet. Proin ultricies in leo id scelerisque. Praesent vel orci luctus, tincidunt nisi et, fringilla arcu. In a metus orci.
+@char Dirt avatar:Dirt-Annoyed visible:false
+Dirt: I am annoyed.
+
+
+@printer Chat
+@char Vera avatar:Vera-Avatar visible:false
+Vera: Testing Printer
+@char 001 avatar:001-Avatar visible:false
+001: They said What?
+@char Nova avatar:Nova-Avatar visible:false
+Nova: Don't worry about it!
+@char Nova avatar:Nova-Avatar visible:false
+Nova: Lorem ipsum dolor sit amet. Proin ultricies in leo id scelerisque. Praesent vel orci luctus, tincidunt nisi et, fringilla arcu. In a metus orci.
+@char Dirt avatar:Dirt-Avatar visible:false
+Dirt: I am annoyed.
+@char Vera avatar:Vera-Default visible:false
+Vera: Lorem ipsum dolor sit amet. Proin ultricies in leo id scelerisque.
+
+@printer Dialogue
+
+; Allow user to enter an arbitrary text and assign it to `name` custom state variable
+@input name summary:"Choose your name."
+; Stop command is required to halt script execution until user submits the input
+@stop
+
+; You can then inject the assigned `name` variable in naninovel scripts
+Archibald: Greetings, {name}!
+{name}: Yo!
+
+; Print the text, then immediately show choices and stop script execution.
+Continue executing this script or load another?[skipInput]
+@choice "Continue from the next line" goto:.Labelname
+@choice "Continue from the specified label" goto:.AnotherScript
+@choice "Load another from start" goto:.lastLabel
+@stop
+#Labelname
+Label 1
+@goto .lastLabel
+#AnotherScript
+Label 2
+@goto .lastLabel
+#lastLabel
+TestCharacter: Last Label
+
+
+
+
+
+@stop

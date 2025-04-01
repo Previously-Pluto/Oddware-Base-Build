@@ -1,0 +1,81 @@
+; English <en> to English <en> localization document for `Scene_1` naninovel script
+
+# ~808cff40
+; <size=50>VISUAL SYSTEM INITIATION</size>
+
+
+# ~9d691578
+; Hydroponics
+
+
+# ~98640a85
+; 1 Hour Later...
+
+
+# ~a30acafb
+; Next I'll need you to cross-pollinate the hydrangeas, <i>then</i> rehydrate the rhododendrons with the excess roots of those expired daffodils...
+
+
+# ~301b65d
+; <i>Then-<i>
+
+
+# ~f73fc929
+; <wiggle>...</wiggle>
+
+
+# ~8312519c
+; <i>Here's</i> the new General Purpose Android!
+
+
+# ~65ca94a5
+; My sensors have been going off the charts.
+
+
+# ~6137f7b8
+; Another android has appeared in hydroponics. They have knocked down the previous android, <color=#A4E09B>Dirt</color>. Despite this violent action, the android seems to be very friendly and welcoming.
+
+
+# ~7bb1eb10
+; Hello, my name is Nova! Pleased to meet you!
+
+
+# ~c22db28e
+; Not <i>now</i> Nova, we’re working!
+
+
+# ~8a22bce0
+; <b>Working!?</b> <br>More like you found a new victim.
+
+
+# ~a907bc
+; Now Dirt, I know you <i>wouldn't</i> just put a General Purpose Android to work in hydroponics without proper programming.
+
+
+# ~648f8001
+; That could endanger the lab.
+
+
+# ~7ce05a9a
+; or worse…
+
+
+# ~c5d373a5
+; Get out of my <i>Lab</i>, Nova!
+
+
+# ~e11d4ede
+; Oh, I will get out of your lab, Dirt. However, I am taking my new friend along too.
+
+
+# ~96f993c6
+; Nova grabs 
+
+
+# ~fe4ee82a
+; 's arm and drags them out of the room.
+
+
+# ~a9934a8d
+; I said get out of my lab, not steal my new servant...
+

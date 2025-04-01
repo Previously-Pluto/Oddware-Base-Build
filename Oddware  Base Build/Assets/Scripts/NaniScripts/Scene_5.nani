@@ -1,0 +1,185 @@
+@camera set:*.false
+@despawnAll
+@bgm AMB_Spaceship volume:.25
+@back Darkness
+@printer TitleWidePrinter
+@print "Hydroponics" waitInput:false
+@wait 2.5
+@hidePrinter
+@sfx VOC-Lullaby_01 loop:true volume:.5
+
+@back Hydroponics-front-white
+@camera offset:0,0 zoom:.2 rotation:0,0,0 easing:SmoothStep time:5
+
+@despawn Dust
+@back Darkness.Crossfade
+@camera offset:0,0 zoom:0 rotation:0,0,0 easing:SmoothStep time:0
+@spawn Dust
+@back Hydroponics-Entrance.Crossfade
+@camera offset:0,0 zoom:.2 rotation:0,0,0 easing:SmoothStep time:5
+
+@despawn Dust
+@back Darkness.Crossfade
+@camera offset:0,0 zoom:0 rotation:0,0,0 easing:SmoothStep time:0
+@spawn Dust
+@char Dirt.Investigate-Curious rotation:0,160 scale:0.18 pos:50,48 time:0
+@char Dirt.Investigate-Curious time:0
+@back Hydroponics-Med-4k.Crossfade
+@spawn Dust
+@camera offset:0,0 zoom:.1 rotation:0,0,0 easing:SmoothStep time:5
+
+@hideChars
+@despawn Dust
+@back Darkness.Crossfade
+@camera offset:0,0 zoom:0 rotation:0,0,0 easing:SmoothStep time:0
+@char Dirt.Investigate-Curious rotation:0,160 scale:1 pos:50,0 time:0
+@char Dirt.Investigate-Curious time:0
+@back Hydroponics-PlantWide.Crossfade
+@spawn Dust
+@wait 2.5
+
+@printer ActionPrinter
+After entering hydroponics, you witness Dirt singing a lullaby to a row of plants. 
+You need to get <color=#A4E09B>Dirt's</color> attention to delivery the samples. What do you do?
+
+@spawn DepthOfField
+@choice "Politely get Dirt's attention." goto:.choice1
+@choice "Scare Dirt!" goto:.choice2
+@stop
+
+# choice1
+@despawn DepthOfField
+@hidePrinter
+@stopVoice
+@stopsfx
+@printer Dialogue
+{charname}: Hello, Dirt. Sorry for the interruption. That was a beautiful lullaby!
+@sfx SFX-Alarm_01 volume:0.5 wait:false
+@spawn ShakeCharacter params:Dirt,3,,,0.2
+@char Dirt.Idle-Surprised pos:50,0 scale:1 rotation:,0,
+{charname}: As requested, here are your soil samples from the warehouse. 
+@goto .choiceResolve
+
+# choice2
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+@stopsfx
+@printer Dialogue
+@spawn ShakePrinter params:,5,.1,.1,.1,.1,false,true wait:false
+{charname}: <size=50><color=red><shake a=.3>ALERT! SONIC ATTACK DETECTED!</shake></color></size>
+@despawn ShakePrinter
+
+@sfx SFX-Alarm_01 volume:0.5 wait:false
+@spawn ShakeCharacter params:Dirt
+@char Dirt.Idle-Exclaim pos:50,0 scale:1 rotation:,0,
+@wait .25
+@sfx sci-fi_driod_robot_emote_neg_07 volume:0.1
+@char Dirt.Ready-Angry pos:50,0 scale:1 rotation:,20,
+@printer Chat_Dirt
+@spawn ShakePrinter params:,5,.1,.1,.1,.1,false,true wait:false
+Dirt: <size=50><shake a=.5>!!!</shake></size>
+
+@despawn ShakePrinter
+@printer Dialogue
+{charname}: As requested, here are your soil samples from the warehouse.
+@goto .choiceResolve
+
+
+@back Hydroponics-Wide
+
+# choiceResolve
+@bgm Theme_Dirt loop:true volume:.25
+@char Dirt.ArmCross-Annoyed rotation:0,0
+@print "Oh, Generic, it’s you." author:Dirt
+
+@set alert_msg="Sample Removed from Inventory"
+@showUI AlertUI
+@sfx SFX-Alert volume:0.5
+@wait 2.5
+#@removeItemSoil-Sample
+@hideUI AlertUI
+
+@char Dirt.ArmCross-Skeptical
+@print "Do you have a problem with lovely Beatrix? They haven’t been doing so well, so I needed to cheer them up." author:Dirt speed:0.5
+@char Dirt.G-Talking_01-Skeptical
+Dirt: Do you lack compassion, android?
+@printer Dialogue
+@stopVoice
+{charname}: I lack many things, I am open to learning more if you would be so inclined to teach. 001 wants to teach me about growing past my programming.
+@printer Chat_Dirt
+@char Dirt.G-Thinking-Confused
+Dirt: You want to learn from me?
+@char Dirt.Idle-Incredulous
+@print "Growing is a lot harder than it looks, {charname}. I care for 35 different species of plants and each one requires different levels of care." author:Dirt speed:0.5
+@char Dirt.Sad-Bereft pos:60,0  rotation:0,30
+Dirt: Take Beatrix here. I have given them 100% of my care and attention.
+@hideChars
+@back Darkness.Crossfade
+@wait .5
+@back Hydroponics-Plant-closeup
+@camera offset:.75,-1 zoom:.15 rotation:0,0,0 easing:SmoothStep time:12 wait:false
+@printer Wide
+@set avatar_image="Still"
+@char Dirt avatar:Dirt-Sad visible:false
+@char Dirt avatar:Dirt-Sad visible:false
+@print "I have monitored their pH balance and color basis, yet they are still degrading beyond my control. I don’t know what kind of teacher I can be to you." author:Dirt speed:0.45
+@back Darkness
+@camera offset:0,0 zoom:0 rotation:0,0,0 easing:SmoothStep time:0
+@wait .5
+@back Hydroponics-Alt
+@char Dirt.Idle-Sad pos:50,-40 scale:1.5 rotation:0,0
+@char Dirt.Sad-Bereft
+@printer Dialogue
+@stopVoice
+{charname}: But I am not a plant, I am an android. I am sure there is something you can teach me.
+@printer Chat_Dirt
+@char Dirt.ArmCross-Skeptical
+@print "I know you are not a plant, Generic. You lack any sort of warmth." author:Dirt speed:0.5
+@printer Dialogue
+@stopVoice
+{charname}: I have a thermal regulated system. I am neither too warm nor too cold.
+@sfx SFX-ShortCircuitLightLoop loop:true volume:.5
+@back Darkness time:.25
+@back Hydroponics-Alt-Warning time:.25
+@back Darkness time:.2
+@back Hydroponics-Alt-Warning time:.2
+@back Darkness time:.15
+@back Hydroponics-Alt-Warning time:.15
+@back Darkness time:.1
+@back Hydroponics-Alt-Warning time:.1
+@spawn LOOP_WarningLights
+@stopSfx SFX-ShortCircuitLightLoop
+@sfx sci-fi_alarm_siren_loop_01 loop:true volume:.3
+@printer Chat_Dirt
+@sfx SFX-Alarm_01 volume:0.5 wait:false
+@spawn ShakeCharacter params:Dirt,3,,,0.2
+@char Dirt.LookingAround-Exclaim rotation:0,160 time:2 wait:true
+@stopVoice
+Dirt: <size=100><shake a=.5>!?</shake></size>
+@char Dirt.LookingAround-Exclaim rotation:0,210 time:4 wait:false
+@char Dirt.Idle-Confused
+@printer Wide
+@char Vera avatar:Speaker-Avatar visible:false
+@print "Attention, all androids report to the command center. I repeat all androids report to the command center. Emergency Protocol has been activated." author:Vera speed:0.5
+@char Dirt.Idle-Fear rotation:0,0
+@printer Dialogue
+@stopVoice
+{charname}: We are being summoned to command.
+@printer Chat_Dirt
+@char Dirt.Sad-SadVery
+Dirt: I'm not leaving the Lab, especially not with Beatrix in her condition.
+@printer Dialogue
+@stopVoice
+{charname}: ...
+@hide Dirt
+@despawn Dust
+@despawn LOOP_WarningLights
+@back Darkness.Crossfade
+@printer ActionPrinter
+You leave Dirt to care for their plants and head to the command center as ordered.
+@stopSfx
+
+@hideAll
+@goto Scene_6
+@stop

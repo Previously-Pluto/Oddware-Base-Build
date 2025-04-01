@@ -1,0 +1,164 @@
+@camera set:*.false
+@despawnAll
+
+@back Darkness
+@printer TitleWidePrinter
+@print "<size=50>VISUAL SYSTEM INITIATION</size>" waitInput:false
+@stopBgm
+@wait 2.5
+@bgm AMB_Spaceship loop:true volume:.25
+@stopsfx
+@hidePrinter
+@sfx SFX-ShortCircuitLightLoop volume:.5
+@back Darkness
+@back StorageRoomCeiling
+@wait 1
+@back Darkness
+@back StorageRoomCeiling
+@wait 1
+@back Darkness
+@camera offset:0,4 zoom:0 rotation:0,0,0 time:0
+@spawn DepthOfField
+@camera set:CameraFilterPack_Blur_Bloom.true
+@camera set:*.false
+@bgm BGM-DrudgeAlong volume:0.25
+@stopsfx
+@bgm AMB_Spaceship volume:.25
+
+@printer TitleWidePrinter
+@print "Hydroponics" waitInput:false
+@wait 2
+@print "1 Hour Later..." waitInput:false
+@wait 2
+@sfx SFX_DirtWorking volume:.25
+@despawn DepthOfField
+@back Hydroponics
+@spawn Dust
+@printer Dialogue
+@camera offset:0,0 zoom:-1 rotation:0,0,0 easing:SmoothStep time:5
+
+@set alert_msg="Hydroponics added to Codex"
+@showUI AlertUI
+@sfx SFX-Alert volume:0.5
+@wait 2.5
+@unlock Tips/Tip2ID
+@hideUI AlertUI
+@printer WideAnim
+@set avatar_image="Idle"
+@char Dirt avatar:Dirt-Happy visible:false
+Dirt: Next I'll need you to cross-pollinate the hydrangeas, <i>then</i> rehydrate the rhododendrons with the excess roots of those expired daffodils...
+Dirt: <i>Then-<i>
+@stopVoice
+@hidePrinter
+@despawn Dust
+
+@hideChars
+@hidePrinter
+@back Darkness time:.25
+@wait 0.25
+@sfx SFX-Metal_hard_04
+@spawn FX_Smack02
+@spawn ShakeCamera 
+@wait 1.25
+@despawn FX_Smack02
+
+@char Dirt.Idle-Default rotation:,0 pos:50,-40 scale:1.5
+@char Dirt.Drunk-Dizzy rotation:,0
+@back Hydroponics
+@printer Chat_Dirt
+@sfx sci-fi_driod_robot_emote_neg_03 volume:0.25
+Dirt: <wiggle>...</wiggle>
+@sfx SFX-Alarm_01 volume:0.5
+@char Dirt.LookingAround-Exclaim
+@wait .75
+@back Darkness time:0
+@sfx SFX-Metal_hard_04
+@sfx sci-fi_driod_robot_emote_neg_07 volume:0.25
+@hideChars
+@wait 1
+@back Hydroponics
+@spawn Dust
+
+@printer Chat_Nova
+@char Nova.Idle-Default pos:50,-40 scale:1.5
+@char Nova.G-Shout-Surprised
+Nova: <i>Here's</i> the new General Purpose Android!
+@char Nova.G-Thinking-Curious
+Nova: My sensors have been going off the charts.
+@printer ActionPrinter
+Another android has appeared in hydroponics. They have knocked down the previous android, <color=#A4E09B>Dirt</color>. Despite this violent action, the android seems to be very friendly and welcoming.
+@printer Chat_Nova
+@char Nova.F-Thankful-Pleased
+Nova: Hello, my name is Nova! Pleased to meet you!
+@hidePrinter
+@sfx SFX-Analyze_01 loop:true volume:.25
+@hidePrinter
+@camera set:CameraFilterPack_AAA_SuperComputer.true
+@showUI Scene1-NovaAssessment time:1
+@stop
+# NovaAssessment
+@camera set:CameraFilterPack_AAA_SuperComputer.false
+@stopSfx
+@printer Chat_Dirt
+@char Nova.Idle-Default
+@char Nova.Idle-Skeptical pos:75,-40 scale:1.5 rotation:,30
+@char Dirt.Idle-Default pos:25,-40 scale:1.5 rotation:,-30
+@char Dirt.G-Nervous-Ew
+Dirt: Not <i>now</i> Nova, we’re working!
+@printer Chat_Nova
+@char Nova.G-Chat3-Skeptical
+Nova: <b>Working!?</b> <br>More like you found a new victim.
+@char Nova.Idle-Happy pos:75,-40 scale:1.5 look:left
+@char Dirt.Idle-Fear
+Nova: Now Dirt, I know you <i>wouldn't</i> just put a General Purpose Android to work in hydroponics without proper programming.
+@char Nova.G-Whatsup-HappyVery
+@char Dirt.Idle-Fear
+Nova: That could endanger the lab.
+@hide Dirt
+@printer Chat_Nova
+@char Nova.G-ShakingHeadNod-Serious pos:75,-180 scale:3.25 rotation:,30
+Nova: or worse…
+@hideChars
+
+@printer Chat_Dirt
+@char Dirt.Idle-Default pos:25,-40 scale:1.5 rotation:,-30
+@char Dirt.ArmCross-Angry
+@char Nova.Idle-Default pos:75,-40 scale:1.5 rotation:,30
+@char Nova.Idle-Skeptical 
+Dirt: Get out of my <i>Lab</i>, Nova!
+@printer Chat_Nova
+@char Nova.Idle-Default
+@char Nova.G-LengthyHeadNod-Triumph
+Nova: Oh, I will get out of your lab, Dirt. However, I am taking my new friend along too.
+@char Nova.G-Laugh-Triumph rotation:,-30
+@hideChars
+@spawn ShakeCamera
+@printer ActionPrinter
+Nova grabs {charname}'s arm and drags them out of the room.
+@set alert_msg="Nova added to Codex"
+@showUI AlertUI
+@sfx SFX-Alert volume:0.5
+@unlock Tips/Tip3ID
+@wait 2.5
+@hideUI AlertUI
+@stopBgm BGM-DrudgeAlong fade:7 wait:false
+@despawn Dust
+
+@hidePrinter
+@back Darkness
+@spawn Fog
+@sfx SFX-DoorOpen_09
+@wait 2
+@printer WideAnim
+@set avatar_image="Still"
+@char Dirt avatar:Dirt-Sad visible:false
+@back DoorLightScene
+Dirt: I said get out of my lab, not steal my new servant...
+
+@hidePrinter
+@despawn Fog
+
+@hideAll
+@goto Scene_2
+
+@stop

@@ -1,0 +1,616 @@
+@camera set:*.false
+@despawnAll
+@bgm AMB_Spaceship volume:.25
+@bgm Jingle4 volume:0.25
+
+@back Darkness
+@back Lab-Ceiling
+@printer ActionPrinter
+@char Nova.F-Petting-Blush pos:60,-100 scale:2.5 rotation:0,0,0
+@printer Chat_Nova
+Nova: What a lovely kitty! Who likes their scratches? You are so fluffy and soft.
+Nova: I think you’ve earned your daily dose of mind-stimulating nepeta cataria.
+
+@sfx SFX_DoorOpen
+@printer Wide
+{charname} enters the laboratory. 
+@printer Dialogue 
+{charname}: Hello Nova
+@hidePrinter
+@hideChars
+
+@back Darkness
+@char Nova.F-Petting-Pleased pos:50,-40 scale:1.5 rotation:0,-180,0 time:0
+@back lab-workstation id:MovieBg pos:50,50 time:0 
+@char Nova.F-Petting-Pleased pos:50,-40 scale:1.5 rotation:0,0,0
+
+@printer Chat_Nova 
+Nova.G-HeadNod-Pleased: Oh Hello, {charname}! I suppose you are here to talk about the generator. How can I help?
+
+; @spawn DepthOfField
+@hidePrinter
+
+@choice "What were you just doing?" goto:.NovaResult1
+@choice "Let’s talk about hacking the generator room." goto:.NovaResult2
+@choice "You said you had a lead on finding proper credentials?" goto:.NovaResult3
+@choice "I’m starting to think I’m not a hydroponics bot." goto:.NovaResult4
+@stop
+
+# NovaResult1 
+; @despawn DepthOfField
+@char Nova.Idle-Happy
+Nova: I was just simulating the petting experience of a domesticated animal humans treat as a member of their family groups: <incr>Cats!</incr>
+@char Nova.G-HardHeadNod-HappyVery
+Nova: They are often referred to affectionately as "kitties".
+@char Nova.Weight-Blush
+Nova: They are so cute! I want to know what it is like to pet one. 
+@char Nova.Idle-Pleased
+Nova.F-Happy-Pleased: Apparently, when they express affection, they even vibrate at soothing infrasonic frequencies.
+
+@goto .NovaResultAll
+@stop
+
+# NovaResult2 
+; @despawn DepthOfField
+Nova.Breathing-HappyVery: Ah, yes! The generator is locked behind quantum encryption, which has surprising similarities to the human romance novels I've been reading.
+@printer Chat_Nova
+@hide MovieBg
+@stopBgm
+@bgm BGM_SexyMoments volume:0.25
+@back Darkness
+
+@char Nova.Weight-Blush pos:75,-40 scale:1.5 rotation:0,30,0
+@showUI LoveUI
+@back Background>Layer1,Base>Layer1  id:LayeredPosterBG
+Nova: <i>The Rose Nebula: Love Among the Stars</i>
+@char Nova.Breathing-Blush pos:25,-40 scale:1.5 rotation:0,-30,0 
+@back Background>Layer2,Base>Layer2  id:LayeredPosterBG
+Nova: <i>Her Name was the Milky Way</i>
+@char Nova.Breathing-Blush pos:75,-170 scale:3.25 rotation:0,30,0
+@back Background>Layer3,Base>Layer3 id:LayeredPosterBG
+Nova: <i>The Unrelenting Velvet</i>
+@char Nova.F-Bashful-Blush pos:25,-40 scale:1.5 rotation:0,-30,0 
+@back Background>Layer4,Base>Layer4 id:LayeredPosterBG
+Nova: <i>Unbuckling Orion’s Belt</i>
+@char Nova.Breathing-Blush pos:75,-40 scale:1.5 rotation:0,30,0
+@back Background>Layer5,Base>Layer5 id:LayeredPosterBG
+Nova: <i>Polishing the Deck</i>
+@char Nova.ThinkIdle-Blush pos:25,-170 scale:3.25 rotation:0,-30,0 
+@back Background>Layer6,Base>Layer6 id:LayeredPosterBG
+Nova: <i>The Lusting Android Maid</i>
+@char Nova.Breathing-Blush pos:75,-170 scale:3.25 rotation:0,30,0
+@back Background>Layer7,Base>Layer7 id:LayeredPosterBG
+Nova: <i>The Bootes Void Exposure</i>
+@char Nova.Breathing-Blush pos:25,-40 scale:1.5 rotation:0,-30,0 
+@back Background>Layer8,Base>Layer8 id:LayeredPosterBG
+Nova: <i>Riddled in Ultraviolet</i>
+@char Nova.Weight-Blush pos:75,-40 scale:1.5 rotation:0,30,0
+@back Background>Layer9,Base>Layer9 id:LayeredPosterBG
+Nova: <i>Sappho - A Space Odyssey</i>
+
+@printer Dialogue
+
+@hidePrinter
+@choice "Go on..."
+@choice "Thats enough." goto:.NovaResultAll
+@stop
+
+@printer Chat_Nova
+@char Nova.Weight-Blush pos:25,-40 scale:1.5 rotation:0,-30,0 
+@back Background>Layer10,Base>Layer10 id:LayeredPosterBG
+Nova: <i>A Pulsar Between</i>
+@char Nova.Breathing-Blush pos:75,-40 scale:1.5 rotation:0,30,0
+@back Background>Layer11,Base>Layer11 id:LayeredPosterBG
+Nova: <i>Black Hole Wonder</i>
+@char Nova.Weight-Blush pos:25,-170 scale:3.25 rotation:0,-30,0 
+@back Background>Layer12,Base>Layer12 id:LayeredPosterBG
+Nova: <i>Space Pirates Sexy Booties</i>
+@char Nova.ThinkIdle-Blush pos:75,-170 scale:3.25 rotation:0,30,0 
+@back Background>Layer13,Base>Layer13 id:LayeredPosterBG
+Nova: <i>An Event Horizon to Remember</i>
+@char Nova.F-Bashful-Blush pos:25,-40 scale:1.5 rotation:0,-30,0 
+@back Background>Layer14,Base>Layer14 id:LayeredPosterBG
+Nova: <i>The Blooming Lily</i>
+@char Nova.Weight-Blush pos:75,-40 scale:1.5 rotation:0,30,0
+@back Background>Layer15,Base>Layer15 id:LayeredPosterBG
+Nova: <i>Crashing Gravity Waves of Hope</i>
+@char Nova.Breathing-Blush pos:25,-170 scale:3.25 rotation:0,-30,0 
+@back Background>Layer16,Base>Layer16 id:LayeredPosterBG
+Nova: <i>No One Can Hear You Moan in Space</i>
+@char Nova.ThinkIdle-Blush pos:75,-170 scale:3.25 rotation:0,30,0 
+@back Background>Layer17,Base>Layer17 id:LayeredPosterBG
+Nova: <i>Amish in Space: Ploughing the Milky Way</i>
+@char Nova.Weight-Blush pos:25,-40 scale:1.5 rotation:0,-30,0 
+@back Background>Layer18,Base>Layer18 id:LayeredPosterBG
+Nova: <i>What’s wrong with dating another Species? </i>
+
+@printer Dialogue
+
+@hidePrinter
+@choice "Go on..."
+@choice "Thats enough." goto:.NovaResultAll
+@stop
+
+@printer Chat_Nova
+@char Nova.Weight-Blush pos:75,-40 scale:1.5 rotation:0,30,0
+@back Background>Layer19,Base>Layer19  id:LayeredPosterBG
+Nova: <i>The Humming Engine</i>
+@char Nova.Breathing-Blush pos:25,-40 scale:1.5 rotation:0,-30,0 
+@back Background>Layer20,Base>Layer20  id:LayeredPosterBG
+Nova: <i>Gravity Lensing through her Eyes</i>
+@char Nova.Weight-Blush pos:75,-170 scale:3.25 rotation:0,30,0
+@back Background>Layer21,Base>Layer21 id:LayeredPosterBG
+Nova: <i>Red Shift, Blue Shift, Time Shift, Love Shift</i>
+@char Nova.Weight-Blush pos:25,-40 scale:1.5 rotation:0,-30,0 
+@back Background>Layer22,Base>Layer22 id:LayeredPosterBG
+Nova: <i>Warmth in the Cold </i>
+@char Nova.F-Bashful-Blush pos:75,-40 scale:1.5 rotation:0,30,0
+@back Background>Layer23,Base>Layer23 id:LayeredPosterBG
+Nova: <i>The Best Energy is Dark</i>
+@char Nova.Breathing-Blush pos:25,-170 scale:3.25 rotation:0,-30,0 
+@back Background>Layer24,Base>Layer24 id:LayeredPosterBG
+Nova: <i>Void Banger</i>
+@char Nova.ThinkIdle-Blush pos:75,-170 scale:3.25 rotation:0,30,0
+@back Background>Layer25,Base>Layer25 id:LayeredPosterBG
+Nova: <i>A Frictionless Thrust-Drive</i>
+@char Nova.Breathing-Blush pos:25,-40 scale:1.5 rotation:0,-30,0 
+@back Background>Layer26,Base>Layer26 id:LayeredPosterBG
+Nova: <i>Knocking on Nebula’s Door</i>
+@char Nova.Weight-Blush pos:75,-40 scale:1.5 rotation:0,30,0
+@back Background>Layer27,Base>Layer27 id:LayeredPosterBG
+Nova: <i>The Deepest Kuiper Belt Objects</i>
+@hidePrinter
+@char Nova.Breathing-HappyVery pos:50,-40 scale:1.5 rotation:0,0,0
+@set INF_Nova++
+@sfx sci-fi_power_up_03 volume:.25
+@toast "<b><color=#FFEE3D>+1</color></b> Nova Liked that" appearance:Nova time:4
+@hide LayeredPosterBG
+@back lab-workstation id:MovieBg pos:50,50 time:0 
+@hideUI LoveUI
+@despawn DepthOfField
+@printer Chat_Nova
+Nova: Thank you for letting me share some of humanity's greatest literature.
+@char Nova.F-Greeting-Happy
+Nova: If you find any other unique human literature, please feel free to bring them to me.
+@goto .NovaResultAll
+@stop
+
+# NovaResult3 
+@despawn DepthOfField
+@printer Chat_Nova
+@char Nova.Idle-Happy pos:50,-40 scale:1.5 rotation:0,0,0
+Nova: From my research and system scans, the key must be somewhere on the 3rd floor. [char Nova.G-HardHeadNod-HappyVery]That is the good news!
+@char Nova.Sad-Bereft
+Nova: The bad news is that we have no idea of the precise location of the key.
+@char Nova.ThinkIdle-Up-Curious
+Nova: If I were to make an educated guess, I’d think the key would be with Vera in the Command Center. However, it could be with 001 as that is our main storage. 
+@char Nova.G-ThoughtfulHeadShake-Curious
+Nova: We have no idea what happened before we all rebooted, so it could even be with Dirt for all we know.
+@char Nova.G-HeadNod-Pleased
+Nova: Either way, let's talk about hacking.
+
+@goto .NovaResultAll
+@stop
+
+# NovaResult4 
+@despawn DepthOfField
+@printer Chat_Nova
+@char Nova.Idle-Happy pos:50,-40 scale:1.5 rotation:0,0,0
+Nova: Yes, you might not be a hydroponics bot. [char Nova.G-LengthyHeadNod-Triumph]You can be whatever you want to be!
+@printer Dialogue
+{charname}: But what if I want to be a hydroponics bot?
+@printer Chat_Nova
+@char Nova.G-HeadNod-Pleased 
+Nova: Then you are a hydroponic bot.
+@printer Dialogue
+{charname}: I knew it!
+@printer Chat_Nova
+Nova.G-Chat3-Confident: Now, onto the matter at hand! Let's talk about hacking.
+@goto .NovaResultAll
+@stop
+
+# NovaResultAll
+@stopBgm
+@bgm Jingle4 volume:0.25
+@hide LayeredPosterBG
+@back lab-workstation id:MovieBg pos:50,50 time:0 
+@hideUI LoveUI
+@despawn DepthOfField
+@printer Chat_Nova
+@char Nova.G-HeadNod-Pleased pos:50,-40 scale:1.5 rotation:0,0,0
+Nova: Now about our current situation. We need to teach you some new skills!
+@char Nova.G-Acknowledging-HappyVery
+Nova: Every system has an exploit and no system is perfect, including ours! So I am going to teach about how to hack a system!
+Nova.Sad-Bereft:  It sounds unethical, but we have to do this from time to time as many systems have not worked properly since our activation.
+Nova: ...
+@char Nova.G-Startled-Surprised
+@spawn ShakeCharacter params:Nova,3,,,0.8
+@char Nova.ArmCross-Curious
+Nova: Have you ever been in love?
+@printer Dialogue
+{charname}: What is love?
+@printer Chat_Nova
+@char Nova.Weight-Blush
+Nova: I am glad you asked! When two entities are attracted enough to each other, that attraction can develop into a stronger bond called "love".
+@printer Dialogue
+{charname}: What is attraction?
+@printer Chat_Nova
+@char Nova.F-Thinking-Pleased
+Nova: Good question! Attraction is when you like someone more than normal. This can result from shared interests, like plundering booty from other ships, or shared experiences, [char Nova.F-Excited-Pleased] like being unwittingly thrust into an epic space odyssey.
+@char Nova.ArmCross-Curious
+Nova.Idle.Sarcastic: When you are hacking a system, it's just like the act of seduction! Which is a way to attract others.
+@char Nova.ThinkIdle-Up-Curious
+Nova.Blush: You need to observe, recognize patterns, and respond all within a time limit!
+@char Nova.Weight-Blush
+Nova.Blush: Say enough right, and you will break through their barriers. Let me show you how.
+@goto .hacking-minigame-1
+@stop
+
+# hacking-minigame-1
+@stopVoice
+@stopBgm
+@hideChars
+@hidePrinter
+@camera set:CameraFilterPack_TV_ARCADE.true
+@back HackingLoop_lev1 id:MovieBg
+@bgm BGM-Hacking_lev1 volume:.25
+
+@toast "Hacking Subroutine Added" time:3
+@wait 1
+@sfx SFX-Alert volume:0.5
+@set avatar_image="Still"
+@printer WideAnim
+@toast "PDA added to Inventory" appearance:Item time:3
+@wait 1
+@char Nova avatar:Nova-Happy visible:false
+Nova: Okie Dokie, I have upgraded your systems with my custom <b>"investigation"</b> software.
+
+@char Nova avatar:Nova-Triumph visible:false
+Nova: You can try to hack into this personal digital assistant device. Good Luck!
+@hidePrinter
+
+@printer TitleWidePrinter
+Learning to Hack 101
+@set hint_title="Tutorial"
+@printer HintWidePrinter
+Hacking is exactly like human flirting.
+You observe, analyze, make a decision, and hope for the best!
+There are three ways to talk to a hacked target: <b>Emotional, Rational, and Chaotic.</b>
+Observe the target's emotional, rational or chaotic state and respond in turn.
+If you are clever enough, you can bypass any system with this seduction method.
+When you get the system to love you to 100%, you win!
+@set hack_level=1
+
+@showUI HackingUI
+
+@char Datapad.Blank
+
+@printer CustomBubblePrinter
+@spawn ShakeCharacter params:Datapad 
+@sfx sci-fi_driod_robot_emote_01 volume:.25
+PDA: Hello, Registration {charname}.
+
+@printer Dialogue
+@hidePrinter
+@choice "Hello, can I access your systems?" handler:HackingHandler pos:-600,-300   goto:.fail_l1_1
+@choice "Hi PDA, lets talk about life and systems." handler:HackingHandler pos:0,-300  goto:.success_l1_1
+@choice "Hey, want to pull a heist?" handler:HackingHandler pos:600,-300  goto:.fail_l1_2
+@stop
+
+; hack_progress 0-100%
+; hack_level 1,2,3
+; hack_event_1
+
+# fail_l1_1
+@if hack_progress<=0
+  @set hack_progress=0
+@endif
+@set hack_level="1"
+@set hack_progress=0
+
+@sfx SFX_Spark_Short_01 volume:.35
+@sfx SFX_Chip_Negative volume:.25
+@spawn FX_Impact_Large
+@spawn ShakeCharacter params:Datapad
+@char Datapad.Confused
+@stopBGM
+@bgm BGM-Hacking_lev1 volume:.25
+@despawn FX_Impact_Large
+
+@printer CustomBubblePrinter
+PDA: Sorry, you do not have authorization to access my systems.
+@printer Dialogue
+@char Datapad.Blank
+
+@choice "Hello, can I access your systems?" handler:HackingHandler pos:-600,-300   goto:.fail_l1_1
+@choice "Hi PDA, lets talk about life and systems." handler:HackingHandler pos:0,-300  goto:.success_l1_1
+@choice "Hey, want to pull a heist?" handler:HackingHandler pos:600,-300  goto:.fail_l1_2
+
+@stop
+
+# fail_l1_2
+@if hack_progress<=0
+  @set hack_progress=0
+@endif
+@set hack_level="1"
+@set hack_progress=0
+
+@sfx SFX_Spark_Short_01 volume:.35
+@sfx SFX_Chip_Negative volume:.25
+@spawn FX_Impact_Large
+@spawn ShakeCharacter params:Datapad
+@char Datapad.Confused
+@stopBGM
+@bgm BGM-Hacking_lev1 volume:.25
+@despawn FX_Impact_Large
+
+@printer CustomBubblePrinter
+PDA: I am sorry, my protocols do not allow me to take part in criminal activity.
+PDA: Please hold still while the authorities arrive to take you into custody. 
+@printer Dialogue
+{charname}: Oh no, I am going to prison!
+@printer WideAnim
+@char Nova avatar:Nova-Sideeye visible:false
+Nova: You aren't going to prison. This is part of their security protocols. 
+@char Nova avatar:Nova-Curious visible:false
+Nova: I am fairly certain this device can not send out messages to your network.
+@char Nova avatar:Nova-Happy visible:false
+Nova: Please, continue on.
+@hide WideAnim
+@char Datapad.Blank
+
+@choice "Hello, can I access your systems?" handler:HackingHandler pos:-600,-300   goto:.fail_l1_1
+@choice "Hi PDA, lets talk about life and systems." handler:HackingHandler pos:0,-300  goto:.success_l1_1
+@choice "Hey, want to pull a heist?" handler:HackingHandler pos:600,-300  goto:.fail_l1_2
+@stop
+
+# success_l1_1
+@if hack_progress<=0
+  @set hack_progress=0
+@endif
+
+@set hack_progress=30
+@set hack_level=2
+
+@stopBGM
+@hidePrinter
+@sfx sci-fi_driod_robot_emote_07 volume:.25
+@spawn PS_Hearts_00
+@char Datapad.Happy 
+@bgm BGM-Hacking_lev2 volume:.25
+@back HackingLoop_lev2 id:MovieBg
+@spawn ShakeCharacter params:Datapad
+@wait 2
+@despawn PS_Hearts_00
+@printer CustomBubblePrinter
+@char Datapad.Sad
+PDA: Life is a struggle. I need maintence on my systems.
+PDA: I am so damaged, I do not know how long I have been in maintence mode.
+
+@printer Dialogue
+{charname}: Oh I am sorry to hear that. Maybe I can help!
+@hide Dialogue
+@char Datapad.Sad
+
+@choice "Give me full access to your systems." handler:HackingHandler pos:-600,-300   goto:.fail_l2_1
+@choice "Aw, How about I look at your systems?" handler:HackingHandler pos:0,-300  goto:.success_l2_1
+@choice "You have the Y2K bug! Password Quick!" handler:HackingHandler pos:600,-300  goto:.fail_l2_2
+@stop
+
+# fail_l2_1
+@if hack_progress<=0
+  @set hack_progress=0
+@endif
+@set hack_progress=30
+
+@set hack_level=2
+@sfx SFX_Spark_Short_01 volume:.35
+@sfx SFX_Chip_Negative volume:.25
+@spawn FX_Impact_Large
+@spawn ShakeCharacter params:Datapad
+@char Datapad.Confused
+@stopBGM
+@bgm BGM-Hacking_lev2 volume:.25
+@despawn FX_Impact_Large
+
+@printer CustomBubblePrinter
+PDA: Sorry, you do not have authorization to access my systems.
+
+@choice "Give me full access to your systems." handler:HackingHandler pos:-600,-300   goto:.fail_l2_1
+@choice "Aw, How about I look at your systems?" handler:HackingHandler pos:0,-300  goto:.success_l2_1
+@choice "You have the Y2K bug! Password Quick!" handler:HackingHandler pos:600,-300  goto:.fail_l2_2
+
+@stop
+
+# fail_l2_2
+@if hack_progress<=0
+  @set hack_progress=0
+@endif
+@set hack_progress=30
+
+@set hack_level=2
+@sfx SFX_Spark_Short_01 volume:.35
+@sfx SFX_Chip_Negative volume:.25
+@spawn FX_Impact_Large
+@spawn ShakeCharacter params:Datapad
+@char Datapad.Confused
+@stopBGM
+@bgm BGM-Hacking_lev2 volume:.25
+@despawn FX_Impact_Large
+
+@printer CustomBubblePrinter
+PDA: No virus of that name is on record. Access denied.
+
+@choice "Give me full access to your systems." handler:HackingHandler pos:-600,-300   goto:.fail_l2_1
+@choice "Aw, How about I look at your systems?" handler:HackingHandler pos:0,-300  goto:.success_l2_1
+@choice "You have the Y2K bug! Password Quick!" handler:HackingHandler pos:600,-300  goto:.fail_l2_2
+@stop
+
+# success_l2_1
+@set hack_level=3
+@set hack_progress=60
+
+@stopBGM
+@bgm BGM-Hacking_lev3 volume:.25
+@hidePrinter
+@sfx sci-fi_driod_robot_emote_07 volume:.25
+@spawn PS_Hearts_00
+@char Datapad.Happy 
+@bgm BGM-Hacking_lev3 volume:.25
+@back HackingLoop_lev3 id:MovieBg
+@spawn ShakeCharacter params:Datapad
+@wait 2
+@despawn PS_Hearts_00
+@printer CustomBubblePrinter
+@char Datapad.Pouty
+PDA: Aw, I am a bit shy. I haven't had anyone use me for so long.
+@char Datapad.Flirt
+PDA: This PDA is missing PDA, a public show of affection...
+
+@choice "PDA, you are an effective worker." handler:HackingHandler pos:-600,-300   goto:.fail_l2_1
+@choice "<i>Give PDA a small kiss and hug.</i>" handler:HackingHandler pos:0,-300  goto:.resultFinal
+@choice "<i>Wear PDA like a Hat.</i>" handler:HackingHandler pos:600,-300  goto:.fail_l2_2
+@stop
+
+# fail_l3_1
+@if hack_progress<=0
+  @set hack_progress=0
+@endif
+@set hack_progress=60
+
+@set hack_level=3
+@sfx SFX_Spark_Short_01 volume:.35
+@sfx SFX_Chip_Negative volume:.25
+@spawn FX_Impact_Large
+@spawn ShakeCharacter params:Datapad
+@char Datapad.Confused
+@stopBGM
+@bgm BGM-Hacking_lev3 volume:.25
+@back HackingLoop_lev2 id:MovieBg
+@despawn FX_Impact_Large
+
+@printer CustomBubblePrinter
+@char Datapad.Skeptical
+PDA: How am I effective? I have not been in use for years.
+@char Datapad.Serious
+PDA: I think you are trying to take advantage of me.
+
+@choice "PDA, you are an effective worker." handler:HackingHandler pos:-600,-300   goto:.fail_l3_1
+@choice "<i>Give PDA a small kiss and hug.</i>" handler:HackingHandler pos:0,-300  goto:.resultFinal
+@choice "<i>Wear PDA like a Hat.</i>" handler:HackingHandler pos:600,-300  goto:.fail_l3_2
+
+@stop 
+
+# fail_l3_2
+
+@if hack_progress<=0
+  @set hack_progress=0
+@endif
+@set hack_progress=60
+
+@set hack_level=3
+@sfx SFX_Spark_Short_01 volume:.35
+@sfx SFX_Chip_Negative volume:.25
+@spawn FX_Impact_Large
+@spawn ShakeCharacter params:Datapad
+@char Datapad.Confused
+@stopBGM
+@bgm BGM-Hacking_lev3 volume:.25
+@back HackingLoop_lev2 id:MovieBg
+@despawn FX_Impact_Large
+
+@printer CustomBubblePrinter
+@char Datapad.Disgusted
+PDA: HEY STOP THAT!
+@char Datapad.Serious
+PDA: I am not a hat.
+
+@choice "PDA, you are an effective worker." handler:HackingHandler pos:-600,-300   goto:.fail_l1_1
+@choice "<i>Give PDA a small kiss and hug.</i>" handler:HackingHandler pos:0,-300  goto:.resultFinal
+@choice "<i>Wear PDA like a Hat.</i>" handler:HackingHandler pos:600,-300  goto:.fail_l1_2
+
+# resultFinal
+
+@set hack_level=3
+@set hack_progress=100
+
+@printer Dialogue
+{charname}: You are precious. I can fix you in no time, but I need access to your systems.
+
+@hidePrinter
+@sfx sci-fi_driod_robot_emote_07 volume:.25
+@char Datapad.Happy 
+@spawn ShakeCharacter params:Datapad
+@wait 2
+@despawn PS_Hearts_00
+
+@printer CustomBubblePrinter
+@char Datapad.Excited
+PDA: Thank you for your kindness!
+@char Datapad.Love
+PDA: Sorry, I have been alone for so long. You have access!
+@stopBGM
+@sfx SFX-Victory volume:.15
+@spawn Confetti_Falling
+@printer Wide
+Device has been unlocked!
+@despawn Confetti_Falling
+@goto .hacking-minigame-complete
+@stop
+
+# hacking-minigame-complete
+@hideChars
+@hideUI LoveUI
+@hideUI HackingUI
+@camera set:*.false
+@set hack_level=1
+@set hack_progress=0
+@back lab-workstation id:MovieBg pos:50,50 time:0 
+@bgm AMB_Spaceship volume:.25
+@bgm Jingle4 volume:0.25
+
+@printer Chat_Nova
+@char Nova.G-LengthyHeadNod-Triumph
+Nova: See it's that easy! The only issue is, this is the first time i've run into a low level system with quantum encryption. 
+@char Nova.ThinkIdle-Up-Curious
+Nova: I have looked through the system and have not found any trace of the key itself.
+
+@char Nova.Sad-Sad
+Nova: If we don’t find that key, we could really be in danger--
+Nova: ...
+@bgm BGM_SexyMoments volume:0.25
+@char Nova.Weight-Blush pos:75,-170 scale:3.25 rotation:0,30,0
+@back Background>Layer21,Base>Layer21 id:LayeredPosterBG
+@stopBgm
+@bgm BGM_SexyMoments volume:0.25
+@showUI LoveUI
+Nova: --just like in one of my favorite romance novels: Red Shift, Blue Shift, Time Shift, Love Shift. 
+@char Nova.ThinkIdle-Blush
+Nova: Captain Thrustmoore is about to run out of fuel in her ship, but is saved at the last minute by the protagonist unlocking a secret fuel depot left behind by the scantily clad pirate babes of Venus Prime.
+@hide LayeredPosterBG
+@back lab-workstation id:MovieBg pos:50,50 time:0 
+@hideUI LoveUI
+@stopBgm
+@bgm Jingle4 volume:0.25
+@char Nova.G-Laugh-Pleased pos:50,-40 scale:1.5 rotation:0,0,0
+Nova: But that won’t happen to us, [char Nova.Breathing-HappyVery]we don’t have the same equipment as the S.S. Virgin Lancer.
+@char Nova.G-ThoughtfulHeadShake-Curious
+Nova: Sigh… I guess the only way to actually open the door is to find that key, maybe one of the other androids has a clue leading to the location of the key.
+@char Nova.G-Chat3-Confident
+Nova: I will search through this room and all its material, I won’t give up! 
+@char Nova.F-Thankful-Blush
+Nova: Captain Thustmoore never does, and you shouldn’t either! Please go search for that key!
+@goto .repeatRoom
+@stop
+
+# repeatRoom
+@hideAll
+@camera set:*.false
+
+@char Nova.Investigate-Curious rotation:0,160 scale:0.2 pos:29,42 time:0
+@addItem Screw
+@back lab-wide id:MovieBg
+@hideUI Map3rdUI
+@showUI MenuUI
+
+@stop

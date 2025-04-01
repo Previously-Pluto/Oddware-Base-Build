@@ -1,0 +1,18 @@
+@showUI MenuUI
+Continue executing this script or load another?[skipInput]
+@hidePrinter
+@choice "▲" handler:NavigationHandler  pos:790,115 goto:.Labelname
+@choice "▼" handler:NavigationHandler  pos:790,-15 goto:.AnotherScript
+@choice "►" handler:NavigationHandler  pos:890,50 goto:.lastLabel
+@choice "◄" handler:NavigationHandler  pos:690,50 goto:.lastLabel
+@stop
+#Labelname
+Label 1
+@goto .lastLabel
+#AnotherScript
+Label 2
+@goto .lastLabel
+#lastLabel
+TestCharacter: Last Label
+
+@stop

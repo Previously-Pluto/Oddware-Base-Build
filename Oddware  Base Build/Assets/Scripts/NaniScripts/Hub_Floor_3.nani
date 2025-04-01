@@ -1,0 +1,9 @@
+@camera set:*.false
+@bgm AMB_Spaceship volume:.25
+@sfx VOC-Lullaby_01 loop:true volume:.5
+@bgm Jingle4 volume:0.25
+
+
+
+
+@stop

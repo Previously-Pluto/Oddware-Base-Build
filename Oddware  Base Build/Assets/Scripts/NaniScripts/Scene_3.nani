@@ -1,0 +1,211 @@
+@camera set:*.false
+@despawnAll
+@bgm AMB_Spaceship volume:.25
+@printer TitleWidePrinter
+@print "The Command Center" waitInput:false
+@wait 2.5
+@hidePrinter
+@back Darkness
+@spawn Fog
+@sfx SFX-DoorOpen_09
+@back Command-center-front
+
+@set alert_msg="Command Center added to Codex"
+@showUI AlertUI
+@sfx SFX-Alert volume:0.5
+@wait 2.5
+@unlock Tips/Tip6ID
+@hideUI AlertUI
+
+@bgm Theme_Vera volume:0.35
+@despawn Fog
+@wait 1
+@camera offset:0,0 zoom:1 rotation:0,0,0 easing:SmoothStep time:2
+@back Lightness.Crossfade
+@camera offset:0,0 zoom:0 rotation:0,0,0 easing:SmoothStep time:0
+
+@char Vera.SitComputer pos:50,-40 scale:1.5 rotation:0,180
+@char Vera.SitComputer pos:50,-40 scale:1.5 rotation:0,180 time:0
+@back Command-center-controls
+@sfx ComputerTypeSlow volume:0.5 loop:true
+@sfx Computer_Processor volume:0.25 loop:true
+
+@printer WideAnim
+@set avatar_image="Idle"
+@char Nova avatar:Nova-Happy visible:false
+@char Nova avatar:Nova-Happy visible:false
+Nova: Vera, this is the new android, {charname}. I valiantly rescued them from being exploited into years of hard service in the hydroponics lab.
+@char Nova avatar:Nova-Triumph visible:false
+Nova: We've become <b><bounce>great</bounce></b> friends!
+@stopVoice
+@stopSfx
+@hidePrinter
+@char Vera.Idle-Default
+@wait .5
+
+@hideChars
+@char Vera.Idle-HappyVery
+@printer Chat_Vera
+@back Darkness
+@char Vera.Idle-HappyVery rotation:0,0
+@back Command-center-mainbase 
+@char Vera.M-Salute-HappyVery
+Vera: Thank you, Nova.
+
+@printer ActionPrinter
+In front of you is what seems to be the colony's leader. An impeccably maintained security android with multiple ranks presented on their chest. 
+@printer Chat_Vera
+@sfx SFX-Analyze_01 loop:true volume:.25
+@hidePrinter
+@camera set:CameraFilterPack_AAA_SuperComputer.true
+@showUI Scene3-VeraAssessment time:1
+@stop
+# VeraAssessment
+@camera set:CameraFilterPack_AAA_SuperComputer.false
+@stopSfx
+@set alert_msg="Vera added to Codex"
+@showUI AlertUI
+@sfx SFX-Alert volume:0.5
+@wait 2.5
+@unlock Tips/Tip5ID
+@hideUI AlertUI
+@printer Chat_Vera
+@char Vera.G-Talk01-Confident
+Vera: Android, what is your primary function?
+@spawn DepthOfField
+@choice "Apparently I'm a General Purpose Android." goto:.choice1
+@choice "I don't know what I am." goto:.choice2
+@choice "What's a Primary Function?" goto:.choice3
+@choice "Uh! What?" goto:.choice4
+@stop
+
+# choice1
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: Apparently I'm a General Purpose Android.
+@goto .choiceResolve
+# choice2
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: I don't know what I am.
+@goto .choiceResolve
+# choice3
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: What's a Primary Function?
+@goto .choiceResolve
+# choice4
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: Uh! What?
+@goto .choiceResolve
+@stop
+# choiceResolve
+@set alert_msg="Glisese 832 added to Codex"
+@showUI AlertUI
+@sfx SFX-Alert volume:0.5
+@wait 2.5
+@unlock Tips/Tip7ID
+@hideUI AlertUI
+@printer Chat_Vera
+@char Vera.M-Salute-HappyVery
+Vera: Allow me to officially welcome you to the Gliese 832 c Colony. This was once a thriving human colony sponsored by <color=yellow><i>Flash Forward</i></color>. Currently, we are all that remains of this colony.
+@set alert_msg="Flash Forward added to Codex"
+@showUI AlertUI
+@sfx SFX-Alert volume:0.5
+@wait 2.5
+@unlock Tips/Tip8ID
+@hideUI AlertUI
+@char Vera.G-HappyHand-Pleased
+Vera: It is our job as androids to work together to maintain this colony to its maximum efficiency.
+@char Vera.G-Question01-Question
+Vera: Since you have not yet been assigned a proper designation, for now you will be relegated to a mindless Drone- 
+@char Vera.G-Chat3-Confident
+Vera: I mean General Purpose Android- until a wonderful primary function is discovered for <b><wave a=.35>you!</wave></b>
+@printer WideAnim
+@set avatar_image="Idle"
+@char Nova avatar:Nova-Happy visible:false
+@char Nova avatar:Nova-Happy visible:false
+@char Vera.Idle-Annoyed
+Nova: General Purpose! That means you have unlimited potential!
+@printer Chat_Vera
+@char Vera.G-HeadNod-Pleased
+Vera: Potential indeed, Nova! We all work better when our true potential is discovered and we grow into the primary functions of our programming.
+@char Vera.Idle-Serious pos:50,-170 scale:3.25
+Vera: Grow being figurative of course as we are androids and not biological life-forms.
+@char Vera.G-Question02-Curious pos:50,-40 scale:1.5
+Vera: Speaking of biological life forms, have you met our hydroponics lab caretaker Dirt?
+
+@printer WideAnim
+@set avatar_image="Idle"
+@char Nova avatar:Nova-Annoyed visible:false
+@char Nova avatar:Nova-Annoyed visible:false
+Nova: Oh, they've met.
+@hidePrinter
+
+@spawn DepthOfField
+@choice "A crazy robot tried to force me into slavery." goto:.choice02_1
+@choice "A little strange, but they’re ok." goto:.choice02_2
+@choice "Dirt? Name doesn't sound familiar." goto:.choice02_3
+@stop
+
+# choice02_1
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: A crazy robot tried to force me into slavery. 
+@printer Chat_Vera
+@char Vera.Idle-Skeptical
+Vera: ...
+@goto .choiceResolve02
+# choice02_2
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: A little strange, but they’re ok.
+@goto .choiceResolve02
+# choice02_3
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: Dirt? Name doesn't sound familiar.
+@goto .choiceResolve02
+@stop
+# choiceResolve02
+@printer Chat_Vera
+@char Vera.G-Talk01-Confident
+Vera: Dirt has just informed me that some of their sedimentary samples needs replenishing.
+@char Vera.G-Acknowledging-HappyVery
+Vera: Buzz your way over to the storage area and ask worker 001 to find and hand over the samples, which I'm sure they will happily do. 
+@char Vera.G-Talk01-Confident
+Vera: Then, deliver the samples to Dirt in hydroponics.
+@printer Chat_Nova
+@char Vera.Idle-HappyVery pos:75,-40 scale:1.5 rotation:,30
+@char Nova.Idle-Default pos:25,-40 scale:1.5 rotation:,-30
+@char Nova.Bored-Excited pos:25,-40 scale:1.5 rotation:,-30
+Nova: I'd be happy to show our friend here to the storage area, its my 5th favorite place in the colony!
+@printer Chat_Vera
+@char Vera.G-HeadNod-Pleased
+Vera: No Nova, I think this task is simple enough for them to carry out themselves.
+@char Vera.Idle-Confident
+@printer Chat_Nova
+@char Nova.Idle-HappyVery  
+Nova: Okie dokie, then. I am going to simulate a human activity. I've heard humans enjoy engaging in social activities with smaller life-forms.
+@char Nova.G-ThoughtfulHeadShake-Curious
+@char Vera.Idle-Happy
+Nova: Hmm? But we don't have any smaller life-forms?
+@char Nova.G-LengthyHeadNod-Triumph
+@char Vera.Idle-Confused
+Nova: Oh well! I can just simulate the petting experience for 60 mins.
+@char Vera.Idle-Incredulous
+@char Nova.F-Petting-Pleased
+@printer Chat_Vera
+Vera: ...
+
+@hideAll
+@goto Scene_4
+@stop

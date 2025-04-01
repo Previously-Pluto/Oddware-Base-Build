@@ -1,0 +1,621 @@
+; Enter novel mode.
+@back Landscape time:0
+@spawn SunShafts
+
+@printer Dialogue
+@toggleSave Value:false
+
+
+Demo Begin. Start triangle Game: {G_01_Triangle}
+@back  visible:false
+@playPuzzle PuzzleName:01_Triangle
+@hideUI
+Completed
+01_Triangle mini game is complete: {G_01_Triangle}
+
+
+Demo Begin. Start triangle Game: {G_01_Triangle}
+@back  visible:false
+@playPuzzle PuzzleName:01_Triangle
+@hideUI
+Completed
+01_Triangle mini game is complete: {G_01_Triangle}
+
+Demo Begin. Start parchment Game: {G_49_Grp_Tarot_Card_B}
+@back  visible:false
+@playPuzzle PuzzleName:04_SlotMachine
+@hideUI
+Completed
+
+
+Demo Begin. Start parchment Game: {G_49_Grp_Tarot_Card_B}
+@back  visible:false
+@playPuzzle PuzzleName:04_SlotMachine
+@hideUI
+Completed
+
+Puzzle parchment game is complete: {G_49_Grp_Tarot_Card_B}
+@toggleSave Value:true
+Demo Begin. Start custom UI Game: {G_79_Puzzle_CustomUI_Numbers}
+@back  visible:false
+@playPuzzle PuzzleName:79_Puzzle_CustomUI_Numbers
+@hideUI
+Completed
+Custom UI mini game is complete: {G_79_Puzzle_CustomUI_Numbers}
+
+Demo Begin. Start custom UI Game: {G_78_Puzzle_CustomUI_Colors}
+@back  visible:false
+@playPuzzle PuzzleName:78_Puzzle_CustomUI_Colors
+@hideUI
+Completed
+Custom UI mini game is complete: {G_78_Puzzle_CustomUI_Colors}
+
+Demo Begin. Start custom UI Game: {G_77_Puzzle_CustomUI_Press_the_button}
+@back  visible:false
+@playPuzzle PuzzleName:77_Puzzle_CustomUI_Press_the_button
+@hideUI
+Completed
+Custom UI mini game is complete: {G_77_Puzzle_CustomUI_Press_the_button}
+
+Demo Begin. key pad puzzle
+The code for the puzzle is 2345B
+@back  visible:false
+@playAKPuzzle PuzzleName:Keyboard_Scifi_Model
+@hideUI
+Completed
+
+Demo Begin. Start puzzle digicode Game: {G_02_Puzzle_Digicode_Fish}
+@back  visible:false
+@hideUI
+@playPuzzle PuzzleName:02_Puzzle_Digicode_Fish
+Completed
+Puzzle Digicode fish mini game is complete: {G_02_Puzzle_Digicode_Fish}
+
+Demo Begin. Start Hacking Mini Game: {G_03_TypingGame}
+@back  visible:false
+@playPuzzle PuzzleName:03_TypingGame
+@hideUI
+Completed
+Hacking mini game is complete: {G_03_TypingGame}
+
+Demo Begin. Start sliding Mini Game: {G_05_Puzzle_Sliding_Image}
+@back  visible:false
+@playPuzzle PuzzleName:05_Puzzle_Sliding_Image
+@hideUI
+Completed
+Sliding mini game is complete: {G_05_Puzzle_Sliding_Image}
+
+Demo Begin. Start puzzle pipe Game: {G_06_Puzzle_Pipe}
+@back  visible:false
+@playPuzzle PuzzleName:06_Puzzle_Pipe
+@hideUI
+Completed
+Puzzle pipe mini game is complete: {G_06_Puzzle_Pipe}
+
+Demo Begin. Start cercle letter Game: {G_07_Puzzle_Cercle_Letter}
+@back  visible:false
+@playPuzzle PuzzleName:07_Puzzle_Cercle_Letter
+@hideUI
+Completed
+Puzzle cercle letter game is complete: {G_07_Puzzle_Cercle_Letter}
+
+Demo Begin. Start min max Game: {G_08_Lever_Min_Max}
+@back  visible:false
+@playPuzzle PuzzleName:08_Lever_Min_Max
+@hideUI
+Completed
+Puzzle min max game is complete: {G_08_Lever_Min_Max}
+
+Demo Begin. Start form slider Game: {G_09_Form_Slider}
+@back  visible:false
+@playPuzzle PuzzleName:09_Form_Slider
+@hideUI
+Completed
+Puzzle form slider game is complete: {G_09_Form_Slider}
+
+Demo Begin. Start color ball Game: {G_10_Color_Ball_02}
+@back  visible:false
+@playPuzzle PuzzleName:10_Color_Ball_02
+@hideUI
+Completed
+Puzzle color ball game is complete: {G_10_Color_Ball_02}
+
+Demo Begin. Start puzzle pipe Game: {G_11_Puzzle_Logic_01}
+@back  visible:false
+@playPuzzle PuzzleName:11_Puzzle_Logic_01
+@hideUI
+Completed
+Puzzle pipe mini game is complete: {G_11_Puzzle_Logic_01}
+
+Demo Begin. Start machine H2O Game: {G_11_Grp_Code_Machine_H2O}
+@back  visible:false
+@playPuzzle PuzzleName:11_Grp_Code_Machine_H2O
+@hideUI
+Completed
+Puzzle machine H20 game is complete: {G_11_Grp_Code_Machine_H2O}
+
+Demo Begin. Start sliding volume Game: {G_12_Grp_Puzzle_Sliding_Volume}
+@back  visible:false
+@playPuzzle PuzzleName:12_Grp_Puzzle_Sliding_Volume
+@hideUI
+Completed
+Puzzle sliding volume game is complete: {G_12_Grp_Puzzle_Sliding_Volume}
+
+Demo Begin. Start puzzle pipe Game: {G_13_Grp_Puzzle_Pipe_Dice}
+@back  visible:false
+@playPuzzle PuzzleName:13_Grp_Puzzle_Pipe_Dice
+@hideUI
+Completed
+Puzzle pipe mini game is complete: {G_13_Grp_Puzzle_Pipe_Dice}
+
+Demo Begin. Start machine diamond Game: {G_14_Grp_Code_Machine_Diamond}
+@back  visible:false
+@playPuzzle PuzzleName:14_Grp_Code_Machine_Diamond
+@hideUI
+Completed
+Puzzle machine diamond is complete: {G_14_Grp_Code_Machine_Diamond}
+
+Demo Begin. Start lever flag Game: {G_15_Grp_Lever_Flag_Grp}
+@back  visible:false
+@playPuzzle PuzzleName:15_Grp_Lever_Flag_Grp
+@hideUI
+Completed
+Puzzle lever flag game is complete: {G_15_Grp_Lever_Flag_Grp}
+
+Demo Begin. Start lever handle Game: {G_16_Grp_Puzzle_Lever}
+@back  visible:false
+@playPuzzle PuzzleName:16_Grp_Puzzle_Lever
+@hideUI
+Completed
+Puzzle lever handle game is complete: {G_16_Grp_Puzzle_Lever}
+
+Demo Begin. Start parchment Game: {G_17_Grp_Parchment}
+@back  visible:false
+@playPuzzle PuzzleName:17_Grp_Parchment
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_17_Grp_Parchment}
+
+Demo Begin. Start parchment Game: {G_18_Grp_Cylinder_Horizontal}
+@back  visible:false
+@playPuzzle PuzzleName:18_Grp_Cylinder_Horizontal
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_18_Grp_Cylinder_Horizontal}
+
+Demo Begin. Start parchment Game: {G_19_Grp_Logic_Number}
+@back  visible:false
+@playPuzzle PuzzleName:19_Grp_Logic_Number
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_19_Grp_Logic_Number}
+
+Demo Begin. Start parchment Game: {G_20_Puzzle_Logic_Earth}
+@back  visible:false
+@playPuzzle PuzzleName:20_Puzzle_Logic_Earth
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_20_Puzzle_Logic_Earth}
+
+Demo Begin. Start parchment Game: {G_21_Grp_Puzzle_Digicode_Season}
+@back  visible:false
+@playPuzzle PuzzleName:21_Grp_Puzzle_Digicode_Season
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_21_Grp_Puzzle_Digicode_Season}
+
+Demo Begin. Start parchment Game: {G_22_Grp_Puzzle_Sliding_Letter}
+@back  visible:false
+@playPuzzle PuzzleName:22_Grp_Puzzle_Sliding_Letter
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_22_Grp_Puzzle_Sliding_Letter}
+
+Demo Begin. Start parchment Game: {G_23_Grp_Puzzle_Gear_Fake}
+@back  visible:false
+@playPuzzle PuzzleName:23_Grp_Puzzle_Gear_Fake
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_23_Grp_Puzzle_Gear_Fake}
+
+Demo Begin. Start parchment Game: {G_24_Grp_Puzzle_Pipe_Pipe}
+@back  visible:false
+@playPuzzle PuzzleName:24_Grp_Puzzle_Pipe_Pipe
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_24_Grp_Puzzle_Pipe_Pipe}
+
+Demo Begin. Start parchment Game: {G_25_Grp_Lever_Color_Mixer_Number}
+@back  visible:false
+@playPuzzle PuzzleName:25_Grp_Lever_Color_Mixer_Number
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_25_Grp_Lever_Color_Mixer_Number}
+
+Demo Begin. Start parchment Game: {G_26_Grp_Puzzle_5}
+@back  visible:false
+@playPuzzle PuzzleName:26_Grp_Puzzle_5
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_26_Grp_Puzzle_5}
+
+Demo Begin. Start parchment Game: {G_27_Grp_Jigsaw}
+@back  visible:false
+@playPuzzle PuzzleName:27_Grp_Jigsaw
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_27_Grp_Jigsaw}
+
+Demo Begin. Start parchment Game: {G_28_Grp_Word_01}
+@back  visible:false
+@playPuzzle PuzzleName:28_Grp_Word_01
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_28_Grp_Word_01}
+
+Demo Begin. Start parchment Game: {G_29_Grp_Bridge}
+@back  visible:false
+@playPuzzle PuzzleName:29_Grp_Bridge
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_29_Grp_Bridge}
+
+Demo Begin. Start parchment Game: {G_30_Puzzle_Logic_03}
+@back  visible:false
+@playPuzzle PuzzleName:30_Puzzle_Logic_03
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_30_Puzzle_Logic_03}
+
+Demo Begin. Start parchment Game: {G_31_Grp_Puzzle_Digicode_8824}
+@back  visible:false
+@playPuzzle PuzzleName:31_Grp_Puzzle_Digicode_8824
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_31_Grp_Puzzle_Digicode_8824}
+
+Demo Begin. Start parchment Game: {G_32_Grp_PadLock}
+@back  visible:false
+@playPuzzle PuzzleName:32_Grp_PadLock
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_32_Grp_PadLock}
+
+Demo Begin. Start parchment Game: {G_33_Grp_Puzzle_Machine}
+@back  visible:false
+@playPuzzle PuzzleName:33_Grp_Puzzle_Machine
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_33_Grp_Puzzle_Machine}
+
+Demo Begin. Start parchment Game: {G_34_Grp_Puzzle_Sliding_Hole}
+@back  visible:false
+@playPuzzle PuzzleName:34_Grp_Puzzle_Sliding_Hole
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_34_Grp_Puzzle_Sliding_Hole}
+
+Demo Begin. Start parchment Game: {G_35_Grp_Puzzle_Pipe_Color}
+@back  visible:false
+@playPuzzle PuzzleName:35_Grp_Puzzle_Pipe_Color
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_35_Grp_Puzzle_Pipe_Color}
+
+Demo Begin. Start parchment Game: {G_36_Grp_Puzzle_8}
+@back  visible:false
+@playPuzzle PuzzleName:36_Grp_Puzzle_8
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_36_Grp_Puzzle_8}
+
+Demo Begin. Start parchment Game: {G_37_Grp_Lever_Word}
+@back  visible:false
+@playPuzzle PuzzleName:37_Grp_Lever_Word
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_37_Grp_Lever_Word}
+
+Demo Begin. Start parchment Game: {G_38_Grp_Strip_Jigsaw}
+@back  visible:false
+@playPuzzle PuzzleName:38_Grp_Strip_Jigsaw
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_38_Grp_Strip_Jigsaw}
+
+Demo Begin. Start parchment Game: {G_39_Grp_Logic_Blue_Red}
+@back  visible:false
+@playPuzzle PuzzleName:39_Grp_Logic_Blue_Red
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_39_Grp_Logic_Blue_Red}
+
+Demo Begin. Start parchment Game: {G_40_Grp_Cylindre_Volume}
+@back  visible:false
+@playPuzzle PuzzleName:40_Grp_Cylindre_Volume
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_40_Grp_Cylindre_Volume}
+
+Demo Begin. Start parchment Game: {G_41_Grp_Puzzle_Digicode_Simple}
+@back  visible:false
+@playPuzzle PuzzleName:41_Grp_Puzzle_Digicode_Simple
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_41_Grp_Puzzle_Digicode_Simple}
+
+Demo Begin. Start parchment Game: {G_42_Grp_Puzzle_Digicode_Black}
+@back  visible:false
+@playPuzzle PuzzleName:42_Grp_Puzzle_Digicode_Black
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_42_Grp_Puzzle_Digicode_Black}
+
+Demo Begin. Start parchment Game: {G_43_Grp_Puzzle_Sliding_Big}
+@back  visible:false
+@playPuzzle PuzzleName:43_Grp_Puzzle_Sliding_Big
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_43_Grp_Puzzle_Sliding_Big}
+
+Demo Begin. Start parchment Game: {G_44_Grp_Cylindre_Lign}
+@back  visible:false
+@playPuzzle PuzzleName:44_Grp_Cylindre_Lign
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_44_Grp_Cylindre_Lign}
+
+Demo Begin. Start parchment Game: {G_45_Grp_Puzzle_Gear_Simple}
+@back  visible:false
+@playPuzzle PuzzleName:45_Grp_Puzzle_Gear_Simple
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_45_Grp_Puzzle_Gear_Simple}
+
+Demo Begin. Start parchment Game: {G_46_Grp_Puzzle_Pipe_Basic}
+@back  visible:false
+@playPuzzle PuzzleName:46_Grp_Puzzle_Pipe_Basic
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_46_Grp_Puzzle_Pipe_Basic}
+
+Demo Begin. Start parchment Game: {G_47_Grp_Word_02}
+@back  visible:false
+@playPuzzle PuzzleName:47_Grp_Word_02
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_47_Grp_Word_02}
+
+Demo Begin. Start parchment Game: {G_48_Grp_Big}
+@back  visible:false
+@playPuzzle PuzzleName:48_Grp_Big
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_48_Grp_Big}
+
+Demo Begin. Start parchment Game: {G_49_Grp_Tarot_Card_B}
+@back  visible:false
+@playPuzzle PuzzleName:04_SlotMachine
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_49_Grp_Tarot_Card_B}
+
+Demo Begin. Start parchment Game: {G_50_Grp_Code_Machine_Vampire}
+@back  visible:false
+@playPuzzle PuzzleName:50_Grp_Code_Machine_Vampire
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_50_Grp_Code_Machine_Vampire}
+
+Demo Begin. Start parchment Game: {G_51_Grp_Square}
+@back  visible:false
+@playPuzzle PuzzleName:51_Grp_Square
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_51_Grp_Square}
+
+Demo Begin. Start parchment Game: {G_52_Grp_Cylindre_Potion}
+@back  visible:false
+@playPuzzle PuzzleName:52_Grp_Cylindre_Potion
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_52_Grp_Cylindre_Potion}
+
+Demo Begin. Start parchment Game: {G_53_Puzzle_Logic_02}
+@back  visible:false
+@playPuzzle PuzzleName:53_Puzzle_Logic_02
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_53_Puzzle_Logic_02}
+
+Demo Begin. Start parchment Game: {G_54_Grp_Car}
+@back  visible:false
+@playPuzzle PuzzleName:54_Grp_Car
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_54_Grp_Car}
+
+Demo Begin. Start parchment Game: {G_55_Grp_Cylinder_Country}
+@back  visible:false
+@playPuzzle PuzzleName:55_Grp_Cylinder_Country
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_55_Grp_Cylinder_Country}
+
+Demo Begin. Start parchment Game: {G_56_Grp_Puzzle_Digicode_17}
+@back  visible:false
+@playPuzzle PuzzleName:56_Grp_Puzzle_Digicode_17
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_56_Grp_Puzzle_Digicode_17}
+
+Demo Begin. Start parchment Game: {G_57_Grp_Puzzle_Gear_MoreComplexPivot}
+@back  visible:false
+@playPuzzle PuzzleName:57_Grp_Puzzle_Gear_MoreComplexPivot
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_57_Grp_Puzzle_Gear_MoreComplexPivot}
+
+Demo Begin. Start parchment Game: {G_58_Grp_Puzzle_Pipe_Sign}
+@back  visible:false
+@playPuzzle PuzzleName:58_Grp_Puzzle_Pipe_Sign
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_58_Grp_Puzzle_Pipe_Sign}
+
+Demo Begin. Start parchment Game: {G_59_Grp_Puzzle_Sliding}
+@back  visible:false
+@playPuzzle PuzzleName:59_Grp_Puzzle_Sliding
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_59_Grp_Puzzle_Sliding}
+
+Demo Begin. Start parchment Game: {G_60_Grp_Lever_Color_Mixer}
+@back  visible:false
+@playPuzzle PuzzleName:60_Grp_Lever_Color_Mixer
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_60_Grp_Lever_Color_Mixer}
+
+Demo Begin. Start parchment Game: {G_61_Grp_Watch}
+@back  visible:false
+@playPuzzle PuzzleName:61_Grp_Watch
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_61_Grp_Watch}
+
+Demo Begin. Start parchment Game: {G_62_Grp_Code_Machine_Relativity}
+@back  visible:false
+@playPuzzle PuzzleName:62_Grp_Code_Machine_Relativity
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_62_Grp_Code_Machine_Relativity}
+
+Demo Begin. Start parchment Game: {G_63_Grp_Lever_Sentence}
+@back  visible:false
+@playPuzzle PuzzleName:63_Grp_Lever_Sentence
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_63_Grp_Lever_Sentence}
+
+Demo Begin. Start parchment Game: {G_64_Grp_Lock}
+@back  visible:false
+@playPuzzle PuzzleName:64_Grp_Lock
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_64_Grp_Lock}
+
+Demo Begin. Start parchment Game: {G_65_Grp_Puzzle_Logics}
+@back  visible:false
+@playPuzzle PuzzleName:65_Grp_Puzzle_Logics
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_65_Grp_Puzzle_Logics}
+
+Demo Begin. Start parchment Game: {G_66_Grp_Word_03}
+@back  visible:false
+@playPuzzle PuzzleName:66_Grp_Word_03
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_66_Grp_Word_03}
+
+Demo Begin. Start parchment Game: {G_67_Grp_Puzzle_Lever}
+@back  visible:false
+@playPuzzle PuzzleName:67_Grp_Puzzle_Lever
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_67_Grp_Puzzle_Lever}
+
+Demo Begin. Start parchment Game: {G_68_Grp_Puzzle_Cylinder}
+@back  visible:false
+@playPuzzle PuzzleName:68_Grp_Puzzle_Cylinder
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_68_Grp_Puzzle_Cylinder}
+
+Demo Begin. Start parchment Game: {G_69_Grp_Puzzle_Digicode_Bat}
+@back  visible:false
+@playPuzzle PuzzleName:69_Grp_Puzzle_Digicode_Bat
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_69_Grp_Puzzle_Digicode_Bat}
+
+Demo Begin. Start parchment Game: {G_70_Puzzle_Logic_Stick}
+@back  visible:false
+@playPuzzle PuzzleName:70_Puzzle_Logic_Stick
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_70_Puzzle_Logic_Stick}
+
+Demo Begin. Start parchment Game: {G_71_Grp_Code_Machine_1789}
+@back  visible:false
+@playPuzzle PuzzleName:71_Grp_Code_Machine_1789
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_71_Grp_Code_Machine_1789}
+
+Demo Begin. Start parchment Game: {G_72_Grp_Caterpillar}
+@back  visible:false
+@playPuzzle PuzzleName:72_Grp_Caterpillar
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_72_Grp_Caterpillar}
+
+
+Demo Begin. Start parchment Game: {G_73_Grp_Color_Ball_01}
+@back  visible:false
+@playPuzzle PuzzleName:73_Grp_Color_Ball_01
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_73_Grp_Color_Ball_01}
+
+Demo Begin. Start parchment Game: {G_74_Grp_Puzzle_Digicode}
+@back  visible:false
+@playPuzzle PuzzleName:74_Grp_Puzzle_Digicode
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_74_Grp_Puzzle_Digicode}
+
+Demo Begin. Start parchment Game: {G_75_Grp_Puzzle_4}
+@back  visible:false
+@playPuzzle PuzzleName:75_Grp_Puzzle_4
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_75_Grp_Puzzle_4}
+
+Demo Begin. Start parchment Game: {G_76_Puzzle_Logic_04}
+@back  visible:false
+@playPuzzle PuzzleName:76_Puzzle_Logic_04
+@hideUI
+Completed
+Puzzle parchment game is complete: {G_76_Puzzle_Logic_04}
+
+Showing Healthbox item
+@showItem ItemName:HealthBox_Interact
+@hideUI
+
+Showing Cube red item
+@showItem ItemName:Cube_Red_Interact
+@hideUI
+
+Showing Cardboard red item
+@showItem ItemName:CardboardBox_Interact
+@hideUI
+
+Showing Green note
+@showItem ItemName:BasicNote_Green
+@hideUI
+
+Showing Red note
+@showItem ItemName:ReverseNote_Red
+@hideUI
+
+Showing Yellow note
+@showItem ItemName:CustomNote_Yellow
+@hideUI
+
+Showing Blue note
+@showItem ItemName:CustomReverseNote_Blue
+@hideUI
+
+@stop

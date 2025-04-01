@@ -1,0 +1,53 @@
+; English <en> to English <en> localization document for `TestScene` naninovel script
+
+# ~8247e8ec
+; Lets look at this item
+
+
+# ~25f8d7a4
+; <size=50><shake a=.5>!!!</shake></size>;; @focusOn CustomUIName:{current_ui}
+
+
+# ~7cc20855
+; Do you lack compassion, android?
+
+
+# ~7db6f932
+; ...
+
+
+# ~4217e316
+; Guess you can't speak yet
+
+
+# ~c7af52d6
+; Why are you in this room?
+
+
+# ~ad1620d1
+; Are you planning to steal or break something? If you want to break something, go to the break room hence its name.
+
+
+# ~5695843f
+; Or perhaps you are curious about the room I found you in. There is nothing special to you, inside this room.
+
+
+# ~614e111c
+; However, it DOES contain tools and replacement parts for Hydroponics. So please be careful there.
+
+
+# ~b7f66966
+; I will be monitoring you.
+
+
+# ~4debe2a2
+; // @hideUI
+
+
+# ~fcaddd98
+; // @back visible:false
+
+
+# ~bc2bb3e0
+; // @showItem ItemName:CardboardBox_Interact
+

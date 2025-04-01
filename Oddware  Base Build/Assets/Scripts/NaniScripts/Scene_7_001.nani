@@ -1,0 +1,34 @@
+@camera set:*.false
+
+@printer Chat_001
+@back lift-bg id:MovieBg
+@char 001.Idle-Incredulous pos:50,-40 scale:1.5
+001: Oh I see you there.
+@char 001.Idle-Sarcastic pos:50,-40 scale:1.5
+001: Oh I see the issue.
+@char 001.ArmCross-Sideeye pos:50,-40 scale:1.5
+001: Still limited to your basic programming.
+
+@hidePrinter
+
+@choice "Continue from the next line"
+@choice "Continue from the specified label" goto:.Labelname1
+@choice "Load another from start" goto:.Labelname2
+@stop
+
+# Labelname1
+@char 001.Idle-Happy pos:50,-40 scale:1.5
+001: Home, sweet home!
+@goto .Labelname3
+
+# Labelname2
+@char 001.Idle-Sad pos:50,-40 scale:1.5
+001: Home, sweet home-
+@goto .Labelname3
+
+
+# Labelname3
+@char 001.Idle-Default pos:50,-40 scale:1.5
+001: Choice Made
+
+@stop

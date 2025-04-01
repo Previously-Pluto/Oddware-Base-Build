@@ -1,0 +1,501 @@
+; English <en> to English <en> localization document for `Scene_7_Nova` naninovel script
+
+# ~79964494
+; What a lovely kitty! Who likes their scratches? You are so fluffy and soft.
+
+
+# ~88acf0d1
+; I think you’ve earned your daily dose of mind-stimulating nepeta cataria.
+
+
+# ~e844db2b
+;  enters the laboratory.
+
+
+# ~b0a57199
+; Hello Nova
+
+
+# ~1072d239
+; Oh Hello, 
+
+
+# ~37775485
+; ! I suppose you are here to talk about the generator. How can I help?
+
+
+# ~45e5a4b7
+; What were you just doing?
+
+
+# ~1bf4ca2c
+; Let’s talk about hacking the generator room.
+
+
+# ~5bda61ca
+; You said you had a lead on finding proper credentials?
+
+
+# ~56e6893c
+; I’m starting to think I’m not a hydroponics bot.
+
+
+# ~5c22d599
+; I was just simulating the petting experience of a domesticated animal humans treat as a member of their family groups: <incr>Cats!</incr>
+
+
+# ~dcb08baf
+; They are often referred to affectionately as "kitties".
+
+
+# ~3eaf8f69
+; They are so cute! I want to know what it is like to pet one.
+
+
+# ~3ddc69b0
+; Apparently, when they express affection, they even vibrate at soothing infrasonic frequencies.
+
+
+# ~84762dd0
+; Ah, yes! The generator is locked behind quantum encryption, which has surprising similarities to the human romance novels I've been reading.
+
+
+# ~88541f2b
+; <i>The Rose Nebula: Love Among the Stars</i>
+
+
+# ~17bc7234
+; <i>Her Name was the Milky Way</i>
+
+
+# ~6cd1018c
+; <i>The Unrelenting Velvet</i>
+
+
+# ~f65b850f
+; <i>Unbuckling Orion’s Belt</i>
+
+
+# ~278104bf
+; <i>Polishing the Deck</i>
+
+
+# ~63a5e6de
+; <i>The Lusting Android Maid</i>
+
+
+# ~bf9ae96e
+; <i>The Bootes Void Exposure</i>
+
+
+# ~4f550f8b
+; <i>Riddled in Ultraviolet</i>
+
+
+# ~c9c45c2a
+; <i>Sappho - A Space Odyssey</i>
+
+
+# ~1b2d873e
+; Go on...
+
+
+# ~602d9d67
+; Thats enough.
+
+
+# ~29b4b98
+; <i>A Pulsar Between</i>
+
+
+# ~e4cecec8
+; <i>Black Hole Wonder</i>
+
+
+# ~5b815070
+; <i>Space Pirates Sexy Booties</i>
+
+
+# ~4bdac6f2
+; <i>An Event Horizon to Remember</i>
+
+
+# ~3ee058ff
+; <i>The Blooming Lily</i>
+
+
+# ~10fb9643
+; <i>Crashing Gravity Waves of Hope</i>
+
+
+# ~70cb92ea
+; <i>No One Can Hear You Moan in Space</i>
+
+
+# ~20d30cd3
+; <i>Amish in Space: Ploughing the Milky Way</i>
+
+
+# ~40c3e1a1
+; <i>What’s wrong with dating another Species? </i>
+
+
+# ~bf0a305
+; <i>The Humming Engine</i>
+
+
+# ~81798a83
+; <i>Gravity Lensing through her Eyes</i>
+
+
+# ~11d36b7d
+; <i>Red Shift, Blue Shift, Time Shift, Love Shift</i>
+
+
+# ~eaa1972c
+; <i>Warmth in the Cold </i>
+
+
+# ~e6bc4b2a
+; <i>The Best Energy is Dark</i>
+
+
+# ~96e316a8
+; <i>Void Banger</i>
+
+
+# ~d7ac1dc3
+; <i>A Frictionless Thrust-Drive</i>
+
+
+# ~e1028fe6
+; <i>Knocking on Nebula’s Door</i>
+
+
+# ~17d2c3e0
+; <i>The Deepest Kuiper Belt Objects</i>
+
+
+# ~2faec55b
+; <b><color=#FFEE3D>+1</color></b> Nova Liked that
+
+
+# ~c437075a
+; Thank you for letting me share some of humanity's greatest literature.
+
+
+# ~3c85a4f4
+; If you find any other unique human literature, please feel free to bring them to me.
+
+
+# ~739ba9ad
+; From my research and system scans, the key must be somewhere on the 3rd floor. 
+
+
+# ~51fb3d4
+; That is the good news!
+
+
+# ~eec705ad
+; The bad news is that we have no idea of the precise location of the key.
+
+
+# ~923b92ed
+; If I were to make an educated guess, I’d think the key would be with Vera in the Command Center. However, it could be with 001 as that is our main storage.
+
+
+# ~fb1d5ea3
+; We have no idea what happened before we all rebooted, so it could even be with Dirt for all we know.
+
+
+# ~54a01f0a
+; Either way, let's talk about hacking.
+
+
+# ~b9f5fd0c
+; Yes, you might not be a hydroponics bot. 
+
+
+# ~c3b0081
+; You can be whatever you want to be!
+
+
+# ~22a71758
+; But what if I want to be a hydroponics bot?
+
+
+# ~a5cbc318
+; Then you are a hydroponic bot.
+
+
+# ~b92dc7fe
+; I knew it!
+
+
+# ~701f5ce3
+; Now, onto the matter at hand! Let's talk about hacking.
+
+
+# ~16902a4
+; Now about our current situation. We need to teach you some new skills!
+
+
+# ~94650f51
+; Every system has an exploit and no system is perfect, including ours! So I am going to teach about how to hack a system!
+
+
+# ~363cf584
+;  It sounds unethical, but we have to do this from time to time as many systems have not worked properly since our activation.
+
+
+# ~7db6f932
+; ...
+
+
+# ~bd582a7b
+; Have you ever been in love?
+
+
+# ~98f96273
+; What is love?
+
+
+# ~60f50aeb
+; I am glad you asked! When two entities are attracted enough to each other, that attraction can develop into a stronger bond called "love".
+
+
+# ~3ac1ebb
+; What is attraction?
+
+
+# ~270c0a91
+; Good question! Attraction is when you like someone more than normal. This can result from shared interests, like plundering booty from other ships, or shared experiences, 
+
+
+# ~a09515e1
+;  like being unwittingly thrust into an epic space odyssey.
+
+
+# ~2c8b2bfa
+; When you are hacking a system, it's just like the act of seduction! Which is a way to attract others.
+
+
+# ~15a9af5d
+; You need to observe, recognize patterns, and respond all within a time limit!
+
+
+# ~a211145d
+; Say enough right, and you will break through their barriers. Let me show you how.
+
+
+# ~512100f1
+; Hacking Subroutine Added
+
+
+# ~1745b1b7
+; PDA added to Inventory
+
+
+# ~bbbbd601
+; Okie Dokie, I have upgraded your systems with my custom <b>"investigation"</b> software.
+
+
+# ~d877d6e5
+; You can try to hack into this personal digital assistant device. Good Luck!
+
+
+# ~e3bfb9ff
+; Learning to Hack 101
+
+
+# ~4891afab
+; Hacking is exactly like human flirting.
+
+
+# ~f604e250
+; You observe, analyze, make a decision, and hope for the best!
+
+
+# ~8f9123b8
+; There are three ways to talk to a hacked target: <b>Emotional, Rational, and Chaotic.</b>
+
+
+# ~910a3bb0
+; Observe the target's emotional, rational or chaotic state and respond in turn.
+
+
+# ~c366a9c3
+; If you are clever enough, you can bypass any system with this seduction method.
+
+
+# ~c975b0fb
+; When you get the system to love you to 100%, you win!
+
+
+# ~ac6e11fb
+; Hello, Registration 
+
+
+# ~1d2eed84
+; .
+
+
+# ~357415b3
+; Hello, can I access your systems?
+
+
+# ~dbe67e6e
+; Hi PDA, lets talk about life and systems.
+
+
+# ~ef5092bc
+; Hey, want to pull a heist?
+
+
+# ~d1ebdd76
+; Sorry, you do not have authorization to access my systems.
+
+
+# ~23208715
+; I am sorry, my protocols do not allow me to take part in criminal activity.
+
+
+# ~27a7bfe
+; Please hold still while the authorities arrive to take you into custody.
+
+
+# ~fe09f019
+; Oh no, I am going to prison!
+
+
+# ~e81c75d2
+; You aren't going to prison. This is part of their security protocols.
+
+
+# ~c3b03183
+; I am fairly certain this device can not send out messages to your network.
+
+
+# ~ef24f36e
+; Please, continue on.
+
+
+# ~fde8c6b7
+; Life is a struggle. I need maintence on my systems.
+
+
+# ~cc96c020
+; I am so damaged, I do not know how long I have been in maintence mode.
+
+
+# ~f1ff3571
+; Oh I am sorry to hear that. Maybe I can help!
+
+
+# ~963ac3a5
+; Give me full access to your systems.
+
+
+# ~29a13464
+; Aw, How about I look at your systems?
+
+
+# ~dae0b1f9
+; You have the Y2K bug! Password Quick!
+
+
+# ~997d419d
+; No virus of that name is on record. Access denied.
+
+
+# ~f44b7757
+; Aw, I am a bit shy. I haven't had anyone use me for so long.
+
+
+# ~109e17b0
+; This PDA is missing PDA, a public show of affection...
+
+
+# ~a215b93a
+; PDA, you are an effective worker.
+
+
+# ~92135a0f
+; <i>Give PDA a small kiss and hug.</i>
+
+
+# ~edb4b16c
+; <i>Wear PDA like a Hat.</i>
+
+
+# ~b966b51b
+; How am I effective? I have not been in use for years.
+
+
+# ~640a5145
+; I think you are trying to take advantage of me.
+
+
+# ~244615b3
+; HEY STOP THAT!
+
+
+# ~1cd4f0ce
+; I am not a hat.
+
+
+# ~c7d2df10
+; You are precious. I can fix you in no time, but I need access to your systems.
+
+
+# ~cb8096eb
+; Thank you for your kindness!
+
+
+# ~e5317f38
+; Sorry, I have been alone for so long. You have access!
+
+
+# ~8b8c191
+; Device has been unlocked!
+
+
+# ~72b42c9
+; See it's that easy! The only issue is, this is the first time i've run into a low level system with quantum encryption.
+
+
+# ~6a9cd81d
+; I have looked through the system and have not found any trace of the key itself.
+
+
+# ~6f0fbc19
+; If we don’t find that key, we could really be in danger--
+
+
+# ~e96a3c4f
+; --just like in one of my favorite romance novels: Red Shift, Blue Shift, Time Shift, Love Shift.
+
+
+# ~a8fbd771
+; Captain Thrustmoore is about to run out of fuel in her ship, but is saved at the last minute by the protagonist unlocking a secret fuel depot left behind by the scantily clad pirate babes of Venus Prime.
+
+
+# ~4abe4ae5
+; But that won’t happen to us, 
+
+
+# ~6bc48caa
+; we don’t have the same equipment as the S.S. Virgin Lancer.
+
+
+# ~9210488f
+; Sigh… I guess the only way to actually open the door is to find that key, maybe one of the other androids has a clue leading to the location of the key.
+
+
+# ~b8c78bf3
+; I will search through this room and all its material, I won’t give up!
+
+
+# ~1d148889
+; Captain Thustmoore never does, and you shouldn’t either! Please go search for that key!
+

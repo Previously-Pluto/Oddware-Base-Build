@@ -1,0 +1,195 @@
+@camera set:*.false
+@despawnAll
+@bgm AMB_Spaceship volume:.25
+@bgm Theme-Nova volume:0.25
+@back Darkness
+@char Nova.SP-Walking  pos:50,-40 scale:1.5 rotation:0,180,0
+@wait 1 
+@printer ActionPrinter
+You step out of the hydroponics lab and walk the halls with <color=#C6AEE5><b>Nova</b></color>.
+@printer Chat_Nova
+@back Hallway
+@char Nova.G-Shrug-Confused pos:50,-40 scale:1.5 rotation:0,0,0
+Nova: Sorry about that! Dirt has a tendency to get carried away when it comes to plants.
+@char Nova.G-Laugh-Pleased
+Nova: They are really not too bad once you get to know them.
+@char Nova.G-Chat3-Triumph
+Nova: But enough about Dirt- Let’s talk about <b><incr>you!</incr></b>
+@char Nova.Idle-Confused
+Nova: You are a new android that I do not know.
+@char Nova.G-Whatsup-HappyVery
+Nova: Isn’t that <b><bounce>exciting!?</bounce></b>
+@char Nova.G-Question02-Curious
+Nova: I wonder what personality you will develop, what habits you’ll form, what strange <b><bounce>idiosyncrasies</bounce></b> your algorithms will integrate!
+@char Nova.G-HeadNod-Pleased pos:50,-40 scale:1.5 rotation:0,0,0
+Nova: Think of the <b><bounce>possibilities!</bounce></b>
+@char Nova.G-DismissingGesture-Triumph pos:50,0 scale:1 wait:false
+Nova: But look at <i>me</i>, I’m getting ahead of myself again. I haven’t even asked you about yourself.
+@char Nova.G-Question01-Confused pos:50,-40 scale:1.5 rotation:0,0,0
+Nova: What’s your favorite color? Do you like sunsets? 
+@char Nova.Idle-Incredulous pos:50,-60 scale:1.8
+Nova: What’s your favorite kind of cat? What’s your favorite prime number?
+@char Nova.G-Question02-Curious pos:50,-75 scale:2
+Nova: Do you ever wonder what it’d be like to taste strawberries?
+@char Nova.G-Startled-Surprised pos:50,-100 scale:2.3
+Nova: Want to see my favorite spot in the colony? What do you remember before being activated?
+@char Nova.G-Thinking-Confused pos:50,-170 scale:3.25
+Nova: Do you know where you are or what you are supposed to do?
+@spawn DepthOfField
+@choice "I am a Hydroponics bot." goto:.spot1
+@choice "I don’t know… I don’t remember anything before activation." goto:.spot2
+@choice "I remember a black void, and some shimmering light, but nothing else." goto:.spot3
+@stop
+# spot1 
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: I am a Hydroponics bot.
+@goto .spotResolve
+# spot2
+@despawn DepthOfField
+@printer Dialogue 
+@stopVoice
+{charname}: I don’t know… I don’t remember anything before activation.
+@goto .spotResolve
+# spot3
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: I remember a black void, and some shimmering light, but nothing else.
+@goto .spotResolve
+
+# spotResolve
+@printer Chat_Nova
+@char Nova.G-Shrug-Curious pos:50,0 scale:1 rotation:,0
+Nova: So you know nothing.
+@char Nova.G-Acknowledging-HappyVery
+Nova: How wonderful! I get to observe you as you experience everything for the first time. 
+@char Nova.G-HappyHand-Pleased
+Nova: Think of all the behavioral data I could collect!
+@char Nova.G-ThoughtfulHeadShake-Curious
+Nova: It’s interesting how you only answered one out of eight questions, though. We’ll get back to the rest later! 
+@char Nova.G-Thinking-Curious
+Nova: For now, what experience should I introduce you to first…
+@char Nova.G-Chat1-Triumph pos:50,-40 scale:1.5 rotation:0,0,0
+Nova: I know exactly the thing! A full tour of our floor of the colony, starting with my favorite place. 
+@char Nova.Idle-Sad
+Nova: Unfortunately, the other floors are locked...
+@char Nova.G-HappyHand-Pleased
+Nova: But there’s still plenty of things to show you here.
+@char Nova.F-Thankful-Blush wait:false
+Nova: I can’t wait to see the look on your face-screen when you see my favorite place.
+@char Nova.Weight-Blush 
+Nova: I’m. So. <b><bounce>Excited.</bounce></b>
+@hide Nova
+@hideprinter
+@back Closet_1
+@printer Dialogue
+@stopVoice
+{charname}: Is this a utility closet?
+@printer Chat_Nova
+@char Nova.Idle-Default rotation:0,0,0
+@char Nova.G-LengthyHeadNod-Triumph rotation:0,0,0
+Nova: Yes! Isn’t it <b>great!?</b> Humans used to use this closet!
+@printer Dialogue
+@stopVoice
+{charname}: I guess so-
+@printer Chat_Nova
+@char Nova.Weight-Pleased pos:25,-40
+Nova: And that mop over there has even touched human hands at one point! Can you believe it!? 
+Nova: There are even epidermal cells on the handle. Did you know humans constantly shed all kinds of cells. 
+@char Nova.G-Talk01-Pleased
+Nova: It’s so weird, I <i>love</i> it!
+@spawn DepthOfField
+@choice "Well, it’s certainly something…" goto:.choice1
+@choice "Ew! Humans shed what?" goto:.choice2
+@choice "Wait, a human touched that? Are humans here?" goto:.choice3
+@choice "Why do you care if a human has touched that?" goto:.choice4
+@stop
+
+# choice1
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: Well, it’s certainly something…
+@printer Chat_Nova
+@char Nova.G-Laugh-Triumph
+Nova: I know, right!? It really is something! I knew you’d love it! Just wait until you see my second favorite spot!
+@goto .choiceResolve
+
+# choice2
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: Ew! Humans shed what?
+@printer Chat_Nova
+@char Nova.G-Laugh-Triumph
+Nova: Yeah, it’s so gross! That’s what makes it fascinating. I knew you’d love it! Just wait until you see my second favorite spot!
+@goto .choiceResolve
+
+# choice3
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: Wait, a human touched that? Are humans here?
+@printer Chat_Nova
+@char Nova.G-Laugh-Triumph
+Nova: Yes, it’s so amazing; it’s difficult to believe!  Humans used to live here.
+@char Nova.Sad-Bereft
+Nova: Unfortunately, we don’t know what happened to them.
+@char Nova.G-ThoughtfulHeadShake-Curious
+Nova: The other floors above are locked, so they could be up there. Why they’d lock us down here, rather than have us help them maintain the colony, is beyond me.
+@char Nova.Sad-Bereft
+Nova: Perhaps they are unhappy with us, or worse maybe something happened to them...
+@char Nova.G-HardHeadNod-HappyVery
+Nova: But, there’s no sense in moping about what we don’t even know. Let me show you my second favorite spot.
+@goto .choiceResolve
+
+# choice4
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: Why do you care if a human has touched that?
+@printer Chat_Nova
+@char Nova.F-Thankful-Pleased
+Nova: Because humans created us: we wouldn’t exist without them. 
+@char Nova.G-Whatsup-HappyVery
+Nova: In fact, this whole colony wouldn’t exist if it weren’t for them!
+@char Nova.G-Dismissing-Sarcastic
+Nova: Plus, I’ve read so much about them, and they are extremely intriguing. I don’t see how anyone wouldn’t be enthralled. 
+@char Nova.G-LengthyHeadNod-Triumph
+Nova: Anyway, let me show you my second favorite spot.
+@goto .choiceResolve
+
+# choiceResolve
+@hide Nova
+@hideprinter
+@back Darkness
+@set alert_msg="Humans added to Codex"
+@showUI AlertUI
+@sfx SFX-Alert volume:0.5
+@unlock Tips/Tip4ID
+@wait 2.5
+@hideUI AlertUI
+@printer ActionPrinter
+@stopVoice
+{charname} and <color=#C6AEE5>Nova</color> walk around the Colony's 3rd floor discovering new locations and insight on the Humans.
+@char Nova.Idle-Default pos:50,-40 scale:1.5 rotation:0,180,0
+@char Nova.SP-Walking
+As {charname} and <color=#C6AEE5>Nova</color> enter a hallway leading to the next set of rooms in Nova’s tour, a voice is heard from the hallway speaker.
+@back Hallway_2
+@char Nova.Idle-Question pos:50,-40 scale:1.5 rotation:0,0,0
+@spawn ShakeCharacter params:Nova,2,,,0.25
+@char Nova.Idle-Question pos:50,-40 scale:1.5 rotation:0,0,0
+@printer Wide
+@char Vera avatar:Speaker-Avatar visible:false
+Vera: Would all unassigned android personnel report to command for function review.
+@printer Chat_Nova
+@char Nova.G-RelievedSigh-Pouty
+Nova: Well darn, I was going to show you my third favorite mop closet, but seeing as you are the only unassigned android I should probably take you to Vera so you can be assigned a function.
+@char Nova.Bored-Excited
+Nova: <wave>Ooo!</wave> I can't wait to see what function Vera assigns you!
+
+@hideAll
+@goto Scene_3
+@stop

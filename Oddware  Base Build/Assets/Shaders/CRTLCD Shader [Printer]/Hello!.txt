@@ -1,0 +1,34 @@
+Hello!
+Thanks for purchasing my shader! :D
+@print_bird
+
+
+LCD Shader:
+-Place any image, video, or RenderTexture you'd like into the "Screen" slot.
+-The screen resolution can be changed to any dimension through the "Pixel H/W" values. Be sure to also change the "PixelTexture" tiling to fit your resolution.
+-Gamma correction and brightness can be applied via the slider.
+
+CRT Shader:
+-Place any image, video, or RenderTexture you'd like into the "Screen" slot.
+-The screen resolution can be changed to any dimension by the tiling the "x" value on "PixelTexture".
+-Gamma correction and brightness can be applied via the slider.
+-The darkness, speed, and height of scanlines can be changed with their respective sliders.
+-Noise can be adjusted by the slider.
+-Screen position can be raised or lowered via the Vertical Adjustment slider (mostly used for animations).
+
+Pixels textures can be edited easily, though the best result with automaded mip maps are:
+-32x32 resolution
+-Kaiser mip map filtering
+-Trilinier filter mode at 16x ansio level
+-RGB 24bit format in compression (this one is key to keeping the color correct when viewing distant mip maps)
+
+I've used pixel art anti-aliasing techniques on the pixel textures as three columns of RGB pixels don't fit naturally into the 32x32 resolution.
+
+
+ChangeLog:
+
+11/19/18
+v.2 - Added Noise slider.
+
+11/17//18
+v.1 - Release

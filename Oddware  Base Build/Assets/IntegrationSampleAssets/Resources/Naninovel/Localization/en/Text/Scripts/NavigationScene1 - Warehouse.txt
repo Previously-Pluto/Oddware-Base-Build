@@ -1,0 +1,33 @@
+; English <en> to English <en> localization document for `NavigationScene1 - Warehouse` naninovel script
+
+# ~a2a4ceed
+; Continue executing this script or load another?
+
+
+# ~8c98467
+; ▲
+
+
+# ~9d4414d5
+; ▼
+
+
+# ~e651276d
+; ►
+
+
+# ~9d2196fc
+; ◄
+
+
+# ~a78670ce
+; Label 1
+
+
+# ~461306f1
+; Label 2
+
+
+# ~312508b1
+; Last Label
+

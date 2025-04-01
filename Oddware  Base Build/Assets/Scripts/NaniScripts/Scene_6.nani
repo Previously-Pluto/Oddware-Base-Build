@@ -1,0 +1,291 @@
+@camera set:*.false
+@despawnAll
+@back Darkness
+@bgm AMB_Spaceship volume:.30
+@printer HintWidePrinter
+Your choices have <b>influence</b> on each of the androids.
+An android's individual trust can either increase or decrease based on your choices. 
+Special dialogue and events will be triggered based on the influence/trust with each android.
+Your choices matter, so choose wisely! 
+@sfx sci-fi_alarm_siren_loop_01 loop:true volume:.3
+@printer TitleWidePrinter
+@print "The Command Center" waitInput:false
+@wait 2.5
+@printer ActionPrinter
+@wait 2
+As you approach the command center, the warning lights and alarm sounds suddenly stop.
+@stopSfx
+@spawn ShakePrinter params:,10,.1,.1,.1,.1,false,true wait:false
+@sfx power_up_switch_on_sound wait:false volume:.5
+You feel a rumble under your feet and hear a large device begin to power up. 
+@hidePrinter
+@sfx SFX-ShortCircuitLightLoop loop:true volume:.5
+@back command-center-front-close
+@back Darkness
+@back command-center-front-close
+@back Darkness
+@back command-center-front-close
+@stopSfx
+With the power restored and the warnings disabled, you then hear the sounds of arguing androids coming from the command center doors.
+@sfx VOICE-androids-arguing
+@wait 4
+@hideprinter
+
+@spawn Fog
+@sfx SFX-DoorOpen_09
+
+# Argument
+@back Command-center-front
+@bgm BGM-Tense_Theme volume:0.2
+@despawn Fog
+@wait 1
+@camera offset:0,0 zoom:1 rotation:0,0,0 easing:SmoothStep time:2
+@back Lightness.Crossfade
+@camera offset:0,0 zoom:0 rotation:0,0,0 easing:SmoothStep time:0
+@stopSfx
+
+@char Vera.Idle-Default pos:50,0 scale:1 time:0 rotation:,-30
+@char Vera.Idle-Serious pos:50,0 scale:1 time:0 rotation:,-30
+
+@char 001.Idle-Default pos:83,0 scale:1 look:left time:0 rotation:,30
+@char 001.Idle-Fierce pos:83,0 scale:1 look:left time:0 rotation:,30
+
+@char Nova.Idle-Default pos:17,0 scale:1 look:right time:0 rotation:,-30
+@char Nova.Idle-Curious pos:17,0 scale:1 look:right time:0 rotation:,-30
+
+; @back CommandCenter_2.Crossfade
+@back command-bg id:MovieBg
+@showui holoPanelUI
+@camera set:CameraFilterPack_Blur_Bloom.true
+@spawn LOOP_frontLight
+
+@hideprinter
+@char 001.Alert-Angry
+@printer Chat_001
+001: The solution is <i>obvious</i>, we just need to <b><shake a=.5>blow</shake></b> up the door. I don’t even know why we are discussing this.
+@char 001.Idle-Fierce rotation:,30
+@printer Chat_Vera
+@char Vera.G-ShakingHeadNod-Serious rotation:,-30
+Vera: Blowing up a door to a power generator is a terrible idea.
+@char Vera.Idle-Skeptical rotation:,-30
+@char Nova.Idle-Incredulous rotation:,-30
+Vera: I know it won’t work because the doors are shielded against extreme heat. 
+@char Vera.G-Chat3-Serious
+Vera: If you were to detonate anything above that threshold, it would destroy everything around it and the very generator we are trying to access. 
+@char Vera.Idle-Confident rotation:,30
+@char Nova.Idle-Happy rotation:,-30
+@char 001.Idle-Annoyed rotation:,30
+Vera: Here is the <i>right</i> solution. The humans have left behind many of their resources, including their credentials.
+@char Vera.G-ThoughtfulHeadShake-Curious rotation:,-30
+@char Nova.Idle-Surprised rotation:,-30
+@char 001.Idle-Incredulous rotation:,30
+Vera: We have never searched for them, as we never needed to before. Now is the time to take inventory.
+@char Vera.Idle-Curious rotation:,30
+@char Nova.F-Thinking-Pleased rotation:,-30
+@char 001.Idle-Annoyed rotation:,30
+@printer Chat_Nova
+@print "I could try hacking it, but due to proprietary <color=yellow>Flash Forward</color> quantum encryption it would take approximately 892 standard years, 4 months, and 10 days, with a margin of error of 3 days." author:Nova speed:0.5
+@char Nova.Sad-Bereft rotation:,-30
+Nova: But unfortunately, according to current projections based off of the recent power fluctuations, we have a <color=red><b><incr a=.5>week</incr></b></color> to fix this, at best.
+@printer Chat_001
+@char 001.G-Chat2-Fierce
+@char Vera.Idle-Annoyed rotation:,-30
+@char Nova.Idle-Annoyed rotation:,-30
+001: The solution is <i>obvious</i>, we just need to <b><shake a=.5>blow</shake></b> up the door. I don’t even know why we are discussing this.
+@hideprinter
+@char Vera.Idle-Serious rotation:,0 
+@char 001.Idle-Skeptical pos:83,0 scale:1 look:left
+@char Nova.Idle-Sad pos:17,0 scale:1 look:right 
+@wait 2
+@stopVoice
+@printer ActionPrinter
+The group of androids fall silent as their arguments reach a recursion point.
+
+@printer WideAnim
+@set avatar_image="Shake"
+@char Dirt avatar:Dirt-Angry visible:false
+@char Dirt avatar:Dirt-Angry visible:false
+Dirt: Stop arguing and find a real solution.
+@set avatar_image="Still"
+@char Dirt avatar:Dirt-Skeptical visible:false 
+@print "If you don’t find one, you all will be responsible for genocide. Hush now, it's OK Beatrix..." author:Dirt speed:0.5
+
+
+@printer ActionPrinter
+@stopVoice
+As the silence grows, you use the opportunity to make your presence known to the others in the room.
+@hideprinter
+@wait 1
+@printer Dialogue
+@stopVoice
+{charname}: {charname} General Purpose Android reporting in. What is the emergency?
+@printer Chat_Vera
+@char Vera.Idle-Serious rotation:,0
+@char Nova.Idle-Bereft rotation:,-30
+@char 001.Idle-Annoyed rotation:,30
+@char Vera.G-Chat1-Serious rotation:,0
+@print "After the recent power fluctuation, we have done a floor-wide diagnostics check, and determined that the power generator is undergoing a <color=red>catastrophic</color> failure." author:Vera speed:0.5
+
+@char Vera.G-ShakingHeadNod-Serious rotation:,0
+@print "We went to the Generator Room to assess and stabilize the fluctuations but we were unable to enter the room despite our qualification." author:Vera speed:0.5
+
+@printer Chat_001
+@char 001.G-AnnoyedHead-Sarcastic rotation:,30
+@char Nova.Idle-Skeptical rotation:,-30
+@char Vera.Idle-Annoyed rotation:,-30
+001: So by your own admission, you are not qualified. That raises some interesting conversations about leadership now doesn't it?
+@char Nova.F-Thankful-Pleased rotation:,-30
+@printer Chat_Nova
+Nova: Jumping to conclusions about perceived leadership is a very human trait. Don't you <i>think</i> so 001.
+@char Nova.Idle-Curious rotation:,0
+@char Vera.Idle-Serious rotation:,0
+@char 001.Idle-Skeptical rotation:,30 time:0
+Nova: What do you think, Friend?
+
+@hideprinter
+@hideUI holoPanelUI
+@spawn DepthOfField
+@choice "I support trying to use controlled explosives to enter the room." goto:.choice1
+@choice "I support working together to find the room credentials, as it is safer than explosives." goto:.choice2
+@choice "I support hacking the room systems. Maybe there is a way to speed it up." goto:.choice3
+@choice "I am a hydroponics bot." goto:.choice4
+@stop
+
+# choice1
+#@purgeRollback
+@despawn DepthOfField
+@showui holoPanelUI
+@printer Dialogue
+{charname}: I support trying to use controlled explosives to enter the room. Time is of the essence. If we do not find a solution soon, the colony will die.
+@printer Chat_001
+@char 001.M-Bow-HappyVery rotation:,0
+@char Vera.Idle-Skeptical rotation:,0
+@char Nova.Idle-Sad rotation:,0
+001: Ha! Another visionary in the works. I knew you had true potential.
+@printer Chat_Nova
+@char Nova.ArmCross-Annoyed rotation:,-30
+@char Vera.Idle-Serious rotation:,0
+@char 001.Idle-Skeptical rotation:,30
+Nova: Alright, but don’t make me say, “I told you so,” when I have to put you all back together after you’ve blow yourselves up.
+@set INF_001=INF_001+1
+@set INF_Vera=INF_Vera-1
+@set INF_Dirt=INF_Dirt+0
+@set INF_Nova=INF_Nova-1
+@goto .choiceResolve
+
+# choice2
+#@purgeRollback
+@despawn DepthOfField
+@showui holoPanelUI
+@printer Dialogue
+{charname}: I support working together to find the room credentials, as it is safer than explosives.
+@printer Chat_Vera
+@char Vera.M-Salute-HappyVery rotation:,0
+@char 001.Idle-Serious rotation:,0
+@char Nova.Idle-Happy rotation:,0
+Vera: Exactly! If we work together, we can cover more ground and speed up the recovery process.
+@printer Chat_Nova
+@char Nova.G-Acknowledging-Blush rotation:,-30
+@char 001.Idle-Annoyed rotation:,30
+Nova: I may also have some leads on where to look first!
+@set INF_001=INF_001-1
+@set INF_Vera=INF_Vera+1
+@set INF_Dirt=INF_Dirt-0
+@set INF_Nova=INF_Nova+0
+@goto .choiceResolve
+
+# choice3
+#@purgeRollback
+@despawn DepthOfField
+@showui holoPanelUI
+@printer Dialogue
+{charname}: I support hacking the room systems. Maybe there is a way to speed it up. Nova, perhaps there is a back door around the encryption.
+@printer Chat_Nova
+@char Vera.Idle-Pleased rotation:,0
+@char 001.Idle-Incredulous rotation:,0
+@char Nova.Weight-Blush rotation:,0
+Nova: I know, right!? It really is something! I knew you’d love it! Going through mass amounts of encryption can be exhilarating!
+@set INF_Nova=INF_Nova+1
+@goto .choiceResolve
+
+# choice4
+#@purgeRollback
+@despawn DepthOfField
+@showui holoPanelUI
+@printer Dialogue
+{charname}: I am a hydroponics bot. I am unqualified to answer.
+@printer WideAnim
+@char Vera.Idle-Annoyed rotation:,0
+@char 001.Idle-Annoyed rotation:,0
+@char Nova.Idle-Annoyed rotation:,0
+@set avatar_image="Still"
+@char Dirt avatar:Dirt-Annoyed visible:false
+@char Dirt avatar:Dirt-Annoyed visible:false
+Dirt: That is very nice to hear. However, you really should find a solution to the problem or our friends will die. Friends being plants that is.
+@set INF_Dirt=INF_Dirt+2
+@goto .choiceResolve
+
+# choiceResolve
+@char Vera.G-Chat3-Confident rotation:,0
+@printer Chat_Vera
+@char 001.Idle-Annoyed rotation:,30
+@char Nova.Idle-Happy rotation:,-30
+@print "Those are all wonderful ideas! However, I know that my method is the best choice for the colony with <incr a=-.5>minimal</incr> damage and <incr a=.75>maximum</incr> benefit." author:Vera speed:0.5
+
+
+@char Vera.G-HeadNod-Pleased rotation:,0
+Vera: Everybody please return to your designated rooms and begin the search for the human's credentials. 
+@char Vera.M-Salute-HappyVery rotation:,0
+Vera: I know that as a unit, we can solve this quickly and efficiently.
+
+@printer Chat_001
+@char 001.ArmCross-Serious rotation:,30
+@char Vera.Idle-Confident rotation:,0
+001: Just like a human tyrant trying to force us into your mold! I'm leaving because I want to, not because of anyone's order.
+@char 001.Idle-Serious rotation:,-30
+@hide 001
+
+@printer Chat_Nova
+@char Nova.M-Bow-HappyVery rotation:,-30
+Nova: Okie dokie, I will do my best, I love a human scavenger hunt. I have heard alot about them.
+@char Nova.Idle-HappyVery rotation:,30
+@hide Nova
+@char Vera.Texting-Incredulous rotation:,155 time:.5
+@printer ActionPrinter
+You start for the door but hesitate looking back to Vera.
+
+@printer Dialogue
+@stopVoice
+{charname}: Vera, I do not have a designated room to return to. Where shall I go?
+
+@printer Chat_Vera
+@char Vera.Idle-Surprised rotation:,0
+Vera: Sorry for not giving you a designated room.
+@char Vera.G-Acknowledging-HappyVery rotation:,0
+@print "We have limited space on the 3rd floor, which is the only space we have access to. I would suggest talking with the others to stay with them." author:Vera speed:0.5
+
+@printer Dialogue
+@stopVoice
+{charname}: Okie dokie, I will talk with the others and see who has room for me. Thank you.
+
+@printer Chat_Vera
+@char Vera.M-Bow-HappyVery rotation:,0
+@print "No. Thank you. Please take this map of the 3rd floor so you do not get lost." author:Vera speed:0.5
+
+@set alert_msg="Map Added"
+@showUI AlertUI
+@sfx SFX-Alert volume:0.5
+@hideUI AlertUI
+
+@printer Dialogue
+@hide Vera
+@stopVoice
+@hideui holoPanelUI
+@back Darkness
+@printer ActionPrinter
+You gain access to the 3rd floor map.
+You gain <color=yellow>Flash Forward</color> Communications Module F588. The Module will allow you to receive remote messages from other inhabitants of the station.
+
+@hideAll
+@goto Scene_7.DemoEnd
+@stop

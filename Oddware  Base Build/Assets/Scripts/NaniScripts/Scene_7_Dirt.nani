@@ -1,0 +1,15 @@
+@camera set:*.false
+@bgm AMB_Spaceship volume:.25
+@sfx VOC-Lullaby_01 loop:true volume:.5
+@bgm Theme_Dirt volume:0.25
+
+@printer Wide
+{charname} enters the hydroponics lab watching Dirt working on a set of large tubes filled with liquid. The tubes emanate a strange green light.
+@char Dirt.Idle-Pleased rotation:0,180,0
+@wait 2
+@char Dirt.Idle-Annoyed rotation:0,0,0
+@printer Chat_Dirt
+Dirt: I think all this arguing is not good for my babies. They are leaking waste everywhere.
+
+
+@stop

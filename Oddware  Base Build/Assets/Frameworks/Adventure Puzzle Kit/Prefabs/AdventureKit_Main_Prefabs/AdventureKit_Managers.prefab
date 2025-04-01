@@ -1,0 +1,1430 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &897845876712653893
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 897845876712653894}
+  - component: {fileID: 897845876712653895}
+  m_Layer: 0
+  m_Name: Fusebox - Inventory Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &897845876712653894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897845876712653893}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177951023356611}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &897845876712653895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897845876712653893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9462f05503b73314582d4a478c281b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fuseUI: {fileID: 0}
+  inventoryFuses: 0
+--- !u!1 &1257944102548810091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1257944102548810088}
+  - component: {fileID: 1257944102548810092}
+  m_Layer: 0
+  m_Name: ChessPuzzle - Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1257944102548810088
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257944102548810091}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177951023356611}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1257944102548810092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257944102548810091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 962bac66d4833d84d833b9a72b9e6c8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasPawnFuse: 0
+  hasRookFuse: 0
+  hasKnightFuse: 0
+  hasBishopFuse: 0
+  hasQueenFuse: 0
+  hasKingFuse: 0
+  usingPawnBox: 0
+  usingRookBox: 0
+  usingKnightBox: 0
+  usingBishopBox: 0
+  usingQueenBox: 0
+  usingKingBox: 0
+  chessPuzzleInventoryUI: {fileID: 0}
+  pawnImageSlotUI: {fileID: 0}
+  rookImageSlotUI: {fileID: 0}
+  knightImageSlotUI: {fileID: 0}
+  bishopImageSlotUI: {fileID: 0}
+  queenImageSlotUI: {fileID: 0}
+  kingImageSlotUI: {fileID: 0}
+  invfuseBoxController: {fileID: 0}
+--- !u!1 &1272949366447813516
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1270516985545889672}
+  m_Layer: 0
+  m_Name: AdventureKit_Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1270516985545889672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272949366447813516}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1274177950005292664}
+  - {fileID: 1274177951023356611}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1274177949020821526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1270296457700057113}
+  - component: {fileID: 1274177949020821527}
+  m_Layer: 0
+  m_Name: GasMaskManager
+  m_TagString: GasMaskController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1270296457700057113
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177949020821526}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177951023356611}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274177949020821527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177949020821526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6ab4042f9b2c4f4bb17ddb7eb113fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxEquipMaskTimer: 1
+  maskEquippedColor: {r: 0, g: 1, b: 0.15721321, a: 1}
+  maskNormalColor: {r: 1, g: 1, b: 1, a: 1}
+  hasGasMask: 0
+  gasMaskOn: 0
+  puttingOn: 0
+  puttingOff: 0
+  walkNorm: 5
+  walkGas: 2
+  runNorm: 10
+  runGas: 4
+  filterFallRate: 2
+  warningPercentage: 20
+  filterTimer: 100
+  maskFilters: 5
+  defaultVignette: 0.28
+  filterAlarmColor: {r: 1, g: 0, b: 0, a: 1}
+  filterNormalColor: {r: 1, g: 1, b: 1, a: 1}
+  maskIconUI: {fileID: 0}
+  filterIconUI: {fileID: 0}
+  filterCountUI: {fileID: 0}
+  filterSliderUI: {fileID: 0}
+  vignetteEffect: {fileID: 0}
+  blurEffect: {fileID: 0}
+  visorImageOverlay: {fileID: 0}
+  gasMaskWarning: GasMaskWarning
+  gasMaskChoking: GasMaskChoking
+  gasMaskDeepBreath: GasMaskDeepBreath
+  gasMaskBreathIn: GasMaskBreathIn
+  gasMaskBreathOut: GasMaskBreathOut
+  gasMaskBreathing: GasMaskBreathing
+  gasMaskReplaceFilter: GasMaskReplaceFilter
+  gasMaskPickup: GasMaskPickup
+--- !u!1 &1274177949320496747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274177949320496748}
+  - component: {fileID: 1274177949320496749}
+  m_Layer: 0
+  m_Name: Reverse Note - UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274177949320496748
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177949320496747}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177950413494694}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274177949320496749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177949320496747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bebf7946c964aa44e9541f1d52ae1624, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioPromptUI: {fileID: 0}
+  pageButtons: {fileID: 0}
+  nextButton: {fileID: 0}
+  previousButton: {fileID: 0}
+  reverseNoteMainUI: {fileID: 0}
+  reverseNotePageUI: {fileID: 0}
+  reverseNoteTextPanelUI: {fileID: 0}
+  reverseNoteTextImage: {fileID: 0}
+  reverseNoteTextUI: {fileID: 0}
+  noteController: {fileID: 0}
+--- !u!1 &1274177949461241383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274177949461241400}
+  - component: {fileID: 1274177949461241401}
+  m_Layer: 0
+  m_Name: Basic Note - UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274177949461241400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177949461241383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177950413494694}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274177949461241401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177949461241383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9dfe00ccdab00543a6e814fdd771b67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioPromptUI: {fileID: 0}
+  pageButtons: {fileID: 0}
+  nextButton: {fileID: 0}
+  previousButton: {fileID: 0}
+  basicNoteMainUI: {fileID: 0}
+  basicNotePageUI: {fileID: 0}
+  noteController: {fileID: 0}
+--- !u!1 &1274177949727616543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274177950381502801}
+  - component: {fileID: 1274177949727616528}
+  m_Layer: 0
+  m_Name: DisableManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274177950381502801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177949727616543}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177950005292664}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274177949727616528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177949727616543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 048eedc16c932e94b95e3e3fff7532a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFirstPerson: 1
+  player: {fileID: 0}
+  isThirdPerson: 0
+  thirdPersonController: {fileID: 0}
+  thirdPersonRotator: {fileID: 0}
+  crosshair: {fileID: 0}
+  raycastManager: {fileID: 0}
+  blur: {fileID: 0}
+--- !u!1 &1274177949798058169
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274177949798058170}
+  - component: {fileID: 1274177949798058171}
+  m_Layer: 0
+  m_Name: ReverseCustomNote - UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274177949798058170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177949798058169}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177950413494694}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274177949798058171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177949798058169}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81121acdd0b2fbf47adf6168649a1ffa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioPromptUI: {fileID: 0}
+  pageButtons: {fileID: 0}
+  nextButton: {fileID: 0}
+  previousButton: {fileID: 0}
+  customReverseMainNoteUI: {fileID: 0}
+  customReverseNotePageUI: {fileID: 0}
+  customReverseNoteTextUI: {fileID: 0}
+  customReverseNoteTextPanelBG: {fileID: 0}
+  customReverseNoteTextImage: {fileID: 0}
+  customReverseFlipNoteTextUI: {fileID: 0}
+  noteController: {fileID: 0}
+--- !u!1 &1274177949917650189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2967878807228130361}
+  - component: {fileID: 1274177949917650190}
+  m_Layer: 0
+  m_Name: Generator - InventoryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2967878807228130361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177949917650189}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177951023356611}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274177949917650190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177949917650189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 906bf9b4dfb176c4db765e33192f89a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentFuel: 30
+  maximumFuel: 100
+  hasJerrycan: 0
+  isInventoryOpen: 0
+  fuelFillUI: {fileID: 0}
+  currentFuelText: {fileID: 0}
+  maximumFuelText: {fileID: 0}
+--- !u!1 &1274177950005292647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274177950005292664}
+  m_Layer: 0
+  m_Name: Main Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274177950005292664
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950005292647}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1274177949417267202}
+  - {fileID: 1274177951090238396}
+  - {fileID: 1274177949418568478}
+  - {fileID: 1274177950381502801}
+  m_Father: {fileID: 1270516985545889672}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1274177950234519619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274177949418568478}
+  - component: {fileID: 1274177950234519620}
+  m_Layer: 0
+  m_Name: UserInputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274177949418568478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950234519619}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177950005292664}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274177950234519620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950234519619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ef0819030622a49af0f973696fc7aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickupKey: 323
+  openInventoryKey: 9
+  padlockCloseKey: 324
+  triggerInteractKey: 101
+  equipMaskKey: 103
+  replaceFilterKey: 116
+  closeNoteKey: 324
+  reverseNoteKey: 114
+  playAudioKey: 121
+  interactKey: 323
+  rotateKey: 323
+  dropKey: 324
+  pickupItemKey: 101
+  flashlightSwitch: 102
+  reloadBattery: 113
+--- !u!1 &1274177950269126047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1279008826667242576}
+  - component: {fileID: 1274177950269126032}
+  m_Layer: 0
+  m_Name: Examine - UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1279008826667242576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950269126047}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177951023356611}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274177950269126032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950269126047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dcc6bdeb254d0647b29f7ddcf7f9a83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noUICloseButton: {fileID: 0}
+  basicItemNameUI: {fileID: 0}
+  basicItemDescUI: {fileID: 0}
+  basicExamineUI: {fileID: 0}
+  rightItemNameUI: {fileID: 0}
+  rightItemDescUI: {fileID: 0}
+  rightExamineUI: {fileID: 0}
+  interactionItemNameUI: {fileID: 0}
+  interactionNameMainUI: {fileID: 0}
+  interestPointText: {fileID: 0}
+  interestPointParentUI: {fileID: 0}
+  examineController: {fileID: 0}
+  examineHelpUI: {fileID: 0}
+--- !u!1 &1274177950271840868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274177951090238396}
+  - component: {fileID: 1274177950271840869}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274177951090238396
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950271840868}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177950005292664}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274177950271840869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950271840868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 574816de868e57048ad671ce4766ee56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  adventureKitCanvas: {fileID: 0}
+  generatorUICanvas: {fileID: 0}
+  flashlightUICanvas: {fileID: 0}
+  gasMaskUICanvas: {fileID: 0}
+  themedKeyUICanvas: {fileID: 0}
+  chessPuzzleCanvas: {fileID: 0}
+  fuseBoxCanvas: {fileID: 0}
+  radialIndicator: {fileID: 0}
+  triggerInteractPrompt: {fileID: 0}
+  hasFlashlight: 0
+  hasJerrycan: 0
+  hasGasMask: 0
+  hasThemedKey: 0
+  hasChessPiece: 0
+  hasFuse: 0
+  isInteracting: 0
+  isInventoryOpen: 0
+--- !u!1 &1274177950291754728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1956309519512600348}
+  - component: {fileID: 1274177950291754729}
+  m_Layer: 0
+  m_Name: ThemedKey - InventoryManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1956309519512600348
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950291754728}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177951023356611}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274177950291754729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950291754728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 140d3e9ccf0075e44b44ece4e0911027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasHeartKey: 0
+  hasDiamondKey: 0
+  hasSpadeKey: 0
+  hasClubKey: 0
+  heartFullUI: {fileID: 0}
+  diamondFullUI: {fileID: 0}
+  spadeFullUI: {fileID: 0}
+  clubFullUI: {fileID: 0}
+--- !u!1 &1274177950413494693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274177950413494694}
+  m_Layer: 0
+  m_Name: Note UI Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274177950413494694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950413494693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1274177949461241400}
+  - {fileID: 1274177949320496748}
+  - {fileID: 1274177950792274124}
+  - {fileID: 1274177949798058170}
+  m_Father: {fileID: 1274177951023356611}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1274177950677447132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1270296456573652861}
+  - component: {fileID: 1274177950677447133}
+  m_Layer: 0
+  m_Name: GasMask - HealthManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1270296456573652861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950677447132}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177951023356611}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274177950677447133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950677447132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a055693ac9d92348baecd23a99370dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 100
+  maxHealth: 100
+  healthFall: 2
+  currentHealthTimer: 1
+  maxHealthTimer: 1
+  regenHealth: 0
+  healthTextUI: {fileID: 0}
+  healthSliderUI: {fileID: 0}
+  onDeath:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &1274177950792274123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274177950792274124}
+  - component: {fileID: 1274177950792274125}
+  m_Layer: 0
+  m_Name: Custom Note - UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274177950792274124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950792274123}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177950413494694}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274177950792274125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950792274123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f45cc025a8c06b43b713d4c9278bb05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioPromptUI: {fileID: 0}
+  pageButtons: {fileID: 0}
+  nextButton: {fileID: 0}
+  previousButton: {fileID: 0}
+  customNoteMainUI: {fileID: 0}
+  customNotePageUI: {fileID: 0}
+  customNoteTextUI: {fileID: 0}
+  noteController: {fileID: 0}
+--- !u!1 &1274177950892915887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1270307595707287216}
+  - component: {fileID: 1169142431942446424}
+  m_Layer: 0
+  m_Name: FlashlightManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1270307595707287216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950892915887}
+  m_LocalRotation: {x: 0.00000017881393, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.1630249, y: 1.6599731, z: -2.72}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177951023356611}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1169142431942446424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177950892915887}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da4c83fa3cfcf0d42be8722081cfeb4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  infiniteFlashlight: 0
+  batteryDeg: 0.01
+  batteryCount: 1
+  replaceBatteryTimer: 1
+  maxReplaceBatteryTimer: 1
+  maxFlashlightIntensity: 1
+  flashlightRotationSpeed: 2
+  batteryLevel: {fileID: 0}
+  batteryCountUI: {fileID: 0}
+  flashlightIndicator: {fileID: 0}
+  flashlightPickupSound: FlashlightPickup
+  flashlightClickSound: FlashlightClick
+  flashlightReloadSound: FlashlightReload
+  flashlightSpot: {fileID: 0}
+  flashlightMovement: {fileID: 0}
+--- !u!1 &1274177951023356610
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274177951023356611}
+  m_Layer: 0
+  m_Name: System Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274177951023356611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177951023356610}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1274177950413494694}
+  - {fileID: 1270307595707287216}
+  - {fileID: 1270296457700057113}
+  - {fileID: 1270296456573652861}
+  - {fileID: 2967878807228130361}
+  - {fileID: 1956309519512600348}
+  - {fileID: 1279008826667242576}
+  - {fileID: 1257944102548810088}
+  - {fileID: 897845876712653894}
+  m_Father: {fileID: 1270516985545889672}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1274177951108286368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274177949417267202}
+  - component: {fileID: 1274177951108286369}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274177949417267202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177951108286368}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1274177950005292664}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274177951108286369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274177951108286368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee32ada6c8de0dd43bb3646d3262cc60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixerGroup: {fileID: 0}
+  sounds:
+  - name: FlashlightPickup
+    clip: {fileID: 8300000, guid: bb1e702dd2d613b42b96feaca871d732, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: FlashlightReload
+    clip: {fileID: 8300000, guid: 904a48215be82f4409ff89345e18c70c, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: FlashlightClick
+    clip: {fileID: 8300000, guid: 61fcf47e3c186d649b070ca1c48a2d98, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ExamineInteract
+    clip: {fileID: 8300000, guid: c798c9ea474fb864b8f124ccf2ecf9b0, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: FuelSwish
+    clip: {fileID: 8300000, guid: c8f6906c2ad603a44b7499caa767e566, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: WaterPour
+    clip: {fileID: 8300000, guid: 52e9aa008e21e9a4283978d64dcdce3e, type: 3}
+    volume: 0.7
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: GeneratorLoop
+    clip: {fileID: 8300000, guid: c0190ff36787d3d4bba3909d0a52e525, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: NoteOpen
+    clip: {fileID: 8300000, guid: 86ef4ac857cd9bc47980c79b7f1e57c2, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: GasMaskBreathOut
+    clip: {fileID: 8300000, guid: 43e4b4f0f05596444ac3f65d1998dbe8, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: GasMaskBreathIn
+    clip: {fileID: 8300000, guid: 8b24184d7bea8c244aa66a82ea5706ae, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: GasMaskChoking
+    clip: {fileID: 8300000, guid: fac6ac067352b4d4f96dda6159e34975, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: GasMaskDeepBreath
+    clip: {fileID: 8300000, guid: 3bfd608121f123e4982b183366b7574e, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: GasMaskPickup
+    clip: {fileID: 8300000, guid: 585f209142797a4498093744d058d716, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: GasMaskWarning
+    clip: {fileID: 8300000, guid: 759d7a4f62517cd4296295be295a8756, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: GasMaskBreathing
+    clip: {fileID: 8300000, guid: ffe4aac8581f36648b7734836c026ff2, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: KeypadAccessDenied
+    clip: {fileID: 8300000, guid: edd81f165f7bb7c4081b474c521ef968, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: KeypadShortBeep
+    clip: {fileID: 8300000, guid: 972b3ad727a0c364cbe16b402305c631, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ThemedKeyInsertKey
+    clip: {fileID: 8300000, guid: e4d81e7741ba64048a406f2ce1ca846c, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ThemedKeyLockedDoor
+    clip: {fileID: 8300000, guid: f57c3a28b885c57499e30155085cca01, type: 3}
+    volume: 0.2
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ThemedKeyPickup
+    clip: {fileID: 8300000, guid: 9b01d2e1ad5f2f947a703d4d40588394, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ThemedKeyDoorOpen
+    clip: {fileID: 8300000, guid: cb6dbfaa9e57b4447a2306e8c12eb927, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: PhoneSingleBeep
+    clip: {fileID: 8300000, guid: ffd8de5a1d14af349aece8cae793e881, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: PhoneDeadDialTone
+    clip: {fileID: 8300000, guid: efb2c52cb8a9cf04180451c953fece5f, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: PadlockInteract
+    clip: {fileID: 8300000, guid: 92eb875a37cd7544baeba89c2e4add6c, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: PadlockSpin
+    clip: {fileID: 8300000, guid: a60af46117b47ef40b212122988918e3, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: PadlockUnlock
+    clip: {fileID: 8300000, guid: 82ae795ad426bfb4396abd0e31989c84, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: GasMaskReplaceFilter
+    clip: {fileID: 8300000, guid: f67618c28e4bd0142b569fe2c2357c99, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ChessInsert
+    clip: {fileID: 8300000, guid: 9c21e041301959246935c0626b87da6b, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ChessPiecePickup
+    clip: {fileID: 8300000, guid: a4cacdf1e1989bd4285e6253cdf3ae74, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: GasMaskReplaceFilter
+    clip: {fileID: 8300000, guid: f67618c28e4bd0142b569fe2c2357c99, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: SafeInteractSound
+    clip: {fileID: 8300000, guid: f415217bd81f5a84ebf0cb1d4d31492a, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: SafeClick
+    clip: {fileID: 8300000, guid: 4edd8d5494428564398b113ffc1b2a5d, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: SafeHandleSpin
+    clip: {fileID: 8300000, guid: 0bf28ef14cf91764589dfbb93104543d, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: SafeBoltUnlock
+    clip: {fileID: 8300000, guid: fdc426fe89d337c44845bb0df395591d, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: SafeDoorOpen
+    clip: {fileID: 8300000, guid: 164dd0e5118f7ee439e46959aba2abfb, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: SafeLockRattle
+    clip: {fileID: 8300000, guid: e2746947e72b72549a81ebbdd88cf716, type: 3}
+    volume: 0.25
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: NoteAudio1
+    clip: {fileID: 8300000, guid: 9f45b79a9eb893b4088474f217e29bdc, type: 3}
+    volume: 0.45
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: FuseBoxZap
+    clip: {fileID: 8300000, guid: af3743268b5213c498fae2a2ade49fce, type: 3}
+    volume: 0.1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: FuseBoxPickup
+    clip: {fileID: 8300000, guid: 2362e9c0828eca846802734928e497c6, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ExamineKnifeSlash
+    clip: {fileID: 8300000, guid: 05248794c4ccc0a4fa58b209864292bf, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ExamineMetalClutter
+    clip: {fileID: 8300000, guid: 199e17891a2458546b8f8b4ca888f603, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ExamineMetalClang
+    clip: {fileID: 8300000, guid: 72b7d54482e266945bf8ca53835e3dad, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: ExamineSwordHit
+    clip: {fileID: 8300000, guid: b396a2ec212a04642819347694d46783, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: SwitchPull
+    clip: {fileID: 8300000, guid: 77f9ab971cb4e154580b6268f0df6f69, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: SwitchEcho
+    clip: {fileID: 8300000, guid: 144bdcc0b2632ed4d8a5bed1b52b1cdb, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: DoorBuzz
+    clip: {fileID: 8300000, guid: 42202994a4580d64f93795486da7d471, type: 3}
+    volume: 0.5
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}

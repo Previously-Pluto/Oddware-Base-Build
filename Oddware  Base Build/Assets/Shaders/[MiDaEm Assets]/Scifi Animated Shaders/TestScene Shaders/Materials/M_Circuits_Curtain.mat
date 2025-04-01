@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Circuits_Curtain
+  m_Shader: {fileID: 4800000, guid: bcbc8c08fc7420a4e987ac7672ff6aa3, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _AUTOANIMATION_ON
+  - _EMISSION
+  - _INVERTDIRECTION_ON
+  - _NORMALMAP
+  - _SPECGLOSSMAP
+  - _VERTICALANIMATION_ON
+  - _VERTICAL_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Alpha:
+        m_Texture: {fileID: 2800000, guid: eb18b44b33a42134294809329b12919c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LineMask:
+        m_Texture: {fileID: 2800000, guid: 84ab4da4bef142f45ab3375d3747c9f8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaOpacity: 1
+    - _Angle: 0
+    - _AnimationProgress: 0
+    - _AutoAnimation: 1
+    - _Cutoff: 0.5
+    - _HorizontalSpeed: 1
+    - _LineOpacity: 1
+    - _TimeOffset: 0
+    - _VerticalSpeed: 1
+    m_Colors:
+    - _Color1: {r: 0.3179066, g: 0.5539612, b: 0.7205882, a: 1}
+    - _Color2: {r: 0.2720588, g: 0.8192697, b: 1, a: 1}
+  m_BuildTextureStacks: []

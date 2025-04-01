@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &812452048135026134
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 813002162048323033}
+  - component: {fileID: 812452048135026135}
+  m_Layer: 0
+  m_Name: GasMaskManager
+  m_TagString: GasMaskController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &813002162048323033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812452048135026134}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &812452048135026135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812452048135026134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6ab4042f9b2c4f4bb17ddb7eb113fb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxEquipMaskTimer: 1
+  maskEquippedColor: {r: 0, g: 1, b: 0.15721321, a: 1}
+  maskNormalColor: {r: 1, g: 1, b: 1, a: 1}
+  hasGasMask: 0
+  gasMaskOn: 0
+  puttingOn: 0
+  puttingOff: 0
+  walkNorm: 5
+  walkGas: 2
+  runNorm: 10
+  runGas: 4
+  filterFallRate: 2
+  warningPercentage: 20
+  filterTimer: 100
+  maskFilters: 5
+  defaultVignette: 0.28
+  filterAlarmColor: {r: 1, g: 0, b: 0, a: 1}
+  filterNormalColor: {r: 1, g: 1, b: 1, a: 1}
+  maskIconUI: {fileID: 0}
+  filterIconUI: {fileID: 0}
+  filterCountUI: {fileID: 0}
+  filterSliderUI: {fileID: 0}
+  vignetteEffect: {fileID: 0}
+  blurEffect: {fileID: 0}
+  visorImageOverlay: {fileID: 0}
+  gasMaskWarning: GasMaskWarning
+  gasMaskChoking: GasMaskChoking
+  gasMaskDeepBreath: GasMaskDeepBreath
+  gasMaskBreathIn: GasMaskBreathIn
+  gasMaskBreathOut: GasMaskBreathOut
+  gasMaskBreathing: GasMaskBreathing
+  gasMaskReplaceFilter: GasMaskReplaceFilter
+  gasMaskPickup: GasMaskPickup

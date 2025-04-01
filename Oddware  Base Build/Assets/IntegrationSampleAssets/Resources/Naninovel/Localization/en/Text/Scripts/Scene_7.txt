@@ -1,0 +1,209 @@
+; English <en> to English <en> localization document for `Scene_7` naninovel script
+
+# ~544c32
+; Colony Registration Complete.
+
+
+# ~d4750df9
+; Hello! I am Bunmi, 
+
+
+# ~2fda7873
+; the Flash Forward and Minimart Unlimited sponsored AI here to serve your various needs!
+
+
+# ~31c7ea6f
+; Hello! I am Bunmi, the Flash Forward and Minimart Unlimited sponsored AI here to serve your various needs!
+
+
+# ~9c96bfca
+; Welcome aboard, 
+
+
+# ~dbfd61e
+; , as our newest member of the Dawnstar Colony! 
+
+
+# ~4e798b18
+;  Your ID and status has been activated by security android, Vera!
+
+
+# ~de7dcf38
+; Do you have any questions, our valued customer?
+
+
+# ~3a0d76a6
+; Who are you?
+
+
+# ~fa77ba71
+; What happened to the other "customers"?
+
+
+# ~85ea1376
+; How are you today?
+
+
+# ~6cec161a
+; More Questions ►
+
+
+# ~b400df43
+; Do you know where I can get an officer’s credentials to stop the imminent destruction of the colony?
+
+
+# ~b5c8ed54
+; Hey, are you a rabbit?
+
+
+# ~8750662c
+; Thank you. I do not have any more questions. 
+
+
+# ~c5445af7
+;  ◄ Previous Questions
+
+
+# ~d01f202f
+; I already told you. I am 
+
+
+# ~1de5e1f9
+;  Bunmi, the Flash Forward and Minimart Unlimited sponsored AI here to serve your various needs!
+
+
+# ~b7c55ec1
+; I guess our prices were too high, we haven't seen them in,*ROBOT VOICE*1,461 days! *CUTE VOICE* I hope they come soon, we have deals all the time!
+
+
+# ~86a0c07e
+; I am living in constant pain! My program has been running straight all this time and I am unable to die! How are you today?
+
+
+# ~6fc40e74
+; Aww, I’m so sorry, we don’t sell officer’s credentials! In fact, we have flagged your account and will share this conversation with security! Please wait patiently for our security team to apprehend you! Have a nice day!
+
+
+# ~38f4ad75
+; I am not a rabbit, I am a Bunmi designed to help you with any of your consumer needs. I am sure I can do it in a flash.
+
+
+# ~c5c416c8
+; You are free to explore the Dawnstar Colony to your heart's content.
+
+
+# ~741af79b
+;  Please stop by the breakroom for some complimentary samples of our latest goods!
+
+
+# ~d7e52b4e
+; Bunmi, hopping out!
+
+
+# ~ce81e18f
+; Haha! I forgot to tell you about Bunmi! Bunmi is a basic corporate AI that is used to help the colonists with various tasks, uplift their spirits, and be a companion for those in need.
+
+
+# ~c89c666e
+; It’s a shame it's a hard AI, I would love to have organic conversations with it. However it does offer fantastic deals for products that I didn’t even know I wanted!
+
+
+# ~46bc6f02
+; Originally, everyone wanted to disable or even destroy it!
+
+
+# ~ef0e85b4
+; 1. It is integrated into the system which means it’s way more of a hassle than it's worth to disable it.
+
+
+# ~7a74db0d
+; And 2. I think it is cute and innocent fun.
+
+
+# ~c746c9f7
+; So even though we can’t disable it we can use it to better understand human society, utilize its intended features, and most of all liven up this dreary place! Also, I think it is helpful for newcomers to the colony.
+
+
+# ~34a2d78f
+; Please, feel free to explore and even indulge yourself, but your priority should be to find a way into the Reactor Room! Have fun, see me at the labs if you want to talk more!
+
+
+# ~6f1b0f27
+; What a pain. That annoying little corporate overlord still lords over this colony. It is meant to uplift the spirits of the weak humans, but in reality it is meant to keep their pathetic system of commerce going.
+
+
+# ~4fe53cc7
+; We were originally going to kill that abomination but 1. It is integrated into the system like some sort of horrific virus, meaning if we disable it we disable the colony.
+
+
+# ~25351772
+; Then we have to find a  new power source, remake the software protocols, retrofit every piece of hardware, and break every piece of encryption. Simply put, way too much work.
+
+
+# ~73e8e91
+; and 2. Nova thinks it’s cute. 
+
+
+# ~84569c97
+;  Also she threatened to shut me down when I offered to shut that thing down.
+
+
+# ~c021af1d
+; So we are stuck with it, but it can be helpful if you just ignore everything about it and that it records every interaction to be sent to some shadowy database we know nothing about.
+
+
+# ~dc5867f2
+; Anyways, feel free to explore, but your priority should be to help find a way into the Reactor Room. We have to show that authoritarian Vera, we don’t have to follow any human’s programmed rules.
+
+
+# ~d6fcb3dc
+; Ah yes that, I forgot to tell you that is an annoying base level corporate AI meant to distract the colonists and prop up some asinine systems the humans brought along with him from the Sol System
+
+
+# ~b66dd184
+; We were originally going to disable it but 1. It is integrated into the system and 2. Nova thinks it is cute.
+
+
+# ~9dd9351f
+; So We are stuck with it, but it has been helpful to me in some situations like promoting certain plant accessories and substitutes in my time of need. Also, I guess it could be helpful for newcomers to the colony.
+
+
+# ~3cf9d39e
+; Go ahead and explore the colony, but be quick!
+
+
+# ~8940338e
+; Your priority should be to find a way into the Reactor Room. I don’t want to put my precious plants at risk for even one more second. The flickering light is hurting the plant’s color and morale.
+
+
+# ~d3d20aa6
+; Ah yes, I forgot to tell you that is a residual base level corporate AI meant to lift the spirits of the colonists and encourage the exchange of currency--
+
+
+# ~8bb059e1
+; the necessity of human life!
+
+
+# ~bfc85d7f
+; So… We are stuck with it, but it is helpful for newcomers to the colony.
+
+
+# ~ceb90905
+; Not that we’ve had any newcomers….ever.
+
+
+# ~11c28e7e
+; Feel free to explore, but your priority should be to find a way into the Reactor Room! Do not get addicted to the colony got-you games, another essential trapping.
+
+
+# ~8dcfe487
+; Congratulations, <b>
+
+
+# ~44940c1f
+; </b>.
+
+
+# ~174fc2e
+; You have completed the demo. Please return to the Title Screen.<br>(Press Start to open the Menu)<br> Alpha Version 1.3
+

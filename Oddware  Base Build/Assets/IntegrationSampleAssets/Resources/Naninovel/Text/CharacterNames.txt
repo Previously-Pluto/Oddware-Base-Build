@@ -1,0 +1,12 @@
+001: 001
+AvatarSpeaker: 
+Bunmi: 
+Computer_System: 
+Datapad: 
+Dirt: Dirt
+k: Kohaku
+m: Misaki
+Nova: Nova
+Security_System: 
+Vera: Vera
+y: Yuko

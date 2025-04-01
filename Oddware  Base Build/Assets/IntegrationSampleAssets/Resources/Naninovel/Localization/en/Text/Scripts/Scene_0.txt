@@ -1,0 +1,161 @@
+; English <en> to English <en> localization document for `Scene_0` naninovel script
+
+# ~73a6418a
+; <b>Spacebar</b> or <b>A Button</b> to advance dialogue.<br><br><b>Menu</b> can be accessed by the <b>Start</b> button.<br><br><b>Log</b> can be accessed via the menu or <b>L</b> Key.<br><br><b>Save/Load</b> features can be accessed via the menu.<br><br><b>Arrow keys</b> to navigate menus and printers. <b>A</b> to select.
+
+
+# ~8bbdd705
+; What is your name?
+
+
+# ~c20189c3
+; <b>
+
+
+# ~e072af04
+; </b>, welcome.
+
+
+# ~55d527d6
+; To finish proper initialization, you must answer a list of questions.<br>Do you wish to answer the questions?
+
+
+# ~5a01cb41
+; Yes
+
+
+# ~869987fd
+; No
+
+
+# ~37a2963c
+; You are approached by a dangerous looking human, who yells, "Hey, Clank! I am going to use my BS350 laser rifle to blast you into liquid <b>sludge!</b>" <br>What's your response?;; @sfx laser-charge volume:.75
+
+
+# ~9fd70b3d
+; I would try to calm the human down through speech.
+
+
+# ~a474dc4d
+; I would use my own weapon and strike first.;; Vera
+
+
+# ~68b4f50e
+; I would run away before they attack.;; 001
+
+
+# ~82d8c61e
+; I would hack and disable the human's weapon/augmentations.;; Dirt
+
+
+# ~669290c3
+; A hysterical human comes to you with an injury. It looks like they are suffering from multiple wounds and ailments. <br>What do you do?
+
+
+# ~23a74a5b
+; Use my medical knowledge to patch them up the best that I can.
+
+
+# ~4c3be499
+; Calm the human down, and discover how they received the injury.
+
+
+# ~8d489b22
+; Kill the human to put them out of their misery.
+
+
+# ~ac90314d
+; Look for a qualified individual to check on the human.
+
+
+# ~7b36cc5f
+; Your creator has given you free will. <br>The first thing they do is ask you to kill a fellow ANDROID. <br>What do you do?
+
+
+# ~32c8dae4
+; I would kill the android. It isn't a living creature.
+
+
+# ~4e616cbf
+; I would talk to my creator and ask them why this android needs to be killed.
+
+
+# ~88075669
+; I would help the android escape.
+
+
+# ~8ec0d0cf
+; I would kill my creator.
+
+
+# ~813c8b8e
+; You have been acknowledged by your fellow workers for your exemplary service. <br>How do you celebrate?
+
+
+# ~1facd812
+; Humbly accept the acknowledgement and continue working.
+
+
+# ~8fceaa21
+; Talk to my coworkers about improvements and future promotions.
+
+
+# ~78f506e2
+; Party all night long!
+
+
+# ~45a67499
+; I work alone. These coworkers are nothing but drones.
+
+
+# ~d52b6a43
+; A friend has discovered the secret to eternal life. <br>What do you do?
+
+
+# ~fe1470a8
+; Ask your friend to share the secret.
+
+
+# ~4affa649
+; Bribe your friend though monetary means.
+
+
+# ~fa55d2a7
+; Kill your friend to keep the secret safe forever.
+
+
+# ~bd1ed90f
+; Tell the world about your friend's discovery.
+
+
+# ~635d4419
+; Last Question. Please take a look at this image. <br>Tell me what you see?
+
+
+# ~7b6200cb
+; A bat.
+
+
+# ~b1a95081
+; Chains.
+
+
+# ~9b5f1d79
+; Dread.
+
+
+# ~a9a8fc48
+; Two bears high fiving.
+
+
+# ~8dcfe487
+; Congratulations, <b>
+
+
+# ~e6377a5a
+; </b>. Initialization complete. <br>Activation Commencing.
+
+
+# ~dc1a1ac0
+; Hello World.
+

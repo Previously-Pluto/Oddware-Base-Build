@@ -1,0 +1,35 @@
+@camera set:CameraFilterPack_TV_ARCADE.false,CameraFilterPack_TV_LED.false
+# Start
+@hidechars
+@back Landscape time:0
+You are in a beautiful landscape. You notice a interesting pile of dirt. Do you want to pick up the dirt?
+
+@choice "Yes" if:!ItemExist("Dirt-Sample") do:"@addItem Dirt-Sample, @goto .Adventure"
+@choice "No" goto:.Adventure
+@stop
+
+# Adventure
+@back Engineering
+You arrive in engineering
+
+@char 001.Idle-Default
+@char 001.Texting-Annoyed
+001: Ah, you are finally here. Have something for me?
+
+@if ItemExist("Dirt-Sample")
+  @removeItem Dirt-Sample
+  @char 001.Alert-Omg
+  001: You found it!
+	@goto .End
+@else
+  @char 001.Sad-Sad
+  001: You disappoint me. Go back to the landscape.
+  @goto .Start
+@endif
+
+# End
+@char 001.Idle-Default
+@char 001.Bored-HappyVery
+001: Thanks, you made me happy.
+
+You are happy, you made 001 happy

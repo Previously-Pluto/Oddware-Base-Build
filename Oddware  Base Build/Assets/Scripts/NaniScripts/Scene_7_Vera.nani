@@ -1,0 +1,77 @@
+@camera set:CameraFilterPack_TV_ARCADE.false,CameraFilterPack_TV_LED.false,CameraFilterPack_NewGlitch4.false,CameraFilterPack_AAA_SuperComputer.false
+@bgm AMB_Spaceship volume:.25
+@bgm Theme_Vera volume:0.25
+
+@printer Chat_Vera
+Vera.Stance.Surprised: I have underestimated how many files are actually stored here in the command center. Who could have foreseen that a simple phoneme system of approximately 30 variations could create this type of conundrum?
+
+Vera.Stance.Serious: But there are many ways information could be regulated. For instance, the visible light waves as interpreted by our circuits would be an excellent way to create further clarification!
+
+Vera.Stance.Confident: Also, information can be grouped and stored due to having similar amounts of qualities, such as types of small flowers, evaluated favorite enclosed spaces, or amount of unhelpful diatribes.
+
+Vera.Stance.Wink: I am getting ahead of myself. It is often the simplest solution that is best. And I believe the human phrase, “You cannot put a square peg in a round hole,” would be fitting for this situation. I would have to consult with Nova for verification.
+
+Vera.Stance.Excited:  Ah, {charname} always it is good to see you! Have you come to assist me in locating the human’s credentials to get into the generator room?
+
+{charname}: Yes, I believe your plan is the most logical. How can I help?
+
+Vera.Stance.Confident: First, I should explain to you how the command center functions. The command center is where all the data for the colony is stored.The stored data can range from company information, research, and surveillance data. The data is so large that we need to store them into these older, but more secure, server towers.
+
+Vera.Idle.Sad: Sadly, our systems have been greatly damaged since my activation. The company information stored in these server banks are mostly corrupted, the only research logged comes from Nova, and the only surveillance data being recorded is the one camera located in the Command Center. 
+
+Vera.Stance.Serious: I spend most of my days trying to get the command center back to its originally intended function: monitoring, safety, and order. For now, it is used as our auditory communication hub between the other androids, minus yourself as you are missing the communications module from my original scan.
+
+Vera.Stance.Confused:  I said before the servers are mostly corrupted. There is still some information that can be recovered. I need you to access the information of each server to find any information on credentials. Together, as a team and community, we can resolve this issue quickly.
+
+
+@choice "Ah! 001 and I have found some credentials in the warehouse. It is from a junior engineer. We even found a physical manual for the reactor." goto:result1
+@choice "Okie dokie, where should I start?" goto:result2
+
+
+# result1
+
+Vera.Idle.Omg: “That is great news! These credentials are not high enough however to open the door. However it may be enough to enter some of the restricted engineering databases which Nova hypothesizes holds the encryption key.’”
+
+Vera.Idle.Pleased: “This manual will help us decipher what the ambiguous warning ‘#0xc00000f Unknown Execution Error’ being sent to command means.  Let me analyze this manual quickly.’”
+
+Vera.Idle.Omg: “Eureka! It seems that the reactor has been running on backup fuel this whole time. We need a new fuel source to keep us going. It looks like it is an algae base. You need to talk to Dirt for more information.”
+
+@goto .continue1
+
+Vera.Idle.Happy:  “Ok, let us begin the search for the key.”
+
+# result2
+
+Vera.Idle.Happy:  “Ok, let us begin the search for the key.”
+
+@goto .continue1
+
+# continue1
+
+Vera.Idle.Blank: “First you will need authorization from me. Now you should be able to access the information from each server, but be warned you may need to hack into a few. It is sadly a necessity, but hopefully my authorization will help.”
+
+{charname}: Okie dokie, I will search the servers for the credentials.
+
+-MINI GAME-
+
+-16 hours later-
+
+{charname}: Vera, I have found the location of the encryption key and manual for the reactor.
+
+Vera.Idle.Excited: “Excellent, you have found the location of the encryption key! We need to get this to Nova and we should be able to enter the reactor.”
+
+Vera.Idle.Pleased: “This manual will help us decipher what the ambiguous warning ‘#0xc00000f Unknown Execution Error’ being sent to command means.  Let me analyze this manual quickly.’”
+
+
+Vera.Idle.Omg: “Eureka! It seems that the reactor has been running on backup fuel this whole time. We need a new fuel source to keep us going. It looks like it is an algae base. You need to talk to Dirt for more information.”
+
+Vera.Idle.Pleased: “Great work! Please be on your way, time is of the essence.”
+
+{charname}:  I will do my best to help save the Colony! 
+@stop
+
+# variablecheck
+@stop
+
+# repeatRoom
+@stop

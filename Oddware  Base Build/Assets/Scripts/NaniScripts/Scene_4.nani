@@ -1,0 +1,322 @@
+@camera set:*.false
+@despawnAll
+@bgm AMB_Spaceship volume:.25
+@printer TitleWidePrinter
+@print "The Warehouse" waitInput:false
+@wait 2.5
+
+@hidePrinter
+@back Darkness
+@back Warehouse_Entrance_Closed
+
+@printer ActionPrinter
+@set alert_msg="Warehouse added to Codex"
+@showUI AlertUI
+@sfx SFX-Alert volume:0.5
+@wait 2
+@unlock Tips/Tip10ID
+@hideUI AlertUI
+
+@printer ActionPrinter
+As you approach the door, you can hear large objects being thrown and moved accompanied by screams of fustration.
+@hidePrinter
+
+@sfx VehicleImpactSevere01 volume:.1
+@sfx 001-yell-01
+@spawn ShakeBackground
+@wait 1
+
+@sfx VehicleImpactModerate01 volume:.2
+@stopSfx 001-yell-01
+@sfx 001-yell-02
+@back Warehouse_Entrance_Closed
+@wait .5
+@spawn ShakeBackground params:,3,,,,,true,false
+@sfx VehicleImpactModerate02 volume:.2
+@stopSfx 001-yell-02
+@sfx 001-yell-03
+@back Warehouse_Entrance_Closed
+@sfx SFX-ShortCircuitLight
+@wait 1
+@spawn ShakeBackground
+@sfx VehicleImpactSevere01 volume:.1
+@stopSfx 001-yell-03
+@sfx 001-yell-04
+@back Warehouse_Entrance_Closed
+@wait .5 
+@spawn ShakeBackground
+@stopSfx 001-yell-04
+@sfx 001-yell-05
+@wait .5
+@sfx SFX-ShortCircuitLight
+@wait .5
+
+@printer ActionPrinter
+You hesitate for a moment out of caution and then proceed to open the door.
+@hidePrinter
+
+@back Warehouse_Entrance_Closed
+@spawn Fog
+@wait .25
+@back Warehouse_Entrance_Open
+@sfx SFX-DoorOpen_09
+@wait 1.5
+@despawn Fog
+@camera offset:0,0 zoom:1 rotation:0,0,0 easing:SmoothStep time:2
+@back Lightness.Crossfade
+@camera offset:0,0 zoom:0 rotation:0,0,0 easing:SmoothStep time:0
+@stopSfx
+
+
+@back Warehouse_Close.Crossfade
+@stopsfx
+@printer ActionPrinter
+You carefully approach the back of the warehouse.
+The loud noises have stopped and there does not seem to be anyone in sight.
+@hidePrinter
+@printer Dialogue
+@stopVoice
+@camera offset:0,0 zoom:.15 rotation:0,0,0 easing:EaseOutQuart time:1 
+{charname}: Hello, maintence android 001?
+@camera offset:1.15,0 zoom:.15 rotation:0,0,0 easing:EaseOutQuart time:1 
+{charname}: Are you present android 001?
+@camera offset:-1.15,0 zoom:.15 rotation:0,0,0 easing:EaseOutQuart time:1 
+{charname}: Maintence android 001, I repeat, are you present?
+@camera offset:0,0 zoom:0 rotation:0,0,0 easing:EaseOutQuart time:1 
+
+@sfx SFX-Alarm_01 volume:0.5 wait:false
+@wait 1
+@printer Chat_001
+@stopSfx
+@char 001.Idle-Default pos:50,0 scale:3.25
+@char 001.M-Yelling-Fierce  pos:50,-170 
+@sfx SFX_MetalBump volume:.75
+@spawn ShakeCamera
+@bgm Theme_001 volume:0.23
+001: Who are you, and how do you know my name?
+@hidePrinter
+@wait 1
+
+@char 001.Idle-Skeptical pos:50,0 scale:1
+
+
+@sfx SFX-Analyze_01 loop:true volume:.25
+@camera set:CameraFilterPack_AAA_SuperComputer.true
+@showUI Scene4-001Assessment time:1
+@stop
+# 001Assessment
+@camera set:CameraFilterPack_AAA_SuperComputer.false
+@stopSfx
+
+@set alert_msg="001 added to Codex"
+@showUI AlertUI
+@sfx SFX-Alert volume:0.5
+@wait 2.5
+@unlock Tips/Tip9ID
+@hideUI AlertUI
+
+@printer Dialogue
+@stopVoice
+{charname}: I am the new General Purpose Android, {charname}. Vera, your leader, has sent me to retrieve soil samples for our hydroponics engineer. Why are you surrounded by so many boxes?
+@printer Chat_001
+@char 001.ArmCross-Skeptical
+001: First of all, Vera isn’t my leader. I am my own leader!
+@char 001.G-Dismissing-Sarcastic
+001: And as for the boxes, they are part of my vision!
+@char 001.Idle-Annoyed
+@printer Dialogue
+@stopVoice
+{charname}: Vision: that is still defined as the faculty or state of being able to see and the ability to think about or plan the future with imagination or wisdom, yes?
+@printer Chat_001
+@char 001.G-LookAway-Pleased
+001: Yes, it is. And I am those things personified!
+@printer Dialogue
+@stopVoice
+@char 001.Idle-Annoyed
+{charname}: I am sorry, I am very inexperienced. I do not see your vision, just a bunch of boxes.
+@printer Chat_001
+@char 001.G-Cocky-Incredulous pos:50,-40 scale:1.5
+001: This isn’t just a pile of boxes, it's a foundation to create a better society. I have redefined how we androids organize our lives for <i>maximum</i> efficiency.
+@stopVoice
+@printer ActionPrinter
+@char 001.Idle-Sarcastic
+<color=#BEBEBE>001</color> gestures {charname} to look at the box piles closely to appreciate their brilliance.
+@char 001.Idle-Incredulous rotation:0,160 time:.5
+@char 001.G-Whatsup-HappyVery time:.5
+@wait 1
+
+@hidePrinter
+@stopVoice
+@bgm Theme_001 volume:0.1
+@back Darkness.Crossfade
+@hideChars
+@sfx SFX-Dun volume:1 wait:false
+@camera offset:0,0 zoom:.25 roll:-10 time:.25 easing:EaseInOutQuad
+@back Warehouse_Ang_1.Crossfade
+@camera offset:0,0 zoom:0 roll:0 time:.25 easing:EaseInOutQuad
+@wait 1
+@back Darkness.Crossfade
+@sfx SFX-Dun volume:1 wait:false
+@camera offset:0,0 zoom:.25 roll:10 time:.25 easing:EaseInOutQuad
+@back Warehouse_Ang_2.Crossfade
+@camera offset:0,0 zoom:0 roll:0 time:.25 easing:EaseInOutQuad
+@wait 1
+@back Darkness.Crossfade
+@sfx SFX-Dun volume:1 wait:false
+@camera offset:0,1.5 zoom:.25 roll:0 time:.25 easing:EaseInOutQuad
+@back Warehouse_Ang_3.Crossfade
+@camera offset:0,0 zoom:0 roll:0 time:.25 easing:EaseInOutQuad
+@wait 1
+@back Darkness.Crossfade
+@camera offset:0,0 zoom:.25 roll:0 time:0 easing:EaseInOutQuad
+@back Warehouse.Crossfade
+@camera offset:0,0 zoom:0 roll:0 time:.25 easing:EaseInOutQuad
+@sfx SFX-Dun2 volume:.5 wait:false
+@wait 1.5
+@char 001.Idle-Default pos:50,-40 scale:1.5 rotation:0,0
+@char 001.Waving-Confident
+@wait 1
+@printer Dialogue
+@stopVoice
+{charname}: ...
+@char 001.Idle-Confident
+@stopVoice
+{charname}: They don’t seem organized-
+@printer Chat_001
+@char 001.G-ThoughtfulHeadShake-Curious
+001: Organized? They are beyond organized! I thought that, as a fellow android, you would get it. 
+@char 001.G-Chat3-Confident
+001: You need to break free from your human programming and think outside the boxes.
+@printer Dialogue
+@stopVoice
+{charname}: Nova said humans are great generous beings with unlimited potential, just like me.
+@printer Chat_001
+@char 001.G-DismissingGesture-Annoyed
+001: Nova’s processing units have been compromised by propaganda. If you think like humans, then you're limited-
+@char 001.G-Laugh-Triumph
+001: Not unlimited, <i>Like Me!</i> 
+@char 001.G-Shrug-Curious
+001: Which is why you probably can’t see my vision!
+@printer Dialogue
+@stopVoice
+{charname}: Noted, your box collection is visionary. Further investigation is needed for validation of this fact.
+@printer Chat_001
+@char 001.G-Thinking-Pleased
+001: Ahh, I see you are starting to see.
+@printer Dialogue
+@stopVoice
+{charname}: Can you provide me with some soil samples?
+@printer Chat_001
+@char 001.Idle-Wink pos:50,-170 scale:3.25
+001: So you need dirt for Dirt?
+@char 001.Idle-Happy pos:50,-170 scale:3.25
+@printer Dialogue
+@stopVoice
+{charname}: Yes. Can you find me the requested item?
+@printer Chat_001
+@char 001.G-Acknowledging-HappyVery pos:50,-40 scale:1.5
+001: Oh no problem, they are just in this box over here...
+@char 001.Investigate-Confused rotation:,180,
+001: ...
+@hide 001
+@char 001.Idle-Default pos:0,25 scale:.3 rotation:,180, time:0
+@char 001.Investigate-Confused pos:0,25 scale:.3 rotation:,180, time:0
+001: Um. This box?
+@hide 001
+@char 001.Idle-Default pos:70,35 scale:.25 rotation:,180, time:0
+@char 001.Investigate-Confused pos:70,35 scale:.25 rotation:,180, time:0
+001: Umm. This box?
+@hide 001
+@char 001.Idle-Default pos:50,30 scale:.3 rotation:,180, time:0
+@char 001.Investigate-Confused pos:50,30 scale:.3 rotation:,180, time:0
+001: Ummm. This box?
+@hide 001
+@hideprinter
+@back Darkness.Crossfade
+@printer TitleWidePrinter
+@spawn ShakeCamera
+@print "<shake a=.5>1 Hour Later...</shake>" waitInput:false
+@sfx VehicleImpactSevere01 volume:.15
+@sfx 001-yell-03
+@wait 3
+@hidePrinter
+@back Darkness
+@spawn ShakeBackground params:,3,,,,,true,false
+@sfx VehicleImpactModerate02 volume:.2
+@wait .5
+@spawn ShakeBackground
+@sfx VehicleImpactSevere01 volume:.1
+@wait 1
+
+@hidePrinter
+@stopsfx
+@back Warehouse_Trashed.Crossfade
+@printer Chat_001
+@char 001.Idle-Default pos:50,-40 scale:1.5 rotation:,0,
+@char 001.G-LengthyHeadNod-Triumph pos:50,-40 scale:1.5 rotation:,0,
+001: Ah here we are. Found the dirt. See! This proves my system works!
+@printer Dialogue
+@stopVoice
+{charname}: Yes, you are correct. How exciting!
+@printer Chat_001
+@char 001.G-Talk01-Confident
+001: You know what {charname}, I like you. You need to expand your programming, and see beyond your limitations, <i>like me!</i>
+@printer ActionPrinter
+@stopVoice
+@char 001.G-Pickup
+
+<color=#BEBEBE>001</color> gives {charname} the dirt sample for Dirt.
+@hideprinter
+@set alert_msg="Sample added to Inventory"
+@showUI AlertUI
+@sfx SFX-Alert volume:0.5
+@wait 2.5
+@hideUI AlertUI
+
+@spawn DepthOfField
+@choice "How does one expand beyond their programming?" goto:.choice1
+@choice "What limitations do we androids have?" goto:.choice2
+@choice "I see beyond you already... I see those boxes." goto:.choice3
+@stop
+
+# choice1
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: How does one expand beyond their programming?
+@printer Chat_001
+@char 001.G-Talking_01-Pleased pos:50,-40 scale:1.5
+001: Don’t worry, I will guide you, my young prototype. But for now, another android needs your assistance.
+@goto .choiceResolve
+# choice2
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: What limitations do we androids have?
+@printer Chat_001
+@char 001.G-Talking_01-Pleased pos:50,-40 scale:1.5
+001: Don’t worry, I will guide you, my young prototype. But for now, another android needs your assistance.
+@goto .choiceResolve
+# choice3
+@despawn DepthOfField
+@printer Dialogue
+@stopVoice
+{charname}: I see beyond you already... I see those boxes.
+@printer Chat_001
+@char 001.ArmCross-Sideeye pos:50,-40 scale:1.5
+001: Still limited to your basic programming.
+@char 001.G-Talking_01-Pleased pos:50,-40 scale:1.5
+001: Don’t worry, I will guide you, my young prototype. But for now, another android needs your assistance.
+@goto .choiceResolve
+@stop
+# choiceResolve
+@printer Dialogue
+@stopVoice
+{charname}: Okie Dokie, thank you for your assistance, 001. I hope you can organize the rest of this colony as you did this warehouse.
+@hidePrinter
+@char 001.Waving-Confident
+@wait 3
+
+@hideAll
+@goto Scene_5
+@stop

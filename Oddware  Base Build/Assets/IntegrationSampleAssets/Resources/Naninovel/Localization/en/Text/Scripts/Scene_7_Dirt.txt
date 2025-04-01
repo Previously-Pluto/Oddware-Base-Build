@@ -1,0 +1,9 @@
+; English <en> to English <en> localization document for `Scene_7_Dirt` naninovel script
+
+# ~b64f5440
+;  enters the hydroponics lab watching Dirt working on a set of large tubes filled with liquid. The tubes emanate a strange green light.
+
+
+# ~af047d65
+; I think all this arguing is not good for my babies. They are leaking waste everywhere.
+

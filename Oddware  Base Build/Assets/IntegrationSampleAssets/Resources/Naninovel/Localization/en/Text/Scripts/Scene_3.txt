@@ -1,0 +1,129 @@
+; English <en> to English <en> localization document for `Scene_3` naninovel script
+
+# ~a7a28e3a
+; The Command Center
+
+
+# ~bc72223
+; Vera, this is the new android, 
+
+
+# ~ce215cd3
+; . I valiantly rescued them from being exploited into years of hard service in the hydroponics lab.
+
+
+# ~2b50c4aa
+; We've become <b><bounce>great</bounce></b> friends!
+
+
+# ~3b764cb2
+; Thank you, Nova.
+
+
+# ~f846b581
+; In front of you is what seems to be the colony's leader. An impeccably maintained security android with multiple ranks presented on their chest.
+
+
+# ~bd75ab71
+; Android, what is your primary function?
+
+
+# ~97e4ee2f
+; Apparently I'm a General Purpose Android.
+
+
+# ~3b0787e7
+; I don't know what I am.
+
+
+# ~17cce912
+; What's a Primary Function?
+
+
+# ~1f94b48a
+; Uh! What?
+
+
+# ~57686980
+; Allow me to officially welcome you to the Gliese 832 c Colony. This was once a thriving human colony sponsored by <color=yellow><i>Flash Forward</i></color>. Currently, we are all that remains of this colony.
+
+
+# ~6f58e0e8
+; It is our job as androids to work together to maintain this colony to its maximum efficiency.
+
+
+# ~2c9a5ab8
+; Since you have not yet been assigned a proper designation, for now you will be relegated to a mindless Drone-
+
+
+# ~422f080d
+; I mean General Purpose Android- until a wonderful primary function is discovered for <b><wave a=.35>you!</wave></b>
+
+
+# ~34f3fb70
+; General Purpose! That means you have unlimited potential!
+
+
+# ~9193a006
+; Potential indeed, Nova! We all work better when our true potential is discovered and we grow into the primary functions of our programming.
+
+
+# ~95a7508b
+; Grow being figurative of course as we are androids and not biological life-forms.
+
+
+# ~dfe9ea59
+; Speaking of biological life forms, have you met our hydroponics lab caretaker Dirt?
+
+
+# ~ebeb2030
+; Oh, they've met.
+
+
+# ~718d9996
+; A crazy robot tried to force me into slavery.
+
+
+# ~fb2d11f7
+; A little strange, but they’re ok.
+
+
+# ~90b918a8
+; Dirt? Name doesn't sound familiar.
+
+
+# ~7db6f932
+; ...
+
+
+# ~a6690e47
+; Dirt has just informed me that some of their sedimentary samples needs replenishing.
+
+
+# ~e4458ab2
+; Buzz your way over to the storage area and ask worker 001 to find and hand over the samples, which I'm sure they will happily do.
+
+
+# ~e4cf374a
+; Then, deliver the samples to Dirt in hydroponics.
+
+
+# ~b8f0012b
+; I'd be happy to show our friend here to the storage area, its my 5th favorite place in the colony!
+
+
+# ~7954b6df
+; No Nova, I think this task is simple enough for them to carry out themselves.
+
+
+# ~44d29a8e
+; Okie dokie, then. I am going to simulate a human activity. I've heard humans enjoy engaging in social activities with smaller life-forms.
+
+
+# ~2e0199f3
+; Hmm? But we don't have any smaller life-forms?
+
+
+# ~3a35b967
+; Oh well! I can just simulate the petting experience for 60 mins.
+

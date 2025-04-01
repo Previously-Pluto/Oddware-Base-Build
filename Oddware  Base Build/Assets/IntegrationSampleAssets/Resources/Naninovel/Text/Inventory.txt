@@ -1,0 +1,2 @@
+CloseButton: CLOSE
+TitleLabel: INVENTORY

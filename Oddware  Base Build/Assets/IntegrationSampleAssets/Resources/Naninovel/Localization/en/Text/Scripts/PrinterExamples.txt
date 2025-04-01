@@ -1,0 +1,97 @@
+; English <en> to English <en> localization document for `PrinterExamples` naninovel script
+
+# ~4a13769b
+; This is Scene One
+
+
+# ~1fe2e5e2
+; test dialogue test
+
+
+# ~5b4310c0
+; mail set
+
+
+# ~8ff88981
+; Lorem ipsum dolor sit amet. Proin ultricies in leo id scelerisque.
+
+
+# ~5868f4bd
+; Praesent vel orci luctus, tincidunt nisi et, fringilla arcu. In a metus orci.
+
+
+# ~950d40d2
+; Maecenas congue nunc quis lectus porttitor, eget commodo massa congue.
+
+
+# ~da98fa55
+; Announcement! Testing! Testing!
+
+
+# ~8cf1b6a9
+; Testing Wide
+
+
+# ~f9693622
+; They said What?
+
+
+# ~bb33822c
+; Don't worry about it!
+
+
+# ~3891b392
+; Lorem ipsum dolor sit amet. Proin ultricies in leo id scelerisque. Praesent vel orci luctus, tincidunt nisi et, fringilla arcu. In a metus orci.
+
+
+# ~9f355fc
+; I am annoyed.
+
+
+# ~dc5be141
+; Testing Printer
+
+
+# ~c8f22b8a
+; Choose your name.;; Allow user to enter an arbitrary text and assign it to `name` custom state variable
+
+
+# ~7c7ba522
+; Greetings, ;; You can then inject the assigned `name` variable in naninovel scripts
+
+
+# ~ad3e566e
+; !
+
+
+# ~df102b8c
+; Yo!
+
+
+# ~a2a4ceed
+; Continue executing this script or load another?;; Print the text, then immediately show choices and stop script execution.
+
+
+# ~6b6b12d7
+; Continue from the next line
+
+
+# ~9889c33f
+; Continue from the specified label
+
+
+# ~c441a474
+; Load another from start
+
+
+# ~a78670ce
+; Label 1
+
+
+# ~461306f1
+; Label 2
+
+
+# ~312508b1
+; Last Label
+

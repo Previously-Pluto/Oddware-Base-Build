@@ -285,9 +285,6 @@ MonoBehaviour:
     - name: NavigationUI
       pathPrefix: UI
       guid: 836339bc7aea1ba468ba7a9ecfdf3d36
-    - name: StorageRoomUI
-      pathPrefix: UI
-      guid: 5b56a896ce0e9de4788c2d2adfdb9e94
     - name: IntroductionUILogo
       pathPrefix: UI
       guid: f6e5e5fb0205ffb4fb9d64f69c41635e
